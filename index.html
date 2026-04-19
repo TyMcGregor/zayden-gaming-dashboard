@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Zayden Gaming — Player HUD</title>
+  <meta name="description" content="Live dashboard for Zayden Gaming's YouTube channel — stats, weekly quests, and top missions." />
+  <link rel="icon" href="assets/favicon.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="hud-header">
+    <div class="brand">
+      <img src="assets/logo.png" alt="Zayden Gaming logo" />
+      <div>
+        <div class="brand-title">Zayden Gaming</div>
+        <div class="brand-sub">Player HUD · Command Console</div>
+      </div>
+    </div>
+    <div class="sync">
+      <span class="live-dot"></span>LAST SYNC · Sat Apr 18 · Seeded Build
+    </div>
+  </header>
+
+  <main>
+
+    <!-- PLAYER PROFILE -->
+    <section class="panel player-card">
+      <div class="avatar-frame">
+        <img src="assets/avatar.png" alt="Zayden avatar" />
+      </div>
+      <div class="player-info">
+        <div class="callsign">Callsign</div>
+        <div class="name">Zayden</div>
+        <div class="tagline">Star Wars pilot · Gmod legend · Level-up mode: ON</div>
+      </div>
+      <div class="level-box">
+        <div class="level-label">Current Level</div>
+        <div class="level-number">5</div>
+        <div class="xp-bar"><div class="fill" data-target="22.2" style="width: 0%"></div></div>
+        <div class="xp-text">
+          <span>18 / 25 subs</span>
+          <span>→ LVL 6</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS HUD -->
+    <section>
+      <div class="section-title">Stats HUD</div>
+      <div class="stats-grid">
+        <div class="stat-tile subs">
+          <div class="icon">👥</div>
+          <div class="label">Subscribers</div>
+          <div class="value" data-count="18">0</div>
+          <div class="delta zero">Awaiting first sync</div>
+        </div>
+        <div class="stat-tile views">
+          <div class="icon">👁</div>
+          <div class="label">Total Views</div>
+          <div class="value" data-count="3274">0</div>
+          <div class="delta zero">Last 90 days</div>
+        </div>
+        <div class="stat-tile videos">
+          <div class="icon">🎬</div>
+          <div class="label">Videos Uploaded</div>
+          <div class="value" data-count="61">0</div>
+          <div class="delta zero">Backlog: 30+ ready</div>
+        </div>
+        <div class="stat-tile watch">
+          <div class="icon">⏱</div>
+          <div class="label">Watch Hours</div>
+          <div class="value" data-count="109.5" data-decimals="1">0</div>
+          <div class="delta zero">Last 90 days</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- QUESTS (seeded sample from Boost) -->
+    <section>
+      <div class="section-title">This Week's Quests</div>
+      <div class="quests">
+
+        <div class="quest">
+          <div class="q-head">
+            <span class="q-icon">🎯</span>
+            <span>Quest of the Week</span>
+          </div>
+          <div class="q-body">Record another Gmod Star Wars video — your Flying Star Wars Ships video is your biggest hit ever!</div>
+          <div class="q-why">When something works, make more of it. YouTube shows your channel to people who liked your last hit.</div>
+        </div>
+
+        <div class="quest">
+          <div class="q-head">
+            <span class="q-icon">⚡</span>
+            <span>Power-Up</span>
+          </div>
+          <div class="q-body">In your next video, jump straight into the action in the first 10 seconds. No long intros.</div>
+          <div class="q-why">Viewers decide in a few seconds if they'll keep watching. A fast hook = way more views.</div>
+        </div>
+
+        <div class="quest">
+          <div class="q-head">
+            <span class="q-icon">🎮</span>
+            <span>Side Mission</span>
+          </div>
+          <div class="q-body">Reply to every comment you got this week — even just with an emoji.</div>
+          <div class="q-why">YouTube sees comments as a sign people love your channel and boosts it.</div>
+        </div>
+
+        <div class="quest">
+          <div class="q-head">
+            <span class="q-icon">🏆</span>
+            <span>Boss Battle</span>
+          </div>
+          <div class="q-body">Pick your favorite 30-second moment from your backlog and post it as a YouTube Short.</div>
+          <div class="q-why">Shorts can reach way more new people than long videos — they're how most new subs find you.</div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- TOP MISSION -->
+    <section class="panel">
+      <div class="section-title">Top Mission · Highest Views</div>
+      <div class="top-mission">
+        <div class="mission-thumb">
+          <img src="https://i.ytimg.com/vi/8ECgJ8QZWMg/hqdefault.jpg" alt="Flying Star Wars Ships in Gmod thumbnail" />
+          <a class="play-btn" href="https://www.youtube.com/watch?v=8ECgJ8QZWMg" target="_blank" rel="noopener" title="Play on YouTube">▶</a>
+        </div>
+        <div class="mission-info">
+          <span class="badge">Legendary Drop</span>
+          <h3>Flying Star Wars Ships in Gmod!</h3>
+          <div class="stats">
+            <span><b>1,445</b> views</span>
+            <span><b>45.9</b> watch hours</span>
+            <span><b>6.65%</b> CTR</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RECENT UPLOADS -->
+    <section>
+      <div class="section-title">Recent Uploads</div>
+      <div class="uploads-grid">
+
+        <a class="upload-card" href="https://www.youtube.com/watch?v=DQxBh9GZd3E" target="_blank" rel="noopener">
+          <div class="thumb"><img src="https://i.ytimg.com/vi/DQxBh9GZd3E/hqdefault.jpg" alt="" /></div>
+          <div class="meta">
+            <div class="title">Playing BeamNG And It's Pure Comedy! | BeamNG.drive</div>
+            <div class="views">16 views</div>
+          </div>
+        </a>
+
+        <a class="upload-card" href="https://www.youtube.com/watch?v=hUJQ8bdmoe0" target="_blank" rel="noopener">
+          <div class="thumb"><img src="https://i.ytimg.com/vi/hUJQ8bdmoe0/hqdefault.jpg" alt="" /></div>
+          <div class="meta">
+            <div class="title">Can I Escape The City of ROGUE Cars That Are Chasing ME?! | BeamNG drive</div>
+            <div class="views">5 views</div>
+          </div>
+        </a>
+
+        <a class="upload-card" href="https://www.youtube.com/watch?v=B5u40-MtRDQ" target="_blank" rel="noopener">
+          <div class="thumb"><img src="https://i.ytimg.com/vi/B5u40-MtRDQ/hqdefault.jpg" alt="" /></div>
+          <div class="meta">
+            <div class="title">The Aliens Came Back, And I Need to Destroy Them Once And For All!</div>
+            <div class="views">17 views</div>
+          </div>
+        </a>
+
+        <a class="upload-card" href="https://www.youtube.com/watch?v=ooF07zDMoq0" target="_blank" rel="noopener">
+          <div class="thumb"><img src="https://i.ytimg.com/vi/ooF07zDMoq0/hqdefault.jpg" alt="" /></div>
+          <div class="meta">
+            <div class="title">Can I Defeat 100 Trucks With Star Wars Ships?! | Gmod Star Wars</div>
+            <div class="views">27 views</div>
+          </div>
+        </a>
+
+        <a class="upload-card" href="https://www.youtube.com/watch?v=FtEjDROJQi4" target="_blank" rel="noopener">
+          <div class="thumb"><img src="https://i.ytimg.com/vi/FtEjDROJQi4/hqdefault.jpg" alt="" /></div>
+          <div class="meta">
+            <div class="title">I Think I Overdid The Thumbnail... | Retro Rewind</div>
+            <div class="views">16 views</div>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section>
+      <div class="section-title">Achievements</div>
+      <div class="achievements">
+
+        <div class="achievement unlocked">
+          <div class="a-icon">🎬</div>
+          <div><div class="a-name">First Upload</div><div class="a-progress">UNLOCKED</div></div>
+        </div>
+        <div class="achievement unlocked">
+          <div class="a-icon">👣</div>
+          <div><div class="a-name">First 10 Subs</div><div class="a-progress">18/10</div></div>
+        </div>
+        <div class="achievement unlocked">
+          <div class="a-icon">🥉</div>
+          <div><div class="a-name">100 Total Views</div><div class="a-progress">3,274/100</div></div>
+        </div>
+        <div class="achievement unlocked">
+          <div class="a-icon">🥈</div>
+          <div><div class="a-name">1,000 Total Views</div><div class="a-progress">3,274/1,000</div></div>
+        </div>
+        <div class="achievement">
+          <div class="a-icon">🥇</div>
+          <div><div class="a-name">10,000 Total Views</div><div class="a-progress">3,274/10,000</div></div>
+        </div>
+        <div class="achievement unlocked">
+          <div class="a-icon">🚀</div>
+          <div><div class="a-name">First Breakout Hit</div><div class="a-progress">Best: 1,445</div></div>
+        </div>
+        <div class="achievement">
+          <div class="a-icon">💎</div>
+          <div><div class="a-name">100 Subs Club</div><div class="a-progress">18/100</div></div>
+        </div>
+        <div class="achievement">
+          <div class="a-icon">🏆</div>
+          <div><div class="a-name">YPP Monetization</div><div class="a-progress">1.8% to goal</div></div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PARENT PANEL -->
+    <section style="text-align:right;">
+      <button class="parent-toggle" id="parent-toggle">🔒 Parent View</button>
+      <div class="parent-panel" id="parent-panel">
+        <h4>Parent / Coach Notes</h4>
+        <div class="metrics">
+          <div class="m"><div class="k">Impressions (90d)</div><div class="v">45,989</div></div>
+          <div class="m"><div class="k">CTR (90d)</div><div class="v">5.0%</div></div>
+          <div class="m"><div class="k">Avg View Duration</div><div class="v">2:10</div></div>
+          <div class="m"><div class="k">Road to YPP</div><div class="v">1.8%</div></div>
+        </div>
+        <div style="text-align:left;">
+          <p style="margin-bottom: 10px;"><b>Primary lever:</b> retention. AVD 2:10 on 20–40 min uploads means most viewers bail early. Target 8–12 min edits with a tight first-15s hook.</p>
+          <p style="margin-bottom: 10px;"><b>Breakout lane:</b> Gmod Star Wars (1,445 views = 44% of channel). Build a playlist, end-screen chain episodes together, and keep feeding the algorithm more in this pocket.</p>
+          <p><b>Shorts pipeline:</b> 30+ backlog recordings = easy 30-second highlights. Shorts are currently the #1 new-sub funnel on YouTube.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="hud-footer">
+    Generated by <span class="boost">BOOST</span> · Nexus Sub-Agent · Auto-updates every Sunday · Keep playing, Zayden.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

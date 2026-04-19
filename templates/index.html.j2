@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Zayden Gaming — Player HUD</title>
+  <meta name="description" content="Live dashboard for Zayden Gaming's YouTube channel — stats, weekly quests, and top missions." />
+  <link rel="icon" href="assets/favicon.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="hud-header">
+    <div class="brand">
+      <img src="assets/logo.png" alt="Zayden Gaming logo" />
+      <div>
+        <div class="brand-title">Zayden Gaming</div>
+        <div class="brand-sub">Player HUD · Command Console</div>
+      </div>
+    </div>
+    <div class="sync">
+      <span class="live-dot"></span>LAST SYNC · {{ last_updated }}
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ========================= PLAYER PROFILE ========================= -->
+    <section class="panel player-card">
+      <div class="avatar-frame">
+        <img src="assets/avatar.png" alt="Zayden avatar" />
+      </div>
+      <div class="player-info">
+        <div class="callsign">Callsign</div>
+        <div class="name">Zayden</div>
+        <div class="tagline">{{ tagline }}</div>
+      </div>
+      <div class="level-box">
+        <div class="level-label">Current Level</div>
+        <div class="level-number">{{ level }}</div>
+        <div class="xp-bar"><div class="fill" data-target="{{ xp_percent }}" style="width: 0%"></div></div>
+        <div class="xp-text">
+          <span>{{ subs }} / {{ next_level_subs }} subs</span>
+          <span>→ LVL {{ level + 1 }}</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================= STATS HUD ========================= -->
+    <section>
+      <div class="section-title">Stats HUD</div>
+      <div class="stats-grid">
+        <div class="stat-tile subs">
+          <div class="icon">👥</div>
+          <div class="label">Subscribers</div>
+          <div class="value" data-count="{{ subs }}">0</div>
+          <div class="delta {{ delta_subs_class }}">{{ delta_subs_text }}</div>
+        </div>
+        <div class="stat-tile views">
+          <div class="icon">👁</div>
+          <div class="label">Total Views</div>
+          <div class="value" data-count="{{ views }}">0</div>
+          <div class="delta {{ delta_views_class }}">{{ delta_views_text }}</div>
+        </div>
+        <div class="stat-tile videos">
+          <div class="icon">🎬</div>
+          <div class="label">Videos Uploaded</div>
+          <div class="value" data-count="{{ video_count }}">0</div>
+          <div class="delta {{ delta_videos_class }}">{{ delta_videos_text }}</div>
+        </div>
+        <div class="stat-tile watch">
+          <div class="icon">⏱</div>
+          <div class="label">Watch Hours</div>
+          <div class="value" data-count="{{ watch_hours }}" data-decimals="1">0</div>
+          <div class="delta {{ delta_watch_class }}">{{ delta_watch_text }}</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================= QUESTS ========================= -->
+    <section>
+      <div class="section-title">This Week's Quests</div>
+      <div class="quests">
+        {% for quest in quests %}
+        <div class="quest">
+          <div class="q-head">
+            <span class="q-icon">{{ quest.icon }}</span>
+            <span>{{ quest.title }}</span>
+          </div>
+          <div class="q-body">{{ quest.body }}</div>
+          <div class="q-why">{{ quest.why }}</div>
+        </div>
+        {% endfor %}
+      </div>
+    </section>
+
+    <!-- ========================= TOP MISSION ========================= -->
+    {% if top_video %}
+    <section class="panel">
+      <div class="section-title">Top Mission · Highest Views</div>
+      <div class="top-mission">
+        <div class="mission-thumb">
+          <img src="{{ top_video.thumbnail }}" alt="Top video thumbnail" />
+          <a class="play-btn" href="https://www.youtube.com/watch?v={{ top_video.id }}" target="_blank" rel="noopener" title="Play on YouTube">▶</a>
+        </div>
+        <div class="mission-info">
+          <span class="badge">Legendary Drop</span>
+          <h3>{{ top_video.title }}</h3>
+          <div class="stats">
+            <span><b>{{ top_video.views }}</b> views</span>
+            <span><b>{{ top_video.likes }}</b> likes</span>
+            <span><b>{{ top_video.comments }}</b> comments</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    {% endif %}
+
+    <!-- ========================= RECENT UPLOADS ========================= -->
+    {% if recent_videos %}
+    <section>
+      <div class="section-title">Recent Uploads</div>
+      <div class="uploads-grid">
+        {% for v in recent_videos %}
+        <a class="upload-card" href="https://www.youtube.com/watch?v={{ v.id }}" target="_blank" rel="noopener">
+          <div class="thumb"><img src="{{ v.thumbnail }}" alt="{{ v.title }}" /></div>
+          <div class="meta">
+            <div class="title">{{ v.title }}</div>
+            <div class="views">{{ v.views }} views</div>
+          </div>
+        </a>
+        {% endfor %}
+      </div>
+    </section>
+    {% endif %}
+
+    <!-- ========================= ACHIEVEMENTS ========================= -->
+    <section>
+      <div class="section-title">Achievements</div>
+      <div class="achievements">
+        {% for a in achievements %}
+        <div class="achievement {% if a.unlocked %}unlocked{% endif %}">
+          <div class="a-icon">{{ a.icon }}</div>
+          <div>
+            <div class="a-name">{{ a.name }}</div>
+            <div class="a-progress">{{ a.progress }}</div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </section>
+
+    <!-- ========================= PARENT PANEL ========================= -->
+    <section style="text-align:right;">
+      <button class="parent-toggle" id="parent-toggle">🔒 Parent View</button>
+      <div class="parent-panel" id="parent-panel">
+        <h4>Parent / Coach Notes</h4>
+        <div class="metrics">
+          <div class="m"><div class="k">Impressions (90d)</div><div class="v">{{ impressions }}</div></div>
+          <div class="m"><div class="k">CTR (90d)</div><div class="v">{{ ctr }}%</div></div>
+          <div class="m"><div class="k">Avg View Duration</div><div class="v">{{ avd }}</div></div>
+          <div class="m"><div class="k">Road to YPP</div><div class="v">{{ ypp_progress }}%</div></div>
+        </div>
+        <div style="text-align:left;">{{ parent_note | safe }}</div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="hud-footer">
+    Generated by <span class="boost">BOOST</span> · Nexus Sub-Agent · Auto-updates every Sunday · Keep playing, Zayden.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
