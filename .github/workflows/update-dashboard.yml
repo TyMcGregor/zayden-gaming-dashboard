@@ -7,6 +7,12 @@ on:
     # Good enough for a weekly cadence; adjust if needed.
     - cron: "0 5 * * 1"
   workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths-ignore:
+      # avoid retriggering on the bot's own weekly-update commit
+      - "data.json"
+      - "index.html"
 
 permissions:
   contents: write
