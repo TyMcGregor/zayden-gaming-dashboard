@@ -1,10 +1,9 @@
 {
-  "generated_at": "2026-04-18T00:00:00+00:00",
-  "subs": 18,
-  "views": 3274,
-  "video_count": 61,
-  "watch_hours": 109.5,
+  "generated_at": "2026-04-19T05:08:21.822112+00:00",
+  "subs": 75,
+  "views": 18406,
+  "video_count": 62,
+  "watch_hours": 607.4,
   "top_video_id": "8ECgJ8QZWMg",
-  "top_video_views": 1445,
-  "note": "seeded snapshot — real first snapshot will be produced by the weekly GitHub Action"
+  "top_video_views": 13466
 }
