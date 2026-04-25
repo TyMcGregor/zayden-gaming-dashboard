@@ -8,9 +8,11 @@ coaching quests, and renders index.html + data.json.
 
 from __future__ import annotations
 
+import html
 import json
 import math
 import os
+import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -119,14 +121,176 @@ def compute_level(subs: int) -> tuple[int, int, int, float]:
 
 def delta(current: float, previous: float | None, unit: str = "") -> tuple[str, str]:
     if previous is None:
-        return "", "zero"
+        return "new baseline", "zero"
     diff = current - previous
     if abs(diff) < 1e-9:
-        return "±0 this week", "zero"
+        return f"±0{unit} since last update", "zero"
     sign = "+" if diff > 0 else "−"
-    pretty = f"{sign}{abs(diff):,.0f}{unit} this week"
+    pretty = f"{sign}{abs(diff):,.0f}{unit} since last update"
     cls = "" if diff > 0 else "neg"
     return pretty, cls
+
+
+# Round numbers Zayden recognizes — used for "next milestone" tiles
+SUB_MILESTONES =  [25, 50, 100, 250, 500, 1000, 2500, 5000, 10000, 25000, 50000, 100000, 1000000]
+VIEW_MILESTONES = [1000, 5000, 10000, 25000, 50000, 100000, 250000, 500000, 1000000, 5000000, 10000000]
+
+
+def next_milestone(value: int, ladder: list[int]) -> int:
+    for m in ladder:
+        if value < m:
+            return m
+    return ladder[-1]
+
+
+def fmt_int(n: int | float) -> str:
+    n = int(n)
+    if n >= 1_000_000:
+        return f"{n/1_000_000:.1f}M".replace(".0M", "M")
+    if n >= 1_000:
+        return f"{n/1_000:.1f}K".replace(".0K", "K")
+    return f"{n:,}"
+
+
+def humanize_relative(iso_ts: str) -> str:
+    """Turn an ISO timestamp into 'just now', '3 hours ago', '2 days ago'."""
+    try:
+        ts = datetime.fromisoformat(iso_ts.replace("Z", "+00:00"))
+    except ValueError:
+        return ""
+    now = datetime.now(timezone.utc)
+    secs = max(0, int((now - ts).total_seconds()))
+    if secs < 60:
+        return "just now"
+    mins = secs // 60
+    if mins < 60:
+        return f"{mins} min ago"
+    hrs = mins // 60
+    if hrs < 24:
+        return f"{hrs} hr{'s' if hrs != 1 else ''} ago"
+    days = hrs // 24
+    if days < 14:
+        return f"{days} day{'s' if days != 1 else ''} ago"
+    weeks = days // 7
+    if weeks < 9:
+        return f"{weeks} wk{'s' if weeks != 1 else ''} ago"
+    months = days // 30
+    if months < 12:
+        return f"{months} mo ago"
+    return f"{days // 365} yr ago"
+
+
+_TAG_RE = re.compile(r"<[^>]+>")
+
+
+def clean_comment_text(raw: str, limit: int = 180) -> str:
+    """Strip HTML tags YouTube returns in textDisplay, decode entities, truncate."""
+    text = _TAG_RE.sub("", raw or "")
+    text = html.unescape(text)
+    text = re.sub(r"\s+", " ", text).strip()
+    if len(text) > limit:
+        text = text[: limit - 1].rstrip() + "…"
+    return text
+
+
+def fetch_recent_comments(yt, channel_id: str, video_titles: dict[str, str], n: int = 5) -> list[dict]:
+    """Pull the N most recent comments from any video on the channel.
+
+    Uses commentThreads.list with allThreadsRelatedToChannel — relies on YouTube's
+    spam filter (no extra moderation layer per Tyler's choice).
+    """
+    try:
+        resp = yt.commentThreads().list(
+            part="snippet",
+            allThreadsRelatedToChannel=channel_id,
+            order="time",
+            maxResults=max(n, 5),
+            textFormat="html",
+        ).execute()
+    except Exception as e:
+        print(f"WARN: comment fetch failed ({e})", file=sys.stderr)
+        return []
+
+    out = []
+    for item in resp.get("items", []):
+        top = item.get("snippet", {}).get("topLevelComment", {})
+        sn = top.get("snippet", {})
+        video_id = sn.get("videoId") or item["snippet"].get("videoId", "")
+        comment_id = top.get("id") or item.get("id", "")
+        out.append({
+            "id": comment_id,
+            "author": sn.get("authorDisplayName", "Viewer"),
+            "author_url": sn.get("authorChannelUrl", ""),
+            "text": clean_comment_text(sn.get("textDisplay", "")),
+            "video_id": video_id,
+            "video_title": video_titles.get(video_id, "a video"),
+            "published": sn.get("publishedAt", ""),
+            "relative": humanize_relative(sn.get("publishedAt", "")),
+            "url": (
+                f"https://www.youtube.com/watch?v={video_id}&lc={comment_id}"
+                if video_id and comment_id else
+                f"https://www.youtube.com/watch?v={video_id}" if video_id else "#"
+            ),
+            "likes": int(sn.get("likeCount", 0)),
+        })
+        if len(out) >= n:
+            break
+    return out
+
+
+def build_monetization(subs: int, watch_hours: float) -> dict:
+    """Two YPP tiers as kid-friendly progress data."""
+    shorts_pct = round(min(100.0, subs / 500 * 100), 1)
+    ypp_subs_pct = round(min(100.0, subs / 1000 * 100), 1)
+    ypp_hours_pct = round(min(100.0, watch_hours / 4000 * 100), 1)
+    return {
+        "shorts_tier": {
+            "name": "Shorts Monetization",
+            "subs_pct": shorts_pct,
+            "subs_current": subs,
+            "subs_target": 500,
+            "subs_remaining": max(0, 500 - subs),
+            "note": "Also needs 3 million Shorts views in the last 90 days.",
+            "unlocked": subs >= 500,
+        },
+        "full_ypp": {
+            "name": "Full Partner Program",
+            "subs_pct": ypp_subs_pct,
+            "subs_current": subs,
+            "subs_target": 1000,
+            "subs_remaining": max(0, 1000 - subs),
+            "hours_pct": ypp_hours_pct,
+            "hours_current": round(watch_hours, 1),
+            "hours_target": 4000,
+            "hours_remaining": max(0, round(4000 - watch_hours, 1)),
+            "unlocked": subs >= 1000 and watch_hours >= 4000,
+        },
+    }
+
+
+PEP_TALK_SYSTEM = """You are Boost, a hype coach for Zayden (age 12), a YouTube
+gamer. Write ONE upbeat, age-appropriate sentence — max 20 words — that
+celebrates whichever metric moved the most since last update. No emojis at the
+start. No exclamation overload (max one !). No fake numbers — only mention
+numbers from the JSON. If everything is 0 or negative, give honest gentle
+encouragement about consistency. Output the sentence text only, no quotes."""
+
+
+def generate_pep_talk(client: Anthropic, deltas: dict) -> str:
+    try:
+        msg = client.messages.create(
+            model=CLAUDE_MODEL,
+            max_tokens=120,
+            system=PEP_TALK_SYSTEM,
+            messages=[{
+                "role": "user",
+                "content": "Deltas since last update:\n" + json.dumps(deltas, indent=2),
+            }],
+        )
+        return msg.content[0].text.strip().strip('"').strip("'")
+    except Exception as e:
+        print(f"WARN: pep-talk generation failed ({e})", file=sys.stderr)
+        return "Every upload is a level-up — keep showing up and the numbers will follow."
 
 
 def build_achievements(subs: int, views: int, best_views: int) -> list[dict]:
@@ -230,6 +394,11 @@ def main():
     top_video = videos_sorted[0] if videos_sorted else None
     recent_videos = sorted(data["videos"], key=lambda v: v["published"], reverse=True)[:10]
 
+    # Comments — use the videos we already pulled to map id -> title
+    yt = build("youtube", "v3", developerKey=YOUTUBE_API_KEY)
+    title_lookup = {v["id"]: v["title"] for v in data["videos"]}
+    recent_comments = fetch_recent_comments(yt, CHANNEL_ID, title_lookup, n=5)
+
     level, cur_floor, next_floor, xp_pct = compute_level(data["subs"])
 
     # Deltas
@@ -276,6 +445,34 @@ def main():
         data["subs"], data["views"], top_video["views"] if top_video else 0
     )
 
+    # Monetization + next-up milestone tiles
+    monetization = build_monetization(data["subs"], watch_hours)
+    sub_goal = next_milestone(data["subs"], SUB_MILESTONES)
+    view_goal = next_milestone(data["views"], VIEW_MILESTONES)
+    milestones = {
+        "sub_goal": sub_goal,
+        "subs_to_go": max(0, sub_goal - data["subs"]),
+        "subs_pct": round(min(100.0, data["subs"] / sub_goal * 100), 1) if sub_goal else 100.0,
+        "sub_goal_label": fmt_int(sub_goal),
+        "view_goal": view_goal,
+        "views_to_go": max(0, view_goal - data["views"]),
+        "views_pct": round(min(100.0, data["views"] / view_goal * 100), 1) if view_goal else 100.0,
+        "view_goal_label": fmt_int(view_goal),
+    }
+
+    # Coach pep-talk based on deltas (gracefully handles no-prior-snapshot case)
+    pep_deltas = {
+        "subs_change": data["subs"] - prev["subs"] if prev else 0,
+        "views_change": data["views"] - prev["views"] if prev else 0,
+        "videos_change": data["video_count"] - prev["video_count"] if prev else 0,
+        "watch_hours_change": round(watch_hours - prev["watch_hours"], 1) if prev and "watch_hours" in prev else 0,
+        "current_subs": data["subs"],
+        "current_views": data["views"],
+        "subs_to_next_milestone": milestones["subs_to_go"],
+        "next_milestone": sub_goal,
+    }
+    pep_talk = generate_pep_talk(Anthropic(api_key=ANTHROPIC_API_KEY), pep_deltas)
+
     context = {
         "last_updated": datetime.now(timezone.utc).strftime("%a %b %d · %H:%M UTC"),
         "tagline": coach["tagline"],
@@ -299,6 +496,10 @@ def main():
         "avd": avd,
         "ypp_progress": round(min(100.0, data["subs"] / 1000 * 100), 1),
         "parent_note": coach["parent_note"],
+        "monetization": monetization,
+        "milestones": milestones,
+        "pep_talk": pep_talk,
+        "recent_comments": recent_comments,
     }
 
     env = Environment(
@@ -316,6 +517,10 @@ def main():
         "watch_hours": watch_hours,
         "top_video_id": top_video["id"] if top_video else None,
         "top_video_views": top_video["views"] if top_video else 0,
+        "monetization": monetization,
+        "milestones": milestones,
+        "pep_talk": pep_talk,
+        "recent_comments": recent_comments,
     }
     OUT_JSON.write_text(json.dumps(snapshot, indent=2), encoding="utf-8")
 

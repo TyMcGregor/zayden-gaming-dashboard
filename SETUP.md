@@ -1,6 +1,6 @@
 # Zayden Gaming Dashboard — Setup Guide
 
-Follow these steps once. After that the site is fully automatic — it updates itself every Sunday night and you never have to touch it again.
+Follow these steps once. After that the site is fully automatic — it refreshes itself every **Sunday, Wednesday, and Friday night** and you never have to touch it again.
 
 **Estimated time:** 20–30 minutes, most of it waiting on page loads.
 
@@ -8,7 +8,7 @@ Follow these steps once. After that the site is fully automatic — it updates i
 
 ## What you'll end up with
 - A live URL (e.g., `https://<yourname>.github.io/zayden-gaming-dashboard/`) that Zayden can bookmark
-- Stats + quests refresh automatically every Sunday at 9 PM Pacific
+- Stats, milestones, monetization progress, comments, quests, and pep-talk refresh automatically Sun / Wed / Fri at ~9 PM Pacific
 - Zero servers, zero monthly cost (GitHub Pages + Actions are free for this)
 
 ---
@@ -144,8 +144,8 @@ After the Action finishes green:
 
 ## From now on — automatic
 
-- Every **Sunday at 9 PM Pacific** (approx — GitHub cron drifts by a few min) the Action runs
-- Pulls fresh YouTube stats → asks Claude for new quests → updates the page
+- Every **Sunday, Wednesday, and Friday at ~9 PM Pacific** (GitHub cron drifts by a few min) the Action runs
+- Pulls fresh YouTube stats + the 5 latest comments → asks Claude for new quests + a pep-talk → updates the page
 - You don't have to do anything. Ever.
 
 ---

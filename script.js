@@ -45,10 +45,19 @@
     });
   }
 
+  // ---- Generic progress-bar fill -----------------------------
+  function animateFill(el) {
+    const target = parseFloat(el.dataset.target || "0");
+    requestAnimationFrame(() => {
+      el.style.width = Math.min(Math.max(target, 0), 100) + "%";
+    });
+  }
+
   // ---- Init --------------------------------------------------
   document.addEventListener("DOMContentLoaded", () => {
     document.querySelectorAll(".stat-tile .value[data-count]").forEach(animateCount);
     document.querySelectorAll(".xp-bar .fill[data-target]").forEach(animateXpBar);
+    document.querySelectorAll(".m-fill[data-target], .monet-fill[data-target]").forEach(animateFill);
     wireParentToggle();
   });
 })();

@@ -5,9 +5,9 @@ Live, auto-updating YouTube HUD for Zayden's gaming channel ([@ZaydenGaming44](h
 Built by the **Boost** sub-agent of Tyler's Nexus assistant.
 
 ## What it does
-- Shows Zayden's channel as a **game HUD**: player profile, level, XP bar, stat tiles, weekly quests, top mission, achievements.
-- Pulls fresh data from the **YouTube Data API v3** every Sunday at 9 PM Pacific.
-- Uses **Claude** (Anthropic API) to generate kid-friendly weekly quests in Zayden's voice.
+- Shows Zayden's channel as a **game HUD**: player profile, level, XP bar, stat tiles, **next-milestone countdowns**, **monetization progress**, **coach pep-talk**, weekly quests, top mission, **5 latest comments**, achievements.
+- Pulls fresh data from the **YouTube Data API v3** three times a week — **Sunday, Wednesday, Friday at ~9 PM Pacific**.
+- Uses **Claude** (Anthropic API) to generate kid-friendly weekly quests and a fresh pep-talk in Zayden's voice each refresh.
 - Hosted free on **GitHub Pages**, built by **GitHub Actions** — no servers to maintain.
 
 ## First-time setup
@@ -16,7 +16,7 @@ See [`SETUP.md`](./SETUP.md) for the step-by-step guide Tyler needs to run once.
 ## File layout
 ```
 .
-├── .github/workflows/update-dashboard.yml   # Weekly cron + manual trigger
+├── .github/workflows/update-dashboard.yml   # Sun/Wed/Fri cron + manual trigger
 ├── assets/                                  # Logo, avatar, favicon
 ├── scripts/
 │   ├── update.py                            # Fetches data, renders dashboard
@@ -47,4 +47,5 @@ Repo → **Actions** tab → **Update Zayden Gaming Dashboard** → **Run workfl
 ## Tech
 - Python 3.12 · Jinja2 · google-api-python-client · anthropic-sdk
 - Pure static HTML/CSS/JS on the frontend — no framework, no build step
-- GitHub Actions for the weekly cron and auto-deploy
+- GitHub Actions for the Sun/Wed/Fri cron and auto-deploy
+- Comments come from the YouTube Data API's `commentThreads.list` endpoint (no extra moderation layer — relies on YouTube's spam filter)

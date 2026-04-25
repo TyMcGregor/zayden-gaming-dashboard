@@ -77,6 +77,78 @@
       </div>
     </section>
 
+    <!-- ========================= NEXT MILESTONE + PEP TALK ========================= -->
+    <section class="milestone-strip">
+      <div class="panel milestone-tile">
+        <div class="m-label">Next Subscriber Milestone</div>
+        <div class="m-headline">
+          <span class="m-big">{{ milestones.subs_to_go }}</span>
+          <span class="m-rest">to <b>{{ milestones.sub_goal_label }}</b> subs</span>
+        </div>
+        <div class="m-bar"><div class="m-fill" data-target="{{ milestones.subs_pct }}" style="width:0%"></div></div>
+        <div class="m-foot">{{ subs }} / {{ milestones.sub_goal_label }} · {{ milestones.subs_pct }}%</div>
+      </div>
+      <div class="panel milestone-tile views-tile">
+        <div class="m-label">Next Views Milestone</div>
+        <div class="m-headline">
+          <span class="m-big">{{ milestones.views_to_go }}</span>
+          <span class="m-rest">to <b>{{ milestones.view_goal_label }}</b> views</span>
+        </div>
+        <div class="m-bar"><div class="m-fill alt" data-target="{{ milestones.views_pct }}" style="width:0%"></div></div>
+        <div class="m-foot">{{ views }} / {{ milestones.view_goal_label }} · {{ milestones.views_pct }}%</div>
+      </div>
+      <div class="panel pep-talk">
+        <div class="m-label">Coach Pep-Talk</div>
+        <div class="pep-text">“{{ pep_talk }}”</div>
+        <div class="pep-sig">— Boost</div>
+      </div>
+    </section>
+
+    <!-- ========================= MONETIZATION PROGRESS ========================= -->
+    <section>
+      <div class="section-title">Road to Monetization</div>
+      <div class="monet-grid">
+        <div class="panel monet-card {% if monetization.shorts_tier.unlocked %}unlocked{% endif %}">
+          <div class="monet-head">
+            <span class="monet-name">{{ monetization.shorts_tier.name }}</span>
+            {% if monetization.shorts_tier.unlocked %}
+              <span class="monet-badge unlocked">UNLOCKED</span>
+            {% else %}
+              <span class="monet-badge">{{ monetization.shorts_tier.subs_remaining }} subs to go</span>
+            {% endif %}
+          </div>
+          <div class="monet-bar-row">
+            <div class="monet-bar-label">Subscribers</div>
+            <div class="monet-bar"><div class="monet-fill" data-target="{{ monetization.shorts_tier.subs_pct }}" style="width:0%"></div></div>
+            <div class="monet-num">{{ monetization.shorts_tier.subs_current }} / {{ monetization.shorts_tier.subs_target }}</div>
+          </div>
+          <div class="monet-note">{{ monetization.shorts_tier.note }}</div>
+        </div>
+
+        <div class="panel monet-card {% if monetization.full_ypp.unlocked %}unlocked{% endif %}">
+          <div class="monet-head">
+            <span class="monet-name">{{ monetization.full_ypp.name }}</span>
+            {% if monetization.full_ypp.unlocked %}
+              <span class="monet-badge unlocked">UNLOCKED</span>
+            {% else %}
+              <span class="monet-badge">Big leagues unlock</span>
+            {% endif %}
+          </div>
+          <div class="monet-bar-row">
+            <div class="monet-bar-label">Subscribers</div>
+            <div class="monet-bar"><div class="monet-fill" data-target="{{ monetization.full_ypp.subs_pct }}" style="width:0%"></div></div>
+            <div class="monet-num">{{ monetization.full_ypp.subs_current }} / {{ monetization.full_ypp.subs_target }}</div>
+          </div>
+          <div class="monet-bar-row">
+            <div class="monet-bar-label">Watch Hours</div>
+            <div class="monet-bar"><div class="monet-fill alt" data-target="{{ monetization.full_ypp.hours_pct }}" style="width:0%"></div></div>
+            <div class="monet-num">{{ monetization.full_ypp.hours_current }} / {{ monetization.full_ypp.hours_target }}</div>
+          </div>
+          <div class="monet-note">Both bars need to hit 100% to unlock ads on regular videos.</div>
+        </div>
+      </div>
+    </section>
+
     <!-- ========================= QUESTS ========================= -->
     <section>
       <div class="section-title">This Week's Quests</div>
@@ -134,6 +206,29 @@
     </section>
     {% endif %}
 
+    <!-- ========================= LATEST COMMENTS ========================= -->
+    <section>
+      <div class="section-title">Latest Comments · Live Fan Mail</div>
+      {% if recent_comments %}
+      <div class="comments-list">
+        {% for c in recent_comments %}
+        <a class="comment-card" href="{{ c.url }}" target="_blank" rel="noopener">
+          <div class="c-head">
+            <span class="c-author">{{ c.author }}</span>
+            <span class="c-meta">{{ c.relative }}{% if c.likes %} · 👍 {{ c.likes }}{% endif %}</span>
+          </div>
+          <div class="c-text">{{ c.text }}</div>
+          <div class="c-on">on <b>{{ c.video_title }}</b> <span class="c-arrow">↗</span></div>
+        </a>
+        {% endfor %}
+      </div>
+      {% else %}
+      <div class="panel comments-empty">
+        No new comments yet — keep posting and replying, the fans will come!
+      </div>
+      {% endif %}
+    </section>
+
     <!-- ========================= ACHIEVEMENTS ========================= -->
     <section>
       <div class="section-title">Achievements</div>
@@ -168,7 +263,7 @@
   </main>
 
   <footer class="hud-footer">
-    Generated by <span class="boost">BOOST</span> · Nexus Sub-Agent · Auto-updates every Sunday · Keep playing, Zayden.
+    Generated by <span class="boost">BOOST</span> · Nexus Sub-Agent · Auto-updates Sun · Wed · Fri · Keep playing, Zayden.
   </footer>
 
   <script src="script.js"></script>

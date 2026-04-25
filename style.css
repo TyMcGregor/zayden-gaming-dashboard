@@ -332,6 +332,227 @@ main {
 .stat-tile .value     { color: var(--text); }
 
 /* =========================================================
+   Milestone strip + Pep talk
+   ========================================================= */
+.milestone-strip {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1.4fr;
+  gap: 18px;
+}
+.milestone-tile { padding: 20px 22px; }
+.milestone-tile .m-label,
+.pep-talk .m-label {
+  font-family: var(--font-display);
+  font-size: 11px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 10px;
+}
+.milestone-tile .m-headline {
+  display: flex; align-items: baseline; gap: 10px;
+  margin-bottom: 12px; flex-wrap: wrap;
+}
+.milestone-tile .m-big {
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 1;
+  color: var(--neon-amber);
+  text-shadow: 0 0 14px rgba(255,180,0,0.45);
+}
+.milestone-tile.views-tile .m-big { color: var(--neon-magenta); text-shadow: 0 0 14px rgba(255,0,200,0.45); }
+.milestone-tile .m-rest {
+  color: var(--text);
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.milestone-tile .m-rest b { color: var(--neon-cyan); }
+.milestone-tile .m-bar {
+  height: 10px;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid var(--panel-edge);
+  border-radius: 999px;
+  overflow: hidden;
+}
+.milestone-tile .m-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--neon-amber), var(--neon-cyan));
+  box-shadow: 0 0 10px var(--neon-amber);
+  transition: width 1.6s cubic-bezier(.22,.9,.32,1);
+}
+.milestone-tile .m-fill.alt {
+  background: linear-gradient(90deg, var(--neon-magenta), var(--neon-cyan));
+  box-shadow: 0 0 10px var(--neon-magenta);
+}
+.milestone-tile .m-foot {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--text-dim);
+  margin-top: 8px;
+}
+
+.pep-talk {
+  display: flex; flex-direction: column; justify-content: center;
+  border-left: 4px solid var(--neon-lime);
+}
+.pep-talk .pep-text {
+  font-size: 18px;
+  color: var(--text);
+  line-height: 1.4;
+}
+.pep-talk .pep-sig {
+  margin-top: 10px;
+  font-family: var(--font-display);
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--neon-lime);
+}
+
+/* =========================================================
+   Monetization cards
+   ========================================================= */
+.monet-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+.monet-card {
+  padding: 20px 22px;
+  border-left: 4px solid var(--neon-magenta);
+}
+.monet-card.unlocked { border-left-color: var(--neon-lime); box-shadow: 0 0 22px rgba(155,255,90,0.18); }
+.monet-head {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-bottom: 14px; gap: 12px;
+}
+.monet-name {
+  font-family: var(--font-display);
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--text);
+}
+.monet-badge {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 2px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: rgba(255,0,200,0.12);
+  border: 1px solid var(--neon-magenta);
+  color: var(--neon-magenta);
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.monet-badge.unlocked {
+  background: rgba(155,255,90,0.15);
+  border-color: var(--neon-lime);
+  color: var(--neon-lime);
+}
+.monet-bar-row {
+  display: grid;
+  grid-template-columns: 110px 1fr auto;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+.monet-bar-label {
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+.monet-bar {
+  height: 12px;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid var(--panel-edge);
+  border-radius: 999px;
+  overflow: hidden;
+}
+.monet-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--neon-cyan), var(--neon-amber));
+  box-shadow: 0 0 10px var(--neon-cyan);
+  transition: width 1.6s cubic-bezier(.22,.9,.32,1);
+}
+.monet-fill.alt {
+  background: linear-gradient(90deg, var(--neon-magenta), var(--neon-amber));
+  box-shadow: 0 0 10px var(--neon-magenta);
+}
+.monet-num {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--text);
+  white-space: nowrap;
+}
+.monet-note {
+  font-size: 13px;
+  color: var(--text-dim);
+  margin-top: 8px;
+  font-style: italic;
+}
+
+/* =========================================================
+   Comments
+   ========================================================= */
+.comments-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 14px;
+}
+.comment-card {
+  background: rgba(18,27,46,0.85);
+  border: 1px solid var(--panel-edge);
+  border-left: 3px solid var(--neon-cyan);
+  border-radius: var(--radius-sm);
+  padding: 14px 16px;
+  text-decoration: none;
+  color: var(--text);
+  transition: transform 0.15s ease, border-color 0.15s ease;
+  display: flex; flex-direction: column; gap: 8px;
+}
+.comment-card:hover {
+  transform: translateY(-2px);
+  border-left-color: var(--neon-amber);
+  border-color: var(--neon-amber);
+}
+.comment-card .c-head {
+  display: flex; justify-content: space-between; align-items: baseline; gap: 10px;
+}
+.comment-card .c-author {
+  font-family: var(--font-display);
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: var(--neon-cyan);
+}
+.comment-card .c-meta {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--text-muted);
+}
+.comment-card .c-text {
+  font-size: 15px;
+  line-height: 1.4;
+  color: var(--text);
+}
+.comment-card .c-on {
+  font-size: 12px;
+  color: var(--text-dim);
+  margin-top: auto;
+}
+.comment-card .c-on b { color: var(--text); font-weight: 600; }
+.comment-card .c-arrow { color: var(--neon-cyan); }
+.comments-empty {
+  text-align: center;
+  color: var(--text-dim);
+  font-style: italic;
+  padding: 28px;
+}
+
+/* =========================================================
    Quests
    ========================================================= */
 .quests {
@@ -626,4 +847,9 @@ main {
   .stat-tile .value { font-size: 34px; }
   .top-mission { grid-template-columns: 1fr; }
   .player-info .name { font-size: 30px; }
+  .milestone-strip { grid-template-columns: 1fr; }
+  .monet-grid { grid-template-columns: 1fr; }
+  .milestone-tile .m-big { font-size: 38px; }
+  .monet-bar-row { grid-template-columns: 1fr; gap: 6px; }
+  .monet-num { justify-self: end; }
 }

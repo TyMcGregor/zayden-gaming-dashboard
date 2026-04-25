@@ -2,10 +2,9 @@ name: Update Zayden Gaming Dashboard
 
 on:
   schedule:
-    # Sunday 9 PM Pacific = Monday 05:00 UTC (during Pacific Standard Time)
-    # Note: during Pacific Daylight Time (most of year) this fires at 10 PM PT.
-    # Good enough for a weekly cadence; adjust if needed.
-    - cron: "0 5 * * 1"
+    # Sun / Wed / Fri at 05:00 UTC (≈ 9-10 PM Pacific the previous evening).
+    # Cron day-of-week: 0=Sun, 3=Wed, 5=Fri.
+    - cron: "0 5 * * 0,3,5"
   workflow_dispatch: {}
   push:
     branches: [main]
@@ -49,7 +48,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "weekly update: $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git commit -m "dashboard refresh: $(date -u +'%Y-%m-%d %H:%M UTC')"
             git push
           fi
 
