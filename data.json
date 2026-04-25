@@ -1,9 +1,44 @@
 {
-  "generated_at": "2026-04-20T10:59:49.047870+00:00",
-  "subs": 74,
-  "views": 18454,
-  "video_count": 62,
-  "watch_hours": 609.0,
+  "generated_at": "2026-04-25T18:40:14.997803+00:00",
+  "subs": 75,
+  "views": 18591,
+  "video_count": 63,
+  "watch_hours": 613.5,
   "top_video_id": "8ECgJ8QZWMg",
-  "top_video_views": 13468
+  "top_video_views": 13469,
+  "monetization": {
+    "shorts_tier": {
+      "name": "Shorts Monetization",
+      "subs_pct": 15.0,
+      "subs_current": 75,
+      "subs_target": 500,
+      "subs_remaining": 425,
+      "note": "Also needs 3 million Shorts views in the last 90 days.",
+      "unlocked": false
+    },
+    "full_ypp": {
+      "name": "Full Partner Program",
+      "subs_pct": 7.5,
+      "subs_current": 75,
+      "subs_target": 1000,
+      "subs_remaining": 925,
+      "hours_pct": 15.3,
+      "hours_current": 613.5,
+      "hours_target": 4000,
+      "hours_remaining": 3386.5,
+      "unlocked": false
+    }
+  },
+  "milestones": {
+    "sub_goal": 100,
+    "subs_to_go": 25,
+    "subs_pct": 75.0,
+    "sub_goal_label": "100",
+    "view_goal": 25000,
+    "views_to_go": 6409,
+    "views_pct": 74.4,
+    "view_goal_label": "25K"
+  },
+  "pep_talk": "Your views jumped 137 this week\u2014keep making content you love and you'll hit 100 subs soon!",
+  "recent_comments": []
 }
