@@ -265,64 +265,47 @@ def _http_error_reason(e: HttpError) -> str:
 def fetch_recent_comments(yt, channel_id: str, recent_videos: list[dict], video_titles: dict[str, str], n: int = 5) -> list[dict]:
     """Pull the N most recent top-level comments across the channel.
 
-    Strategy:
-      1. Try allThreadsRelatedToChannel (1 quota unit, returns channel-wide).
-      2. If that returns 0 items, fall back to per-video polling on the most
-         recent ~5 videos (~5 quota units, far more reliable for small channels
-         where allThreadsRelatedToChannel sometimes returns empty for API-key auth).
+    YouTube removed the `allThreadsRelatedToChannel` parameter from
+    commentThreads.list, so we poll the channel's most recent videos directly
+    and merge results. Costs one quota unit per video polled.
 
-    Auth/quota errors are raised loudly so the workflow fails visibly instead of
-    silently producing an empty 'Latest Comments' section. Only the legitimate
-    'commentsDisabled' case is soft-failed.
+    Per-video errors are logged but do not fail the run. Only a true catastrophic
+    error (e.g. all videos return auth errors) results in an empty list.
     """
+    videos_by_recent = sorted(recent_videos, key=lambda v: v.get("published", ""), reverse=True)[:8]
     items: list[dict] = []
-    try:
-        resp = yt.commentThreads().list(
-            part="snippet",
-            allThreadsRelatedToChannel=channel_id,
-            order="time",
-            maxResults=max(n, 10),
-            textFormat="html",
-        ).execute()
-        items = resp.get("items", [])
-        print(f"INFO: allThreadsRelatedToChannel returned {len(items)} comment(s)", file=sys.stderr)
-    except HttpError as e:
-        reason = _http_error_reason(e)
-        if reason == "commentsDisabled":
-            print("INFO: comments disabled at channel level — skipping", file=sys.stderr)
-            return []
-        print(f"WARN: allThreadsRelatedToChannel failed (status={e.resp.status} reason={reason!r}) — falling back to per-video polling", file=sys.stderr)
-        items = []
+    seen_ids: set[str] = set()
+    polled = 0
+    errors = 0
 
-    # Per-video fallback when channel-wide call is empty or failed.
-    if not items:
-        videos_by_recent = sorted(recent_videos, key=lambda v: v.get("published", ""), reverse=True)[:5]
-        seen_ids: set[str] = set()
-        for v in videos_by_recent:
-            vid = v.get("id")
-            if not vid:
+    for v in videos_by_recent:
+        vid = v.get("id")
+        if not vid:
+            continue
+        polled += 1
+        try:
+            resp = yt.commentThreads().list(
+                part="snippet",
+                videoId=vid,
+                order="time",
+                maxResults=5,
+                textFormat="html",
+            ).execute()
+        except HttpError as e:
+            reason = _http_error_reason(e)
+            if reason == "commentsDisabled":
+                continue  # legitimate, not an error
+            errors += 1
+            print(f"WARN: comment fetch failed for video {vid} (status={e.resp.status} reason={reason!r})", file=sys.stderr)
+            continue
+        for it in resp.get("items", []):
+            cid = it.get("id", "")
+            if cid in seen_ids:
                 continue
-            try:
-                resp = yt.commentThreads().list(
-                    part="snippet",
-                    videoId=vid,
-                    order="time",
-                    maxResults=3,
-                    textFormat="html",
-                ).execute()
-            except HttpError as e:
-                reason = _http_error_reason(e)
-                if reason == "commentsDisabled":
-                    continue
-                print(f"WARN: per-video comment fetch failed for {vid} (status={e.resp.status} reason={reason!r})", file=sys.stderr)
-                continue
-            for it in resp.get("items", []):
-                cid = it.get("id", "")
-                if cid in seen_ids:
-                    continue
-                seen_ids.add(cid)
-                items.append(it)
-        print(f"INFO: per-video fallback collected {len(items)} comment(s) from {len(videos_by_recent)} videos", file=sys.stderr)
+            seen_ids.add(cid)
+            items.append(it)
+
+    print(f"INFO: comments polled {polled} video(s), {errors} error(s), collected {len(items)} comment(s)", file=sys.stderr)
 
     # Convert + sort by publishedAt desc, take top n.
     out = [_comment_thread_to_dict(it, video_titles) for it in items]
