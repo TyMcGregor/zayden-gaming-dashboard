@@ -14,11 +14,12 @@ import math
 import os
 import re
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from anthropic import Anthropic
 from googleapiclient.discovery import build
+from googleapiclient.errors import HttpError
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 
@@ -27,6 +28,8 @@ TEMPLATE_DIR = ROOT / "templates"
 OUT_HTML = ROOT / "index.html"
 OUT_JSON = ROOT / "data.json"
 PREV_JSON = OUT_JSON  # prior snapshot lives at same path before we overwrite
+WEEKLY_HISTORY = ROOT / "weekly_history.json"  # rolling snapshots for 7-day deltas
+WEEKLY_HISTORY_CAP = 14  # ~1 month at 3 runs/week
 
 YOUTUBE_API_KEY = os.environ["YOUTUBE_API_KEY"]
 ANTHROPIC_API_KEY = os.environ["ANTHROPIC_API_KEY"]
@@ -119,16 +122,49 @@ def compute_level(subs: int) -> tuple[int, int, int, float]:
     return level, current_floor, next_floor, xp_pct
 
 
-def delta(current: float, previous: float | None, unit: str = "") -> tuple[str, str]:
-    if previous is None:
+def delta(current: float, week_ago: float | None, unit: str = "") -> tuple[str, str]:
+    """Format the change from a value ~7 days ago. Returns (text, css_class)."""
+    if week_ago is None:
         return "new baseline", "zero"
-    diff = current - previous
+    diff = current - week_ago
     if abs(diff) < 1e-9:
-        return f"±0{unit} since last update", "zero"
+        return f"±0{unit} this week", "zero"
     sign = "+" if diff > 0 else "−"
-    pretty = f"{sign}{abs(diff):,.0f}{unit} since last update"
+    pretty = f"{sign}{abs(diff):,.0f}{unit} this week"
     cls = "" if diff > 0 else "neg"
     return pretty, cls
+
+
+def load_weekly_history() -> list[dict]:
+    if not WEEKLY_HISTORY.exists():
+        return []
+    try:
+        return json.loads(WEEKLY_HISTORY.read_text(encoding="utf-8"))
+    except Exception as e:
+        print(f"WARN: weekly_history.json unreadable ({e}) — starting fresh", file=sys.stderr)
+        return []
+
+
+def find_week_ago_snapshot(history: list[dict], now: datetime) -> dict | None:
+    """Pick the snapshot closest to 7 days before `now`, but only if it is
+    at least 5 days old. Otherwise return None so the UI shows 'new baseline'
+    instead of inventing a tiny delta from a 1-2 day gap."""
+    if not history:
+        return None
+    target = now - timedelta(days=7)
+    min_age = timedelta(days=5)
+    candidates = []
+    for s in history:
+        try:
+            ts = datetime.fromisoformat(s["generated_at"].replace("Z", "+00:00"))
+        except Exception:
+            continue
+        if (now - ts) >= min_age:
+            candidates.append((abs((ts - target).total_seconds()), s))
+    if not candidates:
+        return None
+    candidates.sort(key=lambda x: x[0])
+    return candidates[0][1]
 
 
 # Round numbers Zayden recognizes — used for "next milestone" tiles
@@ -193,49 +229,105 @@ def clean_comment_text(raw: str, limit: int = 180) -> str:
     return text
 
 
-def fetch_recent_comments(yt, channel_id: str, video_titles: dict[str, str], n: int = 5) -> list[dict]:
-    """Pull the N most recent comments from any video on the channel.
+def _comment_thread_to_dict(item: dict, video_titles: dict[str, str]) -> dict:
+    top = item.get("snippet", {}).get("topLevelComment", {})
+    sn = top.get("snippet", {})
+    video_id = sn.get("videoId") or item.get("snippet", {}).get("videoId", "")
+    comment_id = top.get("id") or item.get("id", "")
+    return {
+        "id": comment_id,
+        "author": sn.get("authorDisplayName", "Viewer"),
+        "author_url": sn.get("authorChannelUrl", ""),
+        "text": clean_comment_text(sn.get("textDisplay", "")),
+        "video_id": video_id,
+        "video_title": video_titles.get(video_id, "a video"),
+        "published": sn.get("publishedAt", ""),
+        "relative": humanize_relative(sn.get("publishedAt", "")),
+        "url": (
+            f"https://www.youtube.com/watch?v={video_id}&lc={comment_id}"
+            if video_id and comment_id else
+            f"https://www.youtube.com/watch?v={video_id}" if video_id else "#"
+        ),
+        "likes": int(sn.get("likeCount", 0)),
+    }
 
-    Uses commentThreads.list with allThreadsRelatedToChannel — relies on YouTube's
-    spam filter (no extra moderation layer per Tyler's choice).
+
+def _http_error_reason(e: HttpError) -> str:
+    """Pull the YouTube API error reason out of an HttpError, e.g. 'commentsDisabled'."""
+    try:
+        body = json.loads(e.content.decode("utf-8") if isinstance(e.content, bytes) else e.content)
+        errs = body.get("error", {}).get("errors", [])
+        return errs[0].get("reason", "") if errs else ""
+    except Exception:
+        return ""
+
+
+def fetch_recent_comments(yt, channel_id: str, recent_videos: list[dict], video_titles: dict[str, str], n: int = 5) -> list[dict]:
+    """Pull the N most recent top-level comments across the channel.
+
+    Strategy:
+      1. Try allThreadsRelatedToChannel (1 quota unit, returns channel-wide).
+      2. If that returns 0 items, fall back to per-video polling on the most
+         recent ~5 videos (~5 quota units, far more reliable for small channels
+         where allThreadsRelatedToChannel sometimes returns empty for API-key auth).
+
+    Auth/quota errors are raised loudly so the workflow fails visibly instead of
+    silently producing an empty 'Latest Comments' section. Only the legitimate
+    'commentsDisabled' case is soft-failed.
     """
+    items: list[dict] = []
     try:
         resp = yt.commentThreads().list(
             part="snippet",
             allThreadsRelatedToChannel=channel_id,
             order="time",
-            maxResults=max(n, 5),
+            maxResults=max(n, 10),
             textFormat="html",
         ).execute()
-    except Exception as e:
-        print(f"WARN: comment fetch failed ({e})", file=sys.stderr)
-        return []
+        items = resp.get("items", [])
+        print(f"INFO: allThreadsRelatedToChannel returned {len(items)} comment(s)", file=sys.stderr)
+    except HttpError as e:
+        reason = _http_error_reason(e)
+        if reason == "commentsDisabled":
+            print("INFO: comments disabled at channel level — skipping", file=sys.stderr)
+            return []
+        print(f"WARN: allThreadsRelatedToChannel failed (status={e.resp.status} reason={reason!r}) — falling back to per-video polling", file=sys.stderr)
+        items = []
 
-    out = []
-    for item in resp.get("items", []):
-        top = item.get("snippet", {}).get("topLevelComment", {})
-        sn = top.get("snippet", {})
-        video_id = sn.get("videoId") or item["snippet"].get("videoId", "")
-        comment_id = top.get("id") or item.get("id", "")
-        out.append({
-            "id": comment_id,
-            "author": sn.get("authorDisplayName", "Viewer"),
-            "author_url": sn.get("authorChannelUrl", ""),
-            "text": clean_comment_text(sn.get("textDisplay", "")),
-            "video_id": video_id,
-            "video_title": video_titles.get(video_id, "a video"),
-            "published": sn.get("publishedAt", ""),
-            "relative": humanize_relative(sn.get("publishedAt", "")),
-            "url": (
-                f"https://www.youtube.com/watch?v={video_id}&lc={comment_id}"
-                if video_id and comment_id else
-                f"https://www.youtube.com/watch?v={video_id}" if video_id else "#"
-            ),
-            "likes": int(sn.get("likeCount", 0)),
-        })
-        if len(out) >= n:
-            break
-    return out
+    # Per-video fallback when channel-wide call is empty or failed.
+    if not items:
+        videos_by_recent = sorted(recent_videos, key=lambda v: v.get("published", ""), reverse=True)[:5]
+        seen_ids: set[str] = set()
+        for v in videos_by_recent:
+            vid = v.get("id")
+            if not vid:
+                continue
+            try:
+                resp = yt.commentThreads().list(
+                    part="snippet",
+                    videoId=vid,
+                    order="time",
+                    maxResults=3,
+                    textFormat="html",
+                ).execute()
+            except HttpError as e:
+                reason = _http_error_reason(e)
+                if reason == "commentsDisabled":
+                    continue
+                print(f"WARN: per-video comment fetch failed for {vid} (status={e.resp.status} reason={reason!r})", file=sys.stderr)
+                continue
+            for it in resp.get("items", []):
+                cid = it.get("id", "")
+                if cid in seen_ids:
+                    continue
+                seen_ids.add(cid)
+                items.append(it)
+        print(f"INFO: per-video fallback collected {len(items)} comment(s) from {len(videos_by_recent)} videos", file=sys.stderr)
+
+    # Convert + sort by publishedAt desc, take top n.
+    out = [_comment_thread_to_dict(it, video_titles) for it in items]
+    out.sort(key=lambda c: c.get("published", ""), reverse=True)
+    return out[:n]
 
 
 def build_monetization(subs: int, watch_hours: float) -> dict:
@@ -397,14 +489,17 @@ def main():
     # Comments — use the videos we already pulled to map id -> title
     yt = build("youtube", "v3", developerKey=YOUTUBE_API_KEY)
     title_lookup = {v["id"]: v["title"] for v in data["videos"]}
-    recent_comments = fetch_recent_comments(yt, CHANNEL_ID, title_lookup, n=5)
+    recent_comments = fetch_recent_comments(yt, CHANNEL_ID, data["videos"], title_lookup, n=5)
 
     level, cur_floor, next_floor, xp_pct = compute_level(data["subs"])
 
-    # Deltas
-    dsubs_text, dsubs_cls = delta(data["subs"], prev["subs"] if prev else None)
-    dviews_text, dviews_cls = delta(data["views"], prev["views"] if prev else None)
-    dvid_text, dvid_cls = delta(data["video_count"], prev["video_count"] if prev else None)
+    # Weekly deltas: compare against snapshot ~7 days old, not the prior run.
+    now_utc = datetime.now(timezone.utc)
+    history = load_weekly_history()
+    week_ago = find_week_ago_snapshot(history, now_utc)
+    dsubs_text, dsubs_cls = delta(data["subs"], week_ago["subs"] if week_ago else None)
+    dviews_text, dviews_cls = delta(data["views"], week_ago["views"] if week_ago else None)
+    dvid_text, dvid_cls = delta(data["video_count"], week_ago["video_count"] if week_ago else None)
 
     # Coaching
     try:
@@ -437,7 +532,7 @@ def main():
 
     dwatch_text, dwatch_cls = delta(
         watch_hours,
-        prev.get("watch_hours") if prev else None,
+        week_ago.get("watch_hours") if week_ago else None,
         unit=" hrs",
     )
 
@@ -510,7 +605,7 @@ def main():
     OUT_HTML.write_text(tpl.render(**context), encoding="utf-8")
 
     snapshot = {
-        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "generated_at": now_utc.isoformat(),
         "subs": data["subs"],
         "views": data["views"],
         "video_count": data["video_count"],
@@ -523,6 +618,18 @@ def main():
         "recent_comments": recent_comments,
     }
     OUT_JSON.write_text(json.dumps(snapshot, indent=2), encoding="utf-8")
+
+    # Append a lean snapshot to weekly_history.json (capped) so future runs can
+    # compute true 7-day deltas instead of "since last run" deltas.
+    history.append({
+        "generated_at": now_utc.isoformat(),
+        "subs": data["subs"],
+        "views": data["views"],
+        "video_count": data["video_count"],
+        "watch_hours": watch_hours,
+    })
+    history = history[-WEEKLY_HISTORY_CAP:]
+    WEEKLY_HISTORY.write_text(json.dumps(history, indent=2), encoding="utf-8")
 
     print(f"OK — subs={data['subs']} views={data['views']} level={level}")
 
