@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-01T10:12:01.801826+00:00",
+  "generated_at": "2026-05-01T16:15:54.996805+00:00",
   "subs": 77,
-  "views": 18777,
+  "views": 18796,
   "video_count": 65,
-  "watch_hours": 619.6,
+  "watch_hours": 620.3,
   "top_video_id": "8ECgJ8QZWMg",
   "top_video_views": 13470,
   "monetization": {
@@ -23,9 +23,9 @@
       "subs_target": 1000,
       "subs_remaining": 923,
       "hours_pct": 15.5,
-      "hours_current": 619.6,
+      "hours_current": 620.3,
       "hours_target": 4000,
-      "hours_remaining": 3380.4,
+      "hours_remaining": 3379.7,
       "unlocked": false
     }
   },
@@ -35,10 +35,71 @@
     "subs_pct": 77.0,
     "sub_goal_label": "100",
     "view_goal": 25000,
-    "views_to_go": 6223,
-    "views_pct": 75.1,
+    "views_to_go": 6204,
+    "views_pct": 75.2,
     "view_goal_label": "25K"
   },
-  "pep_talk": "You just gained 37 views on your latest upload, nice work staying consistent with content!",
-  "recent_comments": []
+  "pep_talk": "You're building momentum with 19 new views\u2014keep creating and you'll hit 100 subscribers soon!",
+  "recent_comments": [
+    {
+      "id": "UgxUxH607fiOgrVxNVB4AaABAg",
+      "author": "@DetourMaster",
+      "author_url": "http://www.youtube.com/@DetourMaster",
+      "text": "Awesome Garry's mod Huggy Waggy and Elmo video ZaydenGaming!\u2665\ufe0f",
+      "video_id": "lOcU7bEVo9M",
+      "video_title": "Can I Defeat Huggy Wuggy, Avoid Elmo, and NOT Get Captured by Nightmare Baby Man? (No) | Garry's Mod",
+      "published": "2026-05-01T09:31:55Z",
+      "relative": "6 hrs ago",
+      "url": "https://www.youtube.com/watch?v=lOcU7bEVo9M&lc=UgxUxH607fiOgrVxNVB4AaABAg",
+      "likes": 1
+    },
+    {
+      "id": "UgxBGVaFsmrYaN9O2q94AaABAg",
+      "author": "@EplayerFf",
+      "author_url": "http://www.youtube.com/@EplayerFf",
+      "text": "Great video ZaydenGaming!\ud83d\udcaf",
+      "video_id": "aScgY9txRaQ",
+      "video_title": "Playing This Game Was a Mistake... | Wreckfest 2",
+      "published": "2026-04-27T02:34:19Z",
+      "relative": "4 days ago",
+      "url": "https://www.youtube.com/watch?v=aScgY9txRaQ&lc=UgxBGVaFsmrYaN9O2q94AaABAg",
+      "likes": 2
+    },
+    {
+      "id": "UgydG6oBgV_nHDkM1Pl4AaABAg",
+      "author": "@DetourMaster",
+      "author_url": "http://www.youtube.com/@DetourMaster",
+      "text": "Awesome Video ZaydenGaming i liked!\ud83d\udcaf",
+      "video_id": "aScgY9txRaQ",
+      "video_title": "Playing This Game Was a Mistake... | Wreckfest 2",
+      "published": "2026-04-27T01:06:35Z",
+      "relative": "4 days ago",
+      "url": "https://www.youtube.com/watch?v=aScgY9txRaQ&lc=UgydG6oBgV_nHDkM1Pl4AaABAg",
+      "likes": 3
+    },
+    {
+      "id": "UgwbtRoJHKzT0xMOcLt4AaABAg",
+      "author": "@DetourMaster",
+      "author_url": "http://www.youtube.com/@DetourMaster",
+      "text": "Great video ZaydenGaming!\ud83d\udcaf+",
+      "video_id": "65gepARP4yk",
+      "video_title": "I Did a Mission in The \"JUN-10F\" And Got 500,000 Credits in Mech Warriors!",
+      "published": "2026-04-24T02:08:09Z",
+      "relative": "7 days ago",
+      "url": "https://www.youtube.com/watch?v=65gepARP4yk&lc=UgwbtRoJHKzT0xMOcLt4AaABAg",
+      "likes": 3
+    },
+    {
+      "id": "UgycXYBzYmpKwohxKDh4AaABAg",
+      "author": "@DetourMaster",
+      "author_url": "http://www.youtube.com/@DetourMaster",
+      "text": "Amazing video ZaydenGaming!\ud83d\udcaf+",
+      "video_id": "A7XGNclLBe8",
+      "video_title": "The Year Is 3015, And The Battle Mechs Have Gone ROGUE!? | Mech Warrior 5 Gameplay",
+      "published": "2026-04-19T05:38:21Z",
+      "relative": "12 days ago",
+      "url": "https://www.youtube.com/watch?v=A7XGNclLBe8&lc=UgycXYBzYmpKwohxKDh4AaABAg",
+      "likes": 3
+    }
+  ]
 }
