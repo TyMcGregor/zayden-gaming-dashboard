@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-06T11:31:13.684751+00:00",
+  "generated_at": "2026-05-08T10:08:50.753841+00:00",
   "subs": 77,
-  "views": 18968,
-  "video_count": 65,
-  "watch_hours": 625.9,
+  "views": 19032,
+  "video_count": 66,
+  "watch_hours": 628.1,
   "top_video_id": "8ECgJ8QZWMg",
   "top_video_views": 13473,
   "monetization": {
@@ -22,10 +22,10 @@
       "subs_current": 77,
       "subs_target": 1000,
       "subs_remaining": 923,
-      "hours_pct": 15.6,
-      "hours_current": 625.9,
+      "hours_pct": 15.7,
+      "hours_current": 628.1,
       "hours_target": 4000,
-      "hours_remaining": 3374.1,
+      "hours_remaining": 3371.9,
       "unlocked": false
     }
   },
@@ -35,12 +35,48 @@
     "subs_pct": 77.0,
     "sub_goal_label": "100",
     "view_goal": 25000,
-    "views_to_go": 6032,
-    "views_pct": 75.9,
+    "views_to_go": 5968,
+    "views_pct": 76.1,
     "view_goal_label": "25K"
   },
-  "pep_talk": "Your videos got 131 more views this update \u2014 keep that momentum going!",
+  "pep_talk": "Your views just jumped 64 \u2013 that's awesome momentum, keep making content like this!",
   "recent_comments": [
+    {
+      "id": "UgxnzQr_4-5Hc3-JZ8l4AaABAg",
+      "author": "@EplayerFf",
+      "author_url": "http://www.youtube.com/@EplayerFf",
+      "text": "Amazing video!\ud83c\udf89\u2764",
+      "video_id": "9ke_WIVWO9s",
+      "video_title": "Beam NG drive Epic Police Chase|Full Move",
+      "published": "2026-05-08T01:40:15Z",
+      "relative": "8 hrs ago",
+      "url": "https://www.youtube.com/watch?v=9ke_WIVWO9s&lc=UgxnzQr_4-5Hc3-JZ8l4AaABAg",
+      "likes": 3
+    },
+    {
+      "id": "Ugy6K7nSvDWz3Tvrop94AaABAg",
+      "author": "@larryMonster112",
+      "author_url": "http://www.youtube.com/@larryMonster112",
+      "text": "I subscribed your channel",
+      "video_id": "9ke_WIVWO9s",
+      "video_title": "Beam NG drive Epic Police Chase|Full Move",
+      "published": "2026-05-08T01:39:43Z",
+      "relative": "8 hrs ago",
+      "url": "https://www.youtube.com/watch?v=9ke_WIVWO9s&lc=Ugy6K7nSvDWz3Tvrop94AaABAg",
+      "likes": 2
+    },
+    {
+      "id": "UgwQ144D0gNRCIutcYV4AaABAg",
+      "author": "@DetourMaster",
+      "author_url": "http://www.youtube.com/@DetourMaster",
+      "text": "Awesome BeamNG drive video ZaydenGaming love it!\ud83d\udcaf\ud83d\udd25\ud83d\udd25",
+      "video_id": "9ke_WIVWO9s",
+      "video_title": "Beam NG drive Epic Police Chase|Full Move",
+      "published": "2026-05-08T01:34:19Z",
+      "relative": "8 hrs ago",
+      "url": "https://www.youtube.com/watch?v=9ke_WIVWO9s&lc=UgwQ144D0gNRCIutcYV4AaABAg",
+      "likes": 2
+    },
     {
       "id": "UgxtuTanFkHXoeEljxN4AaABAg",
       "author": "@EplayerFf",
@@ -49,7 +85,7 @@
       "video_id": "lOcU7bEVo9M",
       "video_title": "Can I Defeat Huggy Wuggy, Avoid Elmo, and NOT Get Captured by Nightmare Baby Man? (No) | Garry's Mod",
       "published": "2026-05-03T10:30:26Z",
-      "relative": "3 days ago",
+      "relative": "4 days ago",
       "url": "https://www.youtube.com/watch?v=lOcU7bEVo9M&lc=UgxtuTanFkHXoeEljxN4AaABAg",
       "likes": 2
     },
@@ -61,45 +97,9 @@
       "video_id": "lOcU7bEVo9M",
       "video_title": "Can I Defeat Huggy Wuggy, Avoid Elmo, and NOT Get Captured by Nightmare Baby Man? (No) | Garry's Mod",
       "published": "2026-05-01T09:31:55Z",
-      "relative": "5 days ago",
+      "relative": "7 days ago",
       "url": "https://www.youtube.com/watch?v=lOcU7bEVo9M&lc=UgxUxH607fiOgrVxNVB4AaABAg",
       "likes": 4
-    },
-    {
-      "id": "UgxBGVaFsmrYaN9O2q94AaABAg",
-      "author": "@EplayerFf",
-      "author_url": "http://www.youtube.com/@EplayerFf",
-      "text": "Great video ZaydenGaming!\ud83d\udcaf",
-      "video_id": "aScgY9txRaQ",
-      "video_title": "Playing This Game Was a Mistake... | Wreckfest 2",
-      "published": "2026-04-27T02:34:19Z",
-      "relative": "9 days ago",
-      "url": "https://www.youtube.com/watch?v=aScgY9txRaQ&lc=UgxBGVaFsmrYaN9O2q94AaABAg",
-      "likes": 2
-    },
-    {
-      "id": "UgydG6oBgV_nHDkM1Pl4AaABAg",
-      "author": "@DetourMaster",
-      "author_url": "http://www.youtube.com/@DetourMaster",
-      "text": "Awesome Video ZaydenGaming i liked!\ud83d\udcaf",
-      "video_id": "aScgY9txRaQ",
-      "video_title": "Playing This Game Was a Mistake... | Wreckfest 2",
-      "published": "2026-04-27T01:06:35Z",
-      "relative": "9 days ago",
-      "url": "https://www.youtube.com/watch?v=aScgY9txRaQ&lc=UgydG6oBgV_nHDkM1Pl4AaABAg",
-      "likes": 3
-    },
-    {
-      "id": "UgwbtRoJHKzT0xMOcLt4AaABAg",
-      "author": "@DetourMaster",
-      "author_url": "http://www.youtube.com/@DetourMaster",
-      "text": "Great video ZaydenGaming!\ud83d\udcaf+",
-      "video_id": "65gepARP4yk",
-      "video_title": "I Did a Mission in The \"JUN-10F\" And Got 500,000 Credits in Mech Warriors!",
-      "published": "2026-04-24T02:08:09Z",
-      "relative": "12 days ago",
-      "url": "https://www.youtube.com/watch?v=65gepARP4yk&lc=UgwbtRoJHKzT0xMOcLt4AaABAg",
-      "likes": 3
     }
   ]
 }
