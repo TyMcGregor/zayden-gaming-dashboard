@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-08T10:08:50.753841+00:00",
+  "generated_at": "2026-05-10T10:01:31.253580+00:00",
   "subs": 77,
-  "views": 19032,
+  "views": 19096,
   "video_count": 66,
-  "watch_hours": 628.1,
+  "watch_hours": 630.2,
   "top_video_id": "8ECgJ8QZWMg",
-  "top_video_views": 13473,
+  "top_video_views": 13474,
   "monetization": {
     "shorts_tier": {
       "name": "Shorts Monetization",
@@ -22,10 +22,10 @@
       "subs_current": 77,
       "subs_target": 1000,
       "subs_remaining": 923,
-      "hours_pct": 15.7,
-      "hours_current": 628.1,
+      "hours_pct": 15.8,
+      "hours_current": 630.2,
       "hours_target": 4000,
-      "hours_remaining": 3371.9,
+      "hours_remaining": 3369.8,
       "unlocked": false
     }
   },
@@ -35,11 +35,11 @@
     "subs_pct": 77.0,
     "sub_goal_label": "100",
     "view_goal": 25000,
-    "views_to_go": 5968,
-    "views_pct": 76.1,
+    "views_to_go": 5904,
+    "views_pct": 76.4,
     "view_goal_label": "25K"
   },
-  "pep_talk": "Your views just jumped 64 \u2013 that's awesome momentum, keep making content like this!",
+  "pep_talk": "You're gaining momentum with 64 new views and 2.1 more watch hours \u2013 keep creating!",
   "recent_comments": [
     {
       "id": "UgxnzQr_4-5Hc3-JZ8l4AaABAg",
@@ -49,7 +49,7 @@
       "video_id": "9ke_WIVWO9s",
       "video_title": "Beam NG drive Epic Police Chase|Full Move",
       "published": "2026-05-08T01:40:15Z",
-      "relative": "8 hrs ago",
+      "relative": "2 days ago",
       "url": "https://www.youtube.com/watch?v=9ke_WIVWO9s&lc=UgxnzQr_4-5Hc3-JZ8l4AaABAg",
       "likes": 3
     },
@@ -61,7 +61,7 @@
       "video_id": "9ke_WIVWO9s",
       "video_title": "Beam NG drive Epic Police Chase|Full Move",
       "published": "2026-05-08T01:39:43Z",
-      "relative": "8 hrs ago",
+      "relative": "2 days ago",
       "url": "https://www.youtube.com/watch?v=9ke_WIVWO9s&lc=Ugy6K7nSvDWz3Tvrop94AaABAg",
       "likes": 2
     },
@@ -73,7 +73,7 @@
       "video_id": "9ke_WIVWO9s",
       "video_title": "Beam NG drive Epic Police Chase|Full Move",
       "published": "2026-05-08T01:34:19Z",
-      "relative": "8 hrs ago",
+      "relative": "2 days ago",
       "url": "https://www.youtube.com/watch?v=9ke_WIVWO9s&lc=UgwQ144D0gNRCIutcYV4AaABAg",
       "likes": 2
     },
@@ -85,7 +85,7 @@
       "video_id": "lOcU7bEVo9M",
       "video_title": "Can I Defeat Huggy Wuggy, Avoid Elmo, and NOT Get Captured by Nightmare Baby Man? (No) | Garry's Mod",
       "published": "2026-05-03T10:30:26Z",
-      "relative": "4 days ago",
+      "relative": "6 days ago",
       "url": "https://www.youtube.com/watch?v=lOcU7bEVo9M&lc=UgxtuTanFkHXoeEljxN4AaABAg",
       "likes": 2
     },
@@ -97,7 +97,7 @@
       "video_id": "lOcU7bEVo9M",
       "video_title": "Can I Defeat Huggy Wuggy, Avoid Elmo, and NOT Get Captured by Nightmare Baby Man? (No) | Garry's Mod",
       "published": "2026-05-01T09:31:55Z",
-      "relative": "7 days ago",
+      "relative": "9 days ago",
       "url": "https://www.youtube.com/watch?v=lOcU7bEVo9M&lc=UgxUxH607fiOgrVxNVB4AaABAg",
       "likes": 4
     }
