@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-20T16:36:25.952943+00:00",
+  "generated_at": "2026-05-22T08:18:40.863081+00:00",
   "subs": 78,
-  "views": 19263,
+  "views": 19296,
   "video_count": 67,
-  "watch_hours": 635.7,
+  "watch_hours": 636.8,
   "top_video_id": "8ECgJ8QZWMg",
-  "top_video_views": 13477,
+  "top_video_views": 13478,
   "monetization": {
     "shorts_tier": {
       "name": "Shorts Monetization",
@@ -23,9 +23,9 @@
       "subs_target": 1000,
       "subs_remaining": 922,
       "hours_pct": 15.9,
-      "hours_current": 635.7,
+      "hours_current": 636.8,
       "hours_target": 4000,
-      "hours_remaining": 3364.3,
+      "hours_remaining": 3363.2,
       "unlocked": false
     }
   },
@@ -35,11 +35,11 @@
     "subs_pct": 78.0,
     "sub_goal_label": "100",
     "view_goal": 25000,
-    "views_to_go": 5737,
-    "views_pct": 77.1,
+    "views_to_go": 5704,
+    "views_pct": 77.2,
     "view_goal_label": "25K"
   },
-  "pep_talk": "Your new video is bringing in views \u2013 27 more people checked out your content!",
+  "pep_talk": "Every upload is a level-up \u2014 keep showing up and the numbers will follow.",
   "recent_comments": [
     {
       "id": "UgyylErle59Pf9rwJmd4AaABAg",
@@ -49,7 +49,7 @@
       "video_id": "ZTpMNszKvlo",
       "video_title": "Defeating Enemy Mech in Mech Warriors!",
       "published": "2026-05-15T01:41:20Z",
-      "relative": "5 days ago",
+      "relative": "7 days ago",
       "url": "https://www.youtube.com/watch?v=ZTpMNszKvlo&lc=UgyylErle59Pf9rwJmd4AaABAg",
       "likes": 3
     },
@@ -61,7 +61,7 @@
       "video_id": "9ke_WIVWO9s",
       "video_title": "Beam NG drive Epic Police Chase|Full Move",
       "published": "2026-05-08T01:40:15Z",
-      "relative": "12 days ago",
+      "relative": "2 wks ago",
       "url": "https://www.youtube.com/watch?v=9ke_WIVWO9s&lc=UgxnzQr_4-5Hc3-JZ8l4AaABAg",
       "likes": 3
     },
@@ -73,7 +73,7 @@
       "video_id": "9ke_WIVWO9s",
       "video_title": "Beam NG drive Epic Police Chase|Full Move",
       "published": "2026-05-08T01:39:43Z",
-      "relative": "12 days ago",
+      "relative": "2 wks ago",
       "url": "https://www.youtube.com/watch?v=9ke_WIVWO9s&lc=Ugy6K7nSvDWz3Tvrop94AaABAg",
       "likes": 2
     },
@@ -85,7 +85,7 @@
       "video_id": "9ke_WIVWO9s",
       "video_title": "Beam NG drive Epic Police Chase|Full Move",
       "published": "2026-05-08T01:34:19Z",
-      "relative": "12 days ago",
+      "relative": "2 wks ago",
       "url": "https://www.youtube.com/watch?v=9ke_WIVWO9s&lc=UgwQ144D0gNRCIutcYV4AaABAg",
       "likes": 2
     },
