@@ -1,45 +1,45 @@
 {
-  "generated_at": "2026-05-29T08:38:52.074458+00:00",
-  "subs": 78,
-  "views": 19392,
+  "generated_at": "2026-05-31T08:10:30.196934+00:00",
+  "subs": 79,
+  "views": 19407,
   "video_count": 67,
-  "watch_hours": 639.9,
+  "watch_hours": 640.4,
   "top_video_id": "8ECgJ8QZWMg",
   "top_video_views": 13479,
   "monetization": {
     "shorts_tier": {
       "name": "Shorts Monetization",
-      "subs_pct": 15.6,
-      "subs_current": 78,
+      "subs_pct": 15.8,
+      "subs_current": 79,
       "subs_target": 500,
-      "subs_remaining": 422,
+      "subs_remaining": 421,
       "note": "Also needs 3 million Shorts views in the last 90 days.",
       "unlocked": false
     },
     "full_ypp": {
       "name": "Full Partner Program",
-      "subs_pct": 7.8,
-      "subs_current": 78,
+      "subs_pct": 7.9,
+      "subs_current": 79,
       "subs_target": 1000,
-      "subs_remaining": 922,
+      "subs_remaining": 921,
       "hours_pct": 16.0,
-      "hours_current": 639.9,
+      "hours_current": 640.4,
       "hours_target": 4000,
-      "hours_remaining": 3360.1,
+      "hours_remaining": 3359.6,
       "unlocked": false
     }
   },
   "milestones": {
     "sub_goal": 100,
-    "subs_to_go": 22,
-    "subs_pct": 78.0,
+    "subs_to_go": 21,
+    "subs_pct": 79.0,
     "sub_goal_label": "100",
     "view_goal": 25000,
-    "views_to_go": 5608,
+    "views_to_go": 5593,
     "views_pct": 77.6,
     "view_goal_label": "25K"
   },
-  "pep_talk": "Your videos earned 19 more views since last time, Zayden\u2014keep uploading consistently!",
+  "pep_talk": "Your views jumped 15 since last time \u2014 keep riding that momentum toward 100 subs!",
   "recent_comments": [
     {
       "id": "UgyylErle59Pf9rwJmd4AaABAg",
