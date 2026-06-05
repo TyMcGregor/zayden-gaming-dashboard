@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-03T09:21:56.353651+00:00",
+  "generated_at": "2026-06-05T08:40:08.263462+00:00",
   "subs": 81,
-  "views": 19465,
-  "video_count": 67,
-  "watch_hours": 642.3,
+  "views": 19495,
+  "video_count": 69,
+  "watch_hours": 643.3,
   "top_video_id": "8ECgJ8QZWMg",
   "top_video_views": 13481,
   "monetization": {
@@ -23,9 +23,9 @@
       "subs_target": 1000,
       "subs_remaining": 919,
       "hours_pct": 16.1,
-      "hours_current": 642.3,
+      "hours_current": 643.3,
       "hours_target": 4000,
-      "hours_remaining": 3357.7,
+      "hours_remaining": 3356.7,
       "unlocked": false
     }
   },
@@ -35,11 +35,11 @@
     "subs_pct": 81.0,
     "sub_goal_label": "100",
     "view_goal": 25000,
-    "views_to_go": 5535,
-    "views_pct": 77.9,
+    "views_to_go": 5505,
+    "views_pct": 78.0,
     "view_goal_label": "25K"
   },
-  "pep_talk": "Your views jumped 58 since last time, showing more people are discovering your content!",
+  "pep_talk": "You just gained 30 views on your latest uploads\u2014keep that momentum rolling!",
   "recent_comments": [
     {
       "id": "UgwwHUmyMkUo9OBFyh14AaABAg",
@@ -49,9 +49,9 @@
       "video_id": "NKcD6F1UWvw",
       "video_title": "I am a Jedi And Im Stuck in the Empire! Star Wars Jedi: Fallen Order-Part 1",
       "published": "2026-06-02T02:39:18Z",
-      "relative": "1 day ago",
+      "relative": "3 days ago",
       "url": "https://www.youtube.com/watch?v=NKcD6F1UWvw&lc=UgwwHUmyMkUo9OBFyh14AaABAg",
-      "likes": 0
+      "likes": 1
     },
     {
       "id": "Ugzhxr1P1vetWhZrzSF4AaABAg",
@@ -61,21 +61,9 @@
       "video_id": "NKcD6F1UWvw",
       "video_title": "I am a Jedi And Im Stuck in the Empire! Star Wars Jedi: Fallen Order-Part 1",
       "published": "2026-06-01T08:00:49Z",
-      "relative": "2 days ago",
+      "relative": "4 days ago",
       "url": "https://www.youtube.com/watch?v=NKcD6F1UWvw&lc=Ugzhxr1P1vetWhZrzSF4AaABAg",
-      "likes": 2
-    },
-    {
-      "id": "UgzmH7t027hx_2bdnb54AaABAg",
-      "author": "@DetourMaster",
-      "author_url": "http://www.youtube.com/@DetourMaster",
-      "text": "Awesome star wars jedi video!\ud83d\udcaf+",
-      "video_id": "NKcD6F1UWvw",
-      "video_title": "I am a Jedi And Im Stuck in the Empire! Star Wars Jedi: Fallen Order-Part 1",
-      "published": "2026-06-01T07:59:46Z",
-      "relative": "2 days ago",
-      "url": "https://www.youtube.com/watch?v=NKcD6F1UWvw&lc=UgzmH7t027hx_2bdnb54AaABAg",
-      "likes": 2
+      "likes": 3
     },
     {
       "id": "UgyylErle59Pf9rwJmd4AaABAg",
@@ -85,7 +73,7 @@
       "video_id": "ZTpMNszKvlo",
       "video_title": "Defeating Enemy Mech in Mech Warriors!",
       "published": "2026-05-15T01:41:20Z",
-      "relative": "2 wks ago",
+      "relative": "3 wks ago",
       "url": "https://www.youtube.com/watch?v=ZTpMNszKvlo&lc=UgyylErle59Pf9rwJmd4AaABAg",
       "likes": 3
     },
@@ -97,9 +85,21 @@
       "video_id": "9ke_WIVWO9s",
       "video_title": "Beam NG drive Epic Police Chase|Full Move",
       "published": "2026-05-08T01:40:15Z",
-      "relative": "3 wks ago",
+      "relative": "4 wks ago",
       "url": "https://www.youtube.com/watch?v=9ke_WIVWO9s&lc=UgxnzQr_4-5Hc3-JZ8l4AaABAg",
       "likes": 3
+    },
+    {
+      "id": "Ugy6K7nSvDWz3Tvrop94AaABAg",
+      "author": "@larryMonster112",
+      "author_url": "http://www.youtube.com/@larryMonster112",
+      "text": "I subscribed your channel",
+      "video_id": "9ke_WIVWO9s",
+      "video_title": "Beam NG drive Epic Police Chase|Full Move",
+      "published": "2026-05-08T01:39:43Z",
+      "relative": "4 wks ago",
+      "url": "https://www.youtube.com/watch?v=9ke_WIVWO9s&lc=Ugy6K7nSvDWz3Tvrop94AaABAg",
+      "likes": 2
     }
   ]
 }
