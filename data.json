@@ -1,45 +1,45 @@
 {
-  "generated_at": "2026-06-14T08:38:21.440850+00:00",
-  "subs": 80,
-  "views": 19681,
+  "generated_at": "2026-06-17T09:26:40.501341+00:00",
+  "subs": 77,
+  "views": 19836,
   "video_count": 70,
-  "watch_hours": 649.5,
+  "watch_hours": 654.6,
   "top_video_id": "8ECgJ8QZWMg",
-  "top_video_views": 13545,
+  "top_video_views": 13569,
   "monetization": {
     "shorts_tier": {
       "name": "Shorts Monetization",
-      "subs_pct": 16.0,
-      "subs_current": 80,
+      "subs_pct": 15.4,
+      "subs_current": 77,
       "subs_target": 500,
-      "subs_remaining": 420,
+      "subs_remaining": 423,
       "note": "Also needs 3 million Shorts views in the last 90 days.",
       "unlocked": false
     },
     "full_ypp": {
       "name": "Full Partner Program",
-      "subs_pct": 8.0,
-      "subs_current": 80,
+      "subs_pct": 7.7,
+      "subs_current": 77,
       "subs_target": 1000,
-      "subs_remaining": 920,
-      "hours_pct": 16.2,
-      "hours_current": 649.5,
+      "subs_remaining": 923,
+      "hours_pct": 16.4,
+      "hours_current": 654.6,
       "hours_target": 4000,
-      "hours_remaining": 3350.5,
+      "hours_remaining": 3345.4,
       "unlocked": false
     }
   },
   "milestones": {
     "sub_goal": 100,
-    "subs_to_go": 20,
-    "subs_pct": 80.0,
+    "subs_to_go": 23,
+    "subs_pct": 77.0,
     "sub_goal_label": "100",
     "view_goal": 25000,
-    "views_to_go": 5319,
-    "views_pct": 78.7,
+    "views_to_go": 5164,
+    "views_pct": 79.3,
     "view_goal_label": "25K"
   },
-  "pep_talk": "You just gained 70 views on your latest content, Zayden\u2014keep that momentum going!",
+  "pep_talk": "Your videos earned 155 new views since last update\u2014keep that momentum going!",
   "recent_comments": [
     {
       "id": "UgzOMpHbOrWzWoZ4Rqp4AaABAg",
@@ -49,7 +49,7 @@
       "video_id": "Onis9_s-ybE",
       "video_title": "Forza Horizon 6 but it's Extra Edited and Weird?!",
       "published": "2026-06-13T04:03:07Z",
-      "relative": "1 day ago",
+      "relative": "4 days ago",
       "url": "https://www.youtube.com/watch?v=Onis9_s-ybE&lc=UgzOMpHbOrWzWoZ4Rqp4AaABAg",
       "likes": 3
     },
@@ -61,7 +61,7 @@
       "video_id": "0J0szaKQROs",
       "video_title": "This is My New Favorite Game! | Forza Horizon 6",
       "published": "2026-06-08T12:31:18Z",
-      "relative": "5 days ago",
+      "relative": "8 days ago",
       "url": "https://www.youtube.com/watch?v=0J0szaKQROs&lc=UgxGvJFx4TS1LKICMbJ4AaABAg",
       "likes": 3
     },
@@ -73,7 +73,7 @@
       "video_id": "0J0szaKQROs",
       "video_title": "This is My New Favorite Game! | Forza Horizon 6",
       "published": "2026-06-08T12:29:49Z",
-      "relative": "5 days ago",
+      "relative": "8 days ago",
       "url": "https://www.youtube.com/watch?v=0J0szaKQROs&lc=UgzjXtGwoGigfuczcMl4AaABAg",
       "likes": 2
     },
@@ -85,7 +85,7 @@
       "video_id": "NKcD6F1UWvw",
       "video_title": "I am a Jedi And Im Stuck in the Empire! Star Wars Jedi: Fallen Order-Part 1",
       "published": "2026-06-02T02:39:18Z",
-      "relative": "12 days ago",
+      "relative": "2 wks ago",
       "url": "https://www.youtube.com/watch?v=NKcD6F1UWvw&lc=UgwwHUmyMkUo9OBFyh14AaABAg",
       "likes": 1
     },
@@ -97,7 +97,7 @@
       "video_id": "NKcD6F1UWvw",
       "video_title": "I am a Jedi And Im Stuck in the Empire! Star Wars Jedi: Fallen Order-Part 1",
       "published": "2026-06-01T08:00:49Z",
-      "relative": "13 days ago",
+      "relative": "2 wks ago",
       "url": "https://www.youtube.com/watch?v=NKcD6F1UWvw&lc=Ugzhxr1P1vetWhZrzSF4AaABAg",
       "likes": 3
     }
