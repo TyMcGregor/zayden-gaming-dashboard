@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-26T08:26:12.703187+00:00",
+  "generated_at": "2026-06-28T08:16:59.405573+00:00",
   "subs": 79,
-  "views": 20127,
+  "views": 20173,
   "video_count": 71,
-  "watch_hours": 664.2,
+  "watch_hours": 665.7,
   "top_video_id": "gslPV9ohnQY",
-  "top_video_views": 637,
+  "top_video_views": 652,
   "monetization": {
     "shorts_tier": {
       "name": "Shorts Monetization",
@@ -23,9 +23,9 @@
       "subs_target": 1000,
       "subs_remaining": 921,
       "hours_pct": 16.6,
-      "hours_current": 664.2,
+      "hours_current": 665.7,
       "hours_target": 4000,
-      "hours_remaining": 3335.8,
+      "hours_remaining": 3334.3,
       "unlocked": false
     }
   },
@@ -35,11 +35,11 @@
     "subs_pct": 79.0,
     "sub_goal_label": "100",
     "view_goal": 25000,
-    "views_to_go": 4873,
-    "views_pct": 80.5,
+    "views_to_go": 4827,
+    "views_pct": 80.7,
     "view_goal_label": "25K"
   },
-  "pep_talk": "Your videos gained 55 views since last time\u2014that's awesome momentum building toward your 100 subscriber goal!",
+  "pep_talk": "Your videos gained 46 views since last time\u2014that's awesome momentum building toward your 100 subscriber goal!",
   "recent_comments": [
     {
       "id": "UgysiXvxU4Q57KxIvW94AaABAg",
@@ -49,7 +49,7 @@
       "video_id": "NKcD6F1UWvw",
       "video_title": "I am a Jedi And Im Stuck in the Empire! Star Wars Jedi: Fallen Order-Part 1",
       "published": "2026-06-19T17:18:33Z",
-      "relative": "6 days ago",
+      "relative": "8 days ago",
       "url": "https://www.youtube.com/watch?v=NKcD6F1UWvw&lc=UgysiXvxU4Q57KxIvW94AaABAg",
       "likes": 0
     },
@@ -61,7 +61,7 @@
       "video_id": "Onis9_s-ybE",
       "video_title": "Forza Horizon 6 but it's Extra Edited and Weird?!",
       "published": "2026-06-13T04:03:07Z",
-      "relative": "13 days ago",
+      "relative": "2 wks ago",
       "url": "https://www.youtube.com/watch?v=Onis9_s-ybE&lc=UgzOMpHbOrWzWoZ4Rqp4AaABAg",
       "likes": 3
     },
