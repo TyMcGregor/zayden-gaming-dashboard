@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-01T08:45:48.221446+00:00",
+  "generated_at": "2026-07-03T07:56:40.486366+00:00",
   "subs": 80,
-  "views": 20199,
+  "views": 20215,
   "video_count": 72,
-  "watch_hours": 666.6,
+  "watch_hours": 667.1,
   "top_video_id": "gslPV9ohnQY",
   "top_video_views": 652,
   "monetization": {
@@ -23,9 +23,9 @@
       "subs_target": 1000,
       "subs_remaining": 920,
       "hours_pct": 16.7,
-      "hours_current": 666.6,
+      "hours_current": 667.1,
       "hours_target": 4000,
-      "hours_remaining": 3333.4,
+      "hours_remaining": 3332.9,
       "unlocked": false
     }
   },
@@ -35,11 +35,11 @@
     "subs_pct": 80.0,
     "sub_goal_label": "100",
     "view_goal": 25000,
-    "views_to_go": 4801,
-    "views_pct": 80.8,
+    "views_to_go": 4785,
+    "views_pct": 80.9,
     "view_goal_label": "25K"
   },
-  "pep_talk": "Your channel just hit 20,199 total views \u2013 that's solid growth and you're building momentum toward 100 subscribers!",
+  "pep_talk": "Your videos gained 16 views since last time\u2014keep uploading and building momentum toward that 100 subscriber goal!",
   "recent_comments": [
     {
       "id": "UgysiXvxU4Q57KxIvW94AaABAg",
@@ -49,7 +49,7 @@
       "video_id": "NKcD6F1UWvw",
       "video_title": "I am a Jedi And Im Stuck in the Empire! Star Wars Jedi: Fallen Order-Part 1",
       "published": "2026-06-19T17:18:33Z",
-      "relative": "11 days ago",
+      "relative": "13 days ago",
       "url": "https://www.youtube.com/watch?v=NKcD6F1UWvw&lc=UgysiXvxU4Q57KxIvW94AaABAg",
       "likes": 0
     },
