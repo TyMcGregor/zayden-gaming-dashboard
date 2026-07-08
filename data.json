@@ -1,45 +1,45 @@
 {
-  "generated_at": "2026-07-05T07:52:45.441834+00:00",
-  "subs": 80,
-  "views": 20233,
-  "video_count": 72,
-  "watch_hours": 667.7,
+  "generated_at": "2026-07-08T07:24:34.813587+00:00",
+  "subs": 79,
+  "views": 20287,
+  "video_count": 73,
+  "watch_hours": 669.5,
   "top_video_id": "gslPV9ohnQY",
   "top_video_views": 652,
   "monetization": {
     "shorts_tier": {
       "name": "Shorts Monetization",
-      "subs_pct": 16.0,
-      "subs_current": 80,
+      "subs_pct": 15.8,
+      "subs_current": 79,
       "subs_target": 500,
-      "subs_remaining": 420,
+      "subs_remaining": 421,
       "note": "Also needs 3 million Shorts views in the last 90 days.",
       "unlocked": false
     },
     "full_ypp": {
       "name": "Full Partner Program",
-      "subs_pct": 8.0,
-      "subs_current": 80,
+      "subs_pct": 7.9,
+      "subs_current": 79,
       "subs_target": 1000,
-      "subs_remaining": 920,
+      "subs_remaining": 921,
       "hours_pct": 16.7,
-      "hours_current": 667.7,
+      "hours_current": 669.5,
       "hours_target": 4000,
-      "hours_remaining": 3332.3,
+      "hours_remaining": 3330.5,
       "unlocked": false
     }
   },
   "milestones": {
     "sub_goal": 100,
-    "subs_to_go": 20,
-    "subs_pct": 80.0,
+    "subs_to_go": 21,
+    "subs_pct": 79.0,
     "sub_goal_label": "100",
     "view_goal": 25000,
-    "views_to_go": 4767,
-    "views_pct": 80.9,
+    "views_to_go": 4713,
+    "views_pct": 81.1,
     "view_goal_label": "25K"
   },
-  "pep_talk": "You gained 18 views since last time\u2014keep uploading great content and you'll hit 100 subscribers soon!",
+  "pep_talk": "You just crushed it with 54 new views on your latest upload!",
   "recent_comments": [
     {
       "id": "UgysiXvxU4Q57KxIvW94AaABAg",
@@ -73,7 +73,7 @@
       "video_id": "0J0szaKQROs",
       "video_title": "This is My New Favorite Game! | Forza Horizon 6",
       "published": "2026-06-08T12:31:18Z",
-      "relative": "3 wks ago",
+      "relative": "4 wks ago",
       "url": "https://www.youtube.com/watch?v=0J0szaKQROs&lc=UgxGvJFx4TS1LKICMbJ4AaABAg",
       "likes": 3
     },
@@ -85,7 +85,7 @@
       "video_id": "0J0szaKQROs",
       "video_title": "This is My New Favorite Game! | Forza Horizon 6",
       "published": "2026-06-08T12:29:49Z",
-      "relative": "3 wks ago",
+      "relative": "4 wks ago",
       "url": "https://www.youtube.com/watch?v=0J0szaKQROs&lc=UgzjXtGwoGigfuczcMl4AaABAg",
       "likes": 2
     },
@@ -97,7 +97,7 @@
       "video_id": "NKcD6F1UWvw",
       "video_title": "I am a Jedi And Im Stuck in the Empire! Star Wars Jedi: Fallen Order-Part 1",
       "published": "2026-06-02T02:39:18Z",
-      "relative": "4 wks ago",
+      "relative": "5 wks ago",
       "url": "https://www.youtube.com/watch?v=NKcD6F1UWvw&lc=UgwwHUmyMkUo9OBFyh14AaABAg",
       "likes": 1
     }
