@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-08T07:24:34.813587+00:00",
+  "generated_at": "2026-07-10T08:16:37.571111+00:00",
   "subs": 79,
-  "views": 20287,
-  "video_count": 73,
-  "watch_hours": 669.5,
+  "views": 20315,
+  "video_count": 74,
+  "watch_hours": 670.4,
   "top_video_id": "gslPV9ohnQY",
-  "top_video_views": 652,
+  "top_video_views": 674,
   "monetization": {
     "shorts_tier": {
       "name": "Shorts Monetization",
@@ -22,10 +22,10 @@
       "subs_current": 79,
       "subs_target": 1000,
       "subs_remaining": 921,
-      "hours_pct": 16.7,
-      "hours_current": 669.5,
+      "hours_pct": 16.8,
+      "hours_current": 670.4,
       "hours_target": 4000,
-      "hours_remaining": 3330.5,
+      "hours_remaining": 3329.6,
       "unlocked": false
     }
   },
@@ -35,12 +35,24 @@
     "subs_pct": 79.0,
     "sub_goal_label": "100",
     "view_goal": 25000,
-    "views_to_go": 4713,
-    "views_pct": 81.1,
+    "views_to_go": 4685,
+    "views_pct": 81.3,
     "view_goal_label": "25K"
   },
-  "pep_talk": "You just crushed it with 54 new views on your latest upload!",
+  "pep_talk": "You crushed it with 28 new views this update\u2014keep that momentum going!",
   "recent_comments": [
+    {
+      "id": "UgyIpETMVjvLD3LREMR4AaABAg",
+      "author": "@Buglordbryce",
+      "author_url": "http://www.youtube.com/@Buglordbryce",
+      "text": "I truly dare you for a next video, install every plane mod (or that you can find) and make a video about them (testing)",
+      "video_id": "vWrbtr5MU0o",
+      "video_title": "Upgrading Police Cars to Catch Bad Guys! | BeamNG Drive",
+      "published": "2026-07-09T21:16:29Z",
+      "relative": "11 hrs ago",
+      "url": "https://www.youtube.com/watch?v=vWrbtr5MU0o&lc=UgyIpETMVjvLD3LREMR4AaABAg",
+      "likes": 0
+    },
     {
       "id": "UgysiXvxU4Q57KxIvW94AaABAg",
       "author": "@mrnoyartopro",
@@ -88,18 +100,6 @@
       "relative": "4 wks ago",
       "url": "https://www.youtube.com/watch?v=0J0szaKQROs&lc=UgzjXtGwoGigfuczcMl4AaABAg",
       "likes": 2
-    },
-    {
-      "id": "UgwwHUmyMkUo9OBFyh14AaABAg",
-      "author": "@LezGoEat",
-      "author_url": "http://www.youtube.com/@LezGoEat",
-      "text": "I THINK BEST VID YET",
-      "video_id": "NKcD6F1UWvw",
-      "video_title": "I am a Jedi And Im Stuck in the Empire! Star Wars Jedi: Fallen Order-Part 1",
-      "published": "2026-06-02T02:39:18Z",
-      "relative": "5 wks ago",
-      "url": "https://www.youtube.com/watch?v=NKcD6F1UWvw&lc=UgwwHUmyMkUo9OBFyh14AaABAg",
-      "likes": 1
     }
   ]
 }
