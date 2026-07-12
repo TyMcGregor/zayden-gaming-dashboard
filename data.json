@@ -1,45 +1,45 @@
 {
-  "generated_at": "2026-07-10T08:16:37.571111+00:00",
-  "subs": 79,
-  "views": 20315,
-  "video_count": 74,
-  "watch_hours": 670.4,
+  "generated_at": "2026-07-12T07:25:23.013104+00:00",
+  "subs": 80,
+  "views": 20405,
+  "video_count": 76,
+  "watch_hours": 673.4,
   "top_video_id": "gslPV9ohnQY",
-  "top_video_views": 674,
+  "top_video_views": 700,
   "monetization": {
     "shorts_tier": {
       "name": "Shorts Monetization",
-      "subs_pct": 15.8,
-      "subs_current": 79,
+      "subs_pct": 16.0,
+      "subs_current": 80,
       "subs_target": 500,
-      "subs_remaining": 421,
+      "subs_remaining": 420,
       "note": "Also needs 3 million Shorts views in the last 90 days.",
       "unlocked": false
     },
     "full_ypp": {
       "name": "Full Partner Program",
-      "subs_pct": 7.9,
-      "subs_current": 79,
+      "subs_pct": 8.0,
+      "subs_current": 80,
       "subs_target": 1000,
-      "subs_remaining": 921,
+      "subs_remaining": 920,
       "hours_pct": 16.8,
-      "hours_current": 670.4,
+      "hours_current": 673.4,
       "hours_target": 4000,
-      "hours_remaining": 3329.6,
+      "hours_remaining": 3326.6,
       "unlocked": false
     }
   },
   "milestones": {
     "sub_goal": 100,
-    "subs_to_go": 21,
-    "subs_pct": 79.0,
+    "subs_to_go": 20,
+    "subs_pct": 80.0,
     "sub_goal_label": "100",
     "view_goal": 25000,
-    "views_to_go": 4685,
-    "views_pct": 81.3,
+    "views_to_go": 4595,
+    "views_pct": 81.6,
     "view_goal_label": "25K"
   },
-  "pep_talk": "You crushed it with 28 new views this update\u2014keep that momentum going!",
+  "pep_talk": "Your channel got 90 new views since last time\u2014keep making content that keeps people watching!",
   "recent_comments": [
     {
       "id": "UgyIpETMVjvLD3LREMR4AaABAg",
@@ -49,21 +49,9 @@
       "video_id": "vWrbtr5MU0o",
       "video_title": "Upgrading Police Cars to Catch Bad Guys! | BeamNG Drive",
       "published": "2026-07-09T21:16:29Z",
-      "relative": "11 hrs ago",
+      "relative": "2 days ago",
       "url": "https://www.youtube.com/watch?v=vWrbtr5MU0o&lc=UgyIpETMVjvLD3LREMR4AaABAg",
-      "likes": 0
-    },
-    {
-      "id": "UgysiXvxU4Q57KxIvW94AaABAg",
-      "author": "@mrnoyartopro",
-      "author_url": "http://www.youtube.com/@mrnoyartopro",
-      "text": "Hi",
-      "video_id": "NKcD6F1UWvw",
-      "video_title": "I am a Jedi And Im Stuck in the Empire! Star Wars Jedi: Fallen Order-Part 1",
-      "published": "2026-06-19T17:18:33Z",
-      "relative": "2 wks ago",
-      "url": "https://www.youtube.com/watch?v=NKcD6F1UWvw&lc=UgysiXvxU4Q57KxIvW94AaABAg",
-      "likes": 0
+      "likes": 1
     },
     {
       "id": "UgzOMpHbOrWzWoZ4Rqp4AaABAg",
@@ -73,7 +61,7 @@
       "video_id": "Onis9_s-ybE",
       "video_title": "Forza Horizon 6 but it's Extra Edited and Weird?!",
       "published": "2026-06-13T04:03:07Z",
-      "relative": "3 wks ago",
+      "relative": "4 wks ago",
       "url": "https://www.youtube.com/watch?v=Onis9_s-ybE&lc=UgzOMpHbOrWzWoZ4Rqp4AaABAg",
       "likes": 3
     },
