@@ -1,46 +1,70 @@
 {
-  "generated_at": "2026-07-12T07:25:23.013104+00:00",
-  "subs": 80,
-  "views": 20405,
-  "video_count": 76,
-  "watch_hours": 673.4,
+  "generated_at": "2026-07-15T07:09:27.839807+00:00",
+  "subs": 85,
+  "views": 20581,
+  "video_count": 78,
+  "watch_hours": 679.2,
   "top_video_id": "gslPV9ohnQY",
-  "top_video_views": 700,
+  "top_video_views": 757,
   "monetization": {
     "shorts_tier": {
       "name": "Shorts Monetization",
-      "subs_pct": 16.0,
-      "subs_current": 80,
+      "subs_pct": 17.0,
+      "subs_current": 85,
       "subs_target": 500,
-      "subs_remaining": 420,
+      "subs_remaining": 415,
       "note": "Also needs 3 million Shorts views in the last 90 days.",
       "unlocked": false
     },
     "full_ypp": {
       "name": "Full Partner Program",
-      "subs_pct": 8.0,
-      "subs_current": 80,
+      "subs_pct": 8.5,
+      "subs_current": 85,
       "subs_target": 1000,
-      "subs_remaining": 920,
-      "hours_pct": 16.8,
-      "hours_current": 673.4,
+      "subs_remaining": 915,
+      "hours_pct": 17.0,
+      "hours_current": 679.2,
       "hours_target": 4000,
-      "hours_remaining": 3326.6,
+      "hours_remaining": 3320.8,
       "unlocked": false
     }
   },
   "milestones": {
     "sub_goal": 100,
-    "subs_to_go": 20,
-    "subs_pct": 80.0,
+    "subs_to_go": 15,
+    "subs_pct": 85.0,
     "sub_goal_label": "100",
     "view_goal": 25000,
-    "views_to_go": 4595,
-    "views_pct": 81.6,
+    "views_to_go": 4419,
+    "views_pct": 82.3,
     "view_goal_label": "25K"
   },
-  "pep_talk": "Your channel got 90 new views since last time\u2014keep making content that keeps people watching!",
+  "pep_talk": "Your views jumped 176 this update \u2013 keep that momentum going, you're crushing it!",
   "recent_comments": [
+    {
+      "id": "Ugw_REm7MVi0-xiGeEd4AaABAg",
+      "author": "@SkyRyder44",
+      "author_url": "http://www.youtube.com/@SkyRyder44",
+      "text": "\u2764\u2764\u2764\ud83c\udf89\ud83c\udf89\ud83c\udf89\ud83d\ude0a\ud83d\ude0a\ud83d\ude0a\ud83d\ude0a\ud83d\udc8e\ud83d\udc8e\ud83c\udff5\ufe0f\ud83c\udff5\ufe0f\ud83c\udff5\ufe0f\ud83c\udf54\ud83c\udf54\ud83c\udf54\ud83c\udf54\ud83c\udf54\ud83c\udf54\ud83c\udf54\ud83c\udf54\ud83c\udf54\ud83c\udf55\ud83c\udf55\ud83c\udf55\ud83c\udf55\ud83c\udf55\ud83c\udf55\ud83c\udf55\ud83c\udf55\ud83c\udf55",
+      "video_id": "RHjo3Q9bCrk",
+      "video_title": "Braking BeamNG With Mods... Again!",
+      "published": "2026-07-14T18:31:01Z",
+      "relative": "12 hrs ago",
+      "url": "https://www.youtube.com/watch?v=RHjo3Q9bCrk&lc=Ugw_REm7MVi0-xiGeEd4AaABAg",
+      "likes": 0
+    },
+    {
+      "id": "UgyG02quR7DhQ-ifwHh4AaABAg",
+      "author": "@SkyRyder44",
+      "author_url": "http://www.youtube.com/@SkyRyder44",
+      "text": "\u2764\ud83d\udc91\ud83d\ude18\ud83e\udd70\ud83d\ude0d\ud83d\udc91\ud83d\udc91\ud83d\udc91\ud83d\udc91\ud83d\udc91\ud83d\udc91\ud83e\udd70\ud83d\ude0d\ud83d\udc8e",
+      "video_id": "EEzmLuhWXDE",
+      "video_title": "Me And Bryce Broke BeamNG With New Mods!|BeamMP Multiplayer",
+      "published": "2026-07-13T19:41:50Z",
+      "relative": "1 day ago",
+      "url": "https://www.youtube.com/watch?v=EEzmLuhWXDE&lc=UgyG02quR7DhQ-ifwHh4AaABAg",
+      "likes": 2
+    },
     {
       "id": "UgyIpETMVjvLD3LREMR4AaABAg",
       "author": "@Buglordbryce",
@@ -49,45 +73,9 @@
       "video_id": "vWrbtr5MU0o",
       "video_title": "Upgrading Police Cars to Catch Bad Guys! | BeamNG Drive",
       "published": "2026-07-09T21:16:29Z",
-      "relative": "2 days ago",
+      "relative": "5 days ago",
       "url": "https://www.youtube.com/watch?v=vWrbtr5MU0o&lc=UgyIpETMVjvLD3LREMR4AaABAg",
       "likes": 1
-    },
-    {
-      "id": "UgzOMpHbOrWzWoZ4Rqp4AaABAg",
-      "author": "@DetourMaster",
-      "author_url": "http://www.youtube.com/@DetourMaster",
-      "text": "Awesome video and player name IPOTATOLORD sound so funny lol!\ud83d\ude02\ud83d\udcaf+",
-      "video_id": "Onis9_s-ybE",
-      "video_title": "Forza Horizon 6 but it's Extra Edited and Weird?!",
-      "published": "2026-06-13T04:03:07Z",
-      "relative": "4 wks ago",
-      "url": "https://www.youtube.com/watch?v=Onis9_s-ybE&lc=UgzOMpHbOrWzWoZ4Rqp4AaABAg",
-      "likes": 3
-    },
-    {
-      "id": "UgxGvJFx4TS1LKICMbJ4AaABAg",
-      "author": "@EplayerFf",
-      "author_url": "http://www.youtube.com/@EplayerFf",
-      "text": "Amazing video keep it up the Great work!",
-      "video_id": "0J0szaKQROs",
-      "video_title": "This is My New Favorite Game! | Forza Horizon 6",
-      "published": "2026-06-08T12:31:18Z",
-      "relative": "4 wks ago",
-      "url": "https://www.youtube.com/watch?v=0J0szaKQROs&lc=UgxGvJFx4TS1LKICMbJ4AaABAg",
-      "likes": 3
-    },
-    {
-      "id": "UgzjXtGwoGigfuczcMl4AaABAg",
-      "author": "@DetourMaster",
-      "author_url": "http://www.youtube.com/@DetourMaster",
-      "text": "Yay New Forza horizon 6 new game video and love your video so much!",
-      "video_id": "0J0szaKQROs",
-      "video_title": "This is My New Favorite Game! | Forza Horizon 6",
-      "published": "2026-06-08T12:29:49Z",
-      "relative": "4 wks ago",
-      "url": "https://www.youtube.com/watch?v=0J0szaKQROs&lc=UgzjXtGwoGigfuczcMl4AaABAg",
-      "likes": 2
     }
   ]
 }
