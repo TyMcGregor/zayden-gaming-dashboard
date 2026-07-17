@@ -1,46 +1,58 @@
 {
-  "generated_at": "2026-07-15T07:09:27.839807+00:00",
-  "subs": 85,
-  "views": 20581,
+  "generated_at": "2026-07-17T07:12:13.979481+00:00",
+  "subs": 87,
+  "views": 20707,
   "video_count": 78,
-  "watch_hours": 679.2,
+  "watch_hours": 683.3,
   "top_video_id": "gslPV9ohnQY",
-  "top_video_views": 757,
+  "top_video_views": 763,
   "monetization": {
     "shorts_tier": {
       "name": "Shorts Monetization",
-      "subs_pct": 17.0,
-      "subs_current": 85,
+      "subs_pct": 17.4,
+      "subs_current": 87,
       "subs_target": 500,
-      "subs_remaining": 415,
+      "subs_remaining": 413,
       "note": "Also needs 3 million Shorts views in the last 90 days.",
       "unlocked": false
     },
     "full_ypp": {
       "name": "Full Partner Program",
-      "subs_pct": 8.5,
-      "subs_current": 85,
+      "subs_pct": 8.7,
+      "subs_current": 87,
       "subs_target": 1000,
-      "subs_remaining": 915,
-      "hours_pct": 17.0,
-      "hours_current": 679.2,
+      "subs_remaining": 913,
+      "hours_pct": 17.1,
+      "hours_current": 683.3,
       "hours_target": 4000,
-      "hours_remaining": 3320.8,
+      "hours_remaining": 3316.7,
       "unlocked": false
     }
   },
   "milestones": {
     "sub_goal": 100,
-    "subs_to_go": 15,
-    "subs_pct": 85.0,
+    "subs_to_go": 13,
+    "subs_pct": 87.0,
     "sub_goal_label": "100",
     "view_goal": 25000,
-    "views_to_go": 4419,
-    "views_pct": 82.3,
+    "views_to_go": 4293,
+    "views_pct": 82.8,
     "view_goal_label": "25K"
   },
-  "pep_talk": "Your views jumped 176 this update \u2013 keep that momentum going, you're crushing it!",
+  "pep_talk": "Your views jumped 126 this week, Zayden \u2013 keep making content that hooks people like that!",
   "recent_comments": [
+    {
+      "id": "UgzKO7vbAzsRxgXbASd4AaABAg",
+      "author": "@DetourMaster",
+      "author_url": "http://www.youtube.com/@DetourMaster",
+      "text": "I'm back sorry i was never commented for month because why i was busy\ud83d\ude22 and enjoyed the beamng drive video zaydengaming!\ud83d\udcaf+",
+      "video_id": "RHjo3Q9bCrk",
+      "video_title": "Braking BeamNG With Mods... Again!",
+      "published": "2026-07-15T12:03:05Z",
+      "relative": "1 day ago",
+      "url": "https://www.youtube.com/watch?v=RHjo3Q9bCrk&lc=UgzKO7vbAzsRxgXbASd4AaABAg",
+      "likes": 1
+    },
     {
       "id": "Ugw_REm7MVi0-xiGeEd4AaABAg",
       "author": "@SkyRyder44",
@@ -49,7 +61,7 @@
       "video_id": "RHjo3Q9bCrk",
       "video_title": "Braking BeamNG With Mods... Again!",
       "published": "2026-07-14T18:31:01Z",
-      "relative": "12 hrs ago",
+      "relative": "2 days ago",
       "url": "https://www.youtube.com/watch?v=RHjo3Q9bCrk&lc=Ugw_REm7MVi0-xiGeEd4AaABAg",
       "likes": 0
     },
@@ -61,7 +73,7 @@
       "video_id": "EEzmLuhWXDE",
       "video_title": "Me And Bryce Broke BeamNG With New Mods!|BeamMP Multiplayer",
       "published": "2026-07-13T19:41:50Z",
-      "relative": "1 day ago",
+      "relative": "3 days ago",
       "url": "https://www.youtube.com/watch?v=EEzmLuhWXDE&lc=UgyG02quR7DhQ-ifwHh4AaABAg",
       "likes": 2
     },
@@ -73,7 +85,7 @@
       "video_id": "vWrbtr5MU0o",
       "video_title": "Upgrading Police Cars to Catch Bad Guys! | BeamNG Drive",
       "published": "2026-07-09T21:16:29Z",
-      "relative": "5 days ago",
+      "relative": "7 days ago",
       "url": "https://www.youtube.com/watch?v=vWrbtr5MU0o&lc=UgyIpETMVjvLD3LREMR4AaABAg",
       "likes": 1
     }
