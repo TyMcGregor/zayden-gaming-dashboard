@@ -1,57 +1,81 @@
 {
-  "generated_at": "2026-07-19T07:23:31.910774+00:00",
-  "subs": 87,
-  "views": 20814,
-  "video_count": 78,
-  "watch_hours": 686.9,
+  "generated_at": "2026-07-22T07:30:38.347347+00:00",
+  "subs": 88,
+  "views": 21087,
+  "video_count": 79,
+  "watch_hours": 695.9,
   "top_video_id": "gslPV9ohnQY",
   "top_video_views": 764,
   "monetization": {
     "shorts_tier": {
       "name": "Shorts Monetization",
-      "subs_pct": 17.4,
-      "subs_current": 87,
+      "subs_pct": 17.6,
+      "subs_current": 88,
       "subs_target": 500,
-      "subs_remaining": 413,
+      "subs_remaining": 412,
       "note": "Also needs 3 million Shorts views in the last 90 days.",
       "unlocked": false
     },
     "full_ypp": {
       "name": "Full Partner Program",
-      "subs_pct": 8.7,
-      "subs_current": 87,
+      "subs_pct": 8.8,
+      "subs_current": 88,
       "subs_target": 1000,
-      "subs_remaining": 913,
-      "hours_pct": 17.2,
-      "hours_current": 686.9,
+      "subs_remaining": 912,
+      "hours_pct": 17.4,
+      "hours_current": 695.9,
       "hours_target": 4000,
-      "hours_remaining": 3313.1,
+      "hours_remaining": 3304.1,
       "unlocked": false
     }
   },
   "milestones": {
     "sub_goal": 100,
-    "subs_to_go": 13,
-    "subs_pct": 87.0,
+    "subs_to_go": 12,
+    "subs_pct": 88.0,
     "sub_goal_label": "100",
     "view_goal": 25000,
-    "views_to_go": 4186,
-    "views_pct": 83.3,
+    "views_to_go": 3913,
+    "views_pct": 84.3,
     "view_goal_label": "25K"
   },
-  "pep_talk": "Your channel gained 107 views since last time \u2013 keep creating awesome content and you'll hit 100 subscribers soon!",
+  "pep_talk": "You crushed it with 273 new views this week\u2014keep that momentum rolling toward 100 subscribers!",
   "recent_comments": [
     {
-      "id": "UgzKO7vbAzsRxgXbASd4AaABAg",
-      "author": "@DetourMaster",
-      "author_url": "http://www.youtube.com/@DetourMaster",
-      "text": "I'm back sorry i was never commented for month because why i was busy\ud83d\ude22 and enjoyed the beamng drive video zaydengaming!\ud83d\udcaf+",
-      "video_id": "RHjo3Q9bCrk",
-      "video_title": "Braking BeamNG With Mods... Again!",
-      "published": "2026-07-15T12:03:05Z",
-      "relative": "3 days ago",
-      "url": "https://www.youtube.com/watch?v=RHjo3Q9bCrk&lc=UgzKO7vbAzsRxgXbASd4AaABAg",
-      "likes": 1
+      "id": "UgxoUj_Md4OeqBdcLwd4AaABAg",
+      "author": "@WalkerLowe-j1i",
+      "author_url": "http://www.youtube.com/@WalkerLowe-j1i",
+      "text": "Gotta say you\u2019re pretty good at editing videos!",
+      "video_id": "K5Y_qAqAWyo",
+      "video_title": "I Invented a Awesome New Tank!",
+      "published": "2026-07-21T02:02:34Z",
+      "relative": "1 day ago",
+      "url": "https://www.youtube.com/watch?v=K5Y_qAqAWyo&lc=UgxoUj_Md4OeqBdcLwd4AaABAg",
+      "likes": 0
+    },
+    {
+      "id": "Ugy9hIwSRQ_CQjaNBzx4AaABAg",
+      "author": "@WalkerLowe-j1i",
+      "author_url": "http://www.youtube.com/@WalkerLowe-j1i",
+      "text": "Hey dude it\u2019s me I\u2019m Roboeagle 1221 and I made the legs for that mech that your pal built and sorry for saying that dumb thing about how smart ya are\u2026I just was kinda acting like\u2026",
+      "video_id": "K5Y_qAqAWyo",
+      "video_title": "I Invented a Awesome New Tank!",
+      "published": "2026-07-21T02:00:14Z",
+      "relative": "1 day ago",
+      "url": "https://www.youtube.com/watch?v=K5Y_qAqAWyo&lc=Ugy9hIwSRQ_CQjaNBzx4AaABAg",
+      "likes": 0
+    },
+    {
+      "id": "UgxOnM0UCr1uRJIN5q14AaABAg",
+      "author": "@Buglordbryce",
+      "author_url": "http://www.youtube.com/@Buglordbryce",
+      "text": "So.. oops.. Roboeagle1221 (which can be seen in game) did not mean to call the intelligence of you Zayden..",
+      "video_id": "K5Y_qAqAWyo",
+      "video_title": "I Invented a Awesome New Tank!",
+      "published": "2026-07-21T02:00:01Z",
+      "relative": "1 day ago",
+      "url": "https://www.youtube.com/watch?v=K5Y_qAqAWyo&lc=UgxOnM0UCr1uRJIN5q14AaABAg",
+      "likes": 0
     },
     {
       "id": "Ugw_REm7MVi0-xiGeEd4AaABAg",
@@ -61,7 +85,7 @@
       "video_id": "RHjo3Q9bCrk",
       "video_title": "Braking BeamNG With Mods... Again!",
       "published": "2026-07-14T18:31:01Z",
-      "relative": "4 days ago",
+      "relative": "7 days ago",
       "url": "https://www.youtube.com/watch?v=RHjo3Q9bCrk&lc=Ugw_REm7MVi0-xiGeEd4AaABAg",
       "likes": 0
     },
@@ -73,21 +97,9 @@
       "video_id": "EEzmLuhWXDE",
       "video_title": "Me And Bryce Broke BeamNG With New Mods!|BeamMP Multiplayer",
       "published": "2026-07-13T19:41:50Z",
-      "relative": "5 days ago",
+      "relative": "8 days ago",
       "url": "https://www.youtube.com/watch?v=EEzmLuhWXDE&lc=UgyG02quR7DhQ-ifwHh4AaABAg",
       "likes": 2
-    },
-    {
-      "id": "UgyIpETMVjvLD3LREMR4AaABAg",
-      "author": "@Buglordbryce",
-      "author_url": "http://www.youtube.com/@Buglordbryce",
-      "text": "I truly dare you for a next video, install every plane mod (or that you can find) and make a video about them (testing)",
-      "video_id": "vWrbtr5MU0o",
-      "video_title": "Upgrading Police Cars to Catch Bad Guys! | BeamNG Drive",
-      "published": "2026-07-09T21:16:29Z",
-      "relative": "9 days ago",
-      "url": "https://www.youtube.com/watch?v=vWrbtr5MU0o&lc=UgyIpETMVjvLD3LREMR4AaABAg",
-      "likes": 1
     }
   ]
 }
