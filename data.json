@@ -1,45 +1,45 @@
 {
-  "generated_at": "2026-07-24T07:27:05.899985+00:00",
-  "subs": 91,
-  "views": 21216,
-  "video_count": 79,
-  "watch_hours": 700.1,
+  "generated_at": "2026-07-26T07:32:10.286187+00:00",
+  "subs": 92,
+  "views": 21346,
+  "video_count": 80,
+  "watch_hours": 704.4,
   "top_video_id": "gslPV9ohnQY",
   "top_video_views": 764,
   "monetization": {
     "shorts_tier": {
       "name": "Shorts Monetization",
-      "subs_pct": 18.2,
-      "subs_current": 91,
+      "subs_pct": 18.4,
+      "subs_current": 92,
       "subs_target": 500,
-      "subs_remaining": 409,
+      "subs_remaining": 408,
       "note": "Also needs 3 million Shorts views in the last 90 days.",
       "unlocked": false
     },
     "full_ypp": {
       "name": "Full Partner Program",
-      "subs_pct": 9.1,
-      "subs_current": 91,
+      "subs_pct": 9.2,
+      "subs_current": 92,
       "subs_target": 1000,
-      "subs_remaining": 909,
-      "hours_pct": 17.5,
-      "hours_current": 700.1,
+      "subs_remaining": 908,
+      "hours_pct": 17.6,
+      "hours_current": 704.4,
       "hours_target": 4000,
-      "hours_remaining": 3299.9,
+      "hours_remaining": 3295.6,
       "unlocked": false
     }
   },
   "milestones": {
     "sub_goal": 100,
-    "subs_to_go": 9,
-    "subs_pct": 91.0,
+    "subs_to_go": 8,
+    "subs_pct": 92.0,
     "sub_goal_label": "100",
     "view_goal": 25000,
-    "views_to_go": 3784,
-    "views_pct": 84.9,
+    "views_to_go": 3654,
+    "views_pct": 85.4,
     "view_goal_label": "25K"
   },
-  "pep_talk": "Your channel gained 129 views since last time\u2014keep creating awesome content and you'll hit 100 subscribers soon!",
+  "pep_talk": "Your channel just hit 21,346 total views with 130 new ones \u2013 that's solid momentum building!",
   "recent_comments": [
     {
       "id": "Ugw9DTQKFBoStuPnMfx4AaABAg",
@@ -49,9 +49,9 @@
       "video_id": "K5Y_qAqAWyo",
       "video_title": "I Invented a Awesome New Tank!",
       "published": "2026-07-23T14:33:33Z",
-      "relative": "16 hrs ago",
+      "relative": "2 days ago",
       "url": "https://www.youtube.com/watch?v=K5Y_qAqAWyo&lc=Ugw9DTQKFBoStuPnMfx4AaABAg",
-      "likes": 0
+      "likes": 1
     },
     {
       "id": "UgxoUj_Md4OeqBdcLwd4AaABAg",
@@ -61,9 +61,9 @@
       "video_id": "K5Y_qAqAWyo",
       "video_title": "I Invented a Awesome New Tank!",
       "published": "2026-07-21T02:02:34Z",
-      "relative": "3 days ago",
+      "relative": "5 days ago",
       "url": "https://www.youtube.com/watch?v=K5Y_qAqAWyo&lc=UgxoUj_Md4OeqBdcLwd4AaABAg",
-      "likes": 0
+      "likes": 1
     },
     {
       "id": "Ugy9hIwSRQ_CQjaNBzx4AaABAg",
@@ -73,9 +73,9 @@
       "video_id": "K5Y_qAqAWyo",
       "video_title": "I Invented a Awesome New Tank!",
       "published": "2026-07-21T02:00:14Z",
-      "relative": "3 days ago",
+      "relative": "5 days ago",
       "url": "https://www.youtube.com/watch?v=K5Y_qAqAWyo&lc=Ugy9hIwSRQ_CQjaNBzx4AaABAg",
-      "likes": 0
+      "likes": 1
     },
     {
       "id": "UgxOnM0UCr1uRJIN5q14AaABAg",
@@ -85,9 +85,9 @@
       "video_id": "K5Y_qAqAWyo",
       "video_title": "I Invented a Awesome New Tank!",
       "published": "2026-07-21T02:00:01Z",
-      "relative": "3 days ago",
+      "relative": "5 days ago",
       "url": "https://www.youtube.com/watch?v=K5Y_qAqAWyo&lc=UgxOnM0UCr1uRJIN5q14AaABAg",
-      "likes": 0
+      "likes": 1
     },
     {
       "id": "Ugw_REm7MVi0-xiGeEd4AaABAg",
@@ -97,7 +97,7 @@
       "video_id": "RHjo3Q9bCrk",
       "video_title": "Braking BeamNG With Mods... Again!",
       "published": "2026-07-14T18:31:01Z",
-      "relative": "9 days ago",
+      "relative": "11 days ago",
       "url": "https://www.youtube.com/watch?v=RHjo3Q9bCrk&lc=Ugw_REm7MVi0-xiGeEd4AaABAg",
       "likes": 0
     }
