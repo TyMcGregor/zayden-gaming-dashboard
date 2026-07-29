@@ -1,46 +1,70 @@
 {
-  "generated_at": "2026-07-26T07:32:10.286187+00:00",
-  "subs": 92,
-  "views": 21346,
+  "generated_at": "2026-07-29T07:38:40.788456+00:00",
+  "subs": 93,
+  "views": 21570,
   "video_count": 80,
-  "watch_hours": 704.4,
+  "watch_hours": 711.8,
   "top_video_id": "gslPV9ohnQY",
-  "top_video_views": 764,
+  "top_video_views": 770,
   "monetization": {
     "shorts_tier": {
       "name": "Shorts Monetization",
-      "subs_pct": 18.4,
-      "subs_current": 92,
+      "subs_pct": 18.6,
+      "subs_current": 93,
       "subs_target": 500,
-      "subs_remaining": 408,
+      "subs_remaining": 407,
       "note": "Also needs 3 million Shorts views in the last 90 days.",
       "unlocked": false
     },
     "full_ypp": {
       "name": "Full Partner Program",
-      "subs_pct": 9.2,
-      "subs_current": 92,
+      "subs_pct": 9.3,
+      "subs_current": 93,
       "subs_target": 1000,
-      "subs_remaining": 908,
-      "hours_pct": 17.6,
-      "hours_current": 704.4,
+      "subs_remaining": 907,
+      "hours_pct": 17.8,
+      "hours_current": 711.8,
       "hours_target": 4000,
-      "hours_remaining": 3295.6,
+      "hours_remaining": 3288.2,
       "unlocked": false
     }
   },
   "milestones": {
     "sub_goal": 100,
-    "subs_to_go": 8,
-    "subs_pct": 92.0,
+    "subs_to_go": 7,
+    "subs_pct": 93.0,
     "sub_goal_label": "100",
     "view_goal": 25000,
-    "views_to_go": 3654,
-    "views_pct": 85.4,
+    "views_to_go": 3430,
+    "views_pct": 86.3,
     "view_goal_label": "25K"
   },
-  "pep_talk": "Your channel just hit 21,346 total views with 130 new ones \u2013 that's solid momentum building!",
+  "pep_talk": "You're crushing it with 224 new views and 7.4 more watch hours\u2014keep this momentum going!",
   "recent_comments": [
+    {
+      "id": "UgzElYmFlo-dAe6TcFV4AaABAg",
+      "author": "@SpicyRamen_901",
+      "author_url": "http://www.youtube.com/@SpicyRamen_901",
+      "text": "yo bro u quit tsb?",
+      "video_id": "XUJoIThNNhc",
+      "video_title": "I Got Hunted by 2 Imposters in Among Us!?",
+      "published": "2026-07-28T08:11:26Z",
+      "relative": "23 hrs ago",
+      "url": "https://www.youtube.com/watch?v=XUJoIThNNhc&lc=UgzElYmFlo-dAe6TcFV4AaABAg",
+      "likes": 1
+    },
+    {
+      "id": "UgzjGIUbmtZZXLZF2M14AaABAg",
+      "author": "@DetourMaster",
+      "author_url": "http://www.youtube.com/@DetourMaster",
+      "text": "Nice among us video zaydengaming!\ud83d\udcaf+",
+      "video_id": "XUJoIThNNhc",
+      "video_title": "I Got Hunted by 2 Imposters in Among Us!?",
+      "published": "2026-07-27T11:47:02Z",
+      "relative": "1 day ago",
+      "url": "https://www.youtube.com/watch?v=XUJoIThNNhc&lc=UgzjGIUbmtZZXLZF2M14AaABAg",
+      "likes": 2
+    },
     {
       "id": "Ugw9DTQKFBoStuPnMfx4AaABAg",
       "author": "@JackyHumStories-g3c",
@@ -49,7 +73,7 @@
       "video_id": "K5Y_qAqAWyo",
       "video_title": "I Invented a Awesome New Tank!",
       "published": "2026-07-23T14:33:33Z",
-      "relative": "2 days ago",
+      "relative": "5 days ago",
       "url": "https://www.youtube.com/watch?v=K5Y_qAqAWyo&lc=Ugw9DTQKFBoStuPnMfx4AaABAg",
       "likes": 1
     },
@@ -61,7 +85,7 @@
       "video_id": "K5Y_qAqAWyo",
       "video_title": "I Invented a Awesome New Tank!",
       "published": "2026-07-21T02:02:34Z",
-      "relative": "5 days ago",
+      "relative": "8 days ago",
       "url": "https://www.youtube.com/watch?v=K5Y_qAqAWyo&lc=UgxoUj_Md4OeqBdcLwd4AaABAg",
       "likes": 1
     },
@@ -73,33 +97,9 @@
       "video_id": "K5Y_qAqAWyo",
       "video_title": "I Invented a Awesome New Tank!",
       "published": "2026-07-21T02:00:14Z",
-      "relative": "5 days ago",
+      "relative": "8 days ago",
       "url": "https://www.youtube.com/watch?v=K5Y_qAqAWyo&lc=Ugy9hIwSRQ_CQjaNBzx4AaABAg",
       "likes": 1
-    },
-    {
-      "id": "UgxOnM0UCr1uRJIN5q14AaABAg",
-      "author": "@Buglordbryce",
-      "author_url": "http://www.youtube.com/@Buglordbryce",
-      "text": "So.. oops.. Roboeagle1221 (which can be seen in game) did not mean to call the intelligence of you Zayden..",
-      "video_id": "K5Y_qAqAWyo",
-      "video_title": "I Invented a Awesome New Tank!",
-      "published": "2026-07-21T02:00:01Z",
-      "relative": "5 days ago",
-      "url": "https://www.youtube.com/watch?v=K5Y_qAqAWyo&lc=UgxOnM0UCr1uRJIN5q14AaABAg",
-      "likes": 1
-    },
-    {
-      "id": "Ugw_REm7MVi0-xiGeEd4AaABAg",
-      "author": "@SkyRyder44",
-      "author_url": "http://www.youtube.com/@SkyRyder44",
-      "text": "\u2764\u2764\u2764\ud83c\udf89\ud83c\udf89\ud83c\udf89\ud83d\ude0a\ud83d\ude0a\ud83d\ude0a\ud83d\ude0a\ud83d\udc8e\ud83d\udc8e\ud83c\udff5\ufe0f\ud83c\udff5\ufe0f\ud83c\udff5\ufe0f\ud83c\udf54\ud83c\udf54\ud83c\udf54\ud83c\udf54\ud83c\udf54\ud83c\udf54\ud83c\udf54\ud83c\udf54\ud83c\udf54\ud83c\udf55\ud83c\udf55\ud83c\udf55\ud83c\udf55\ud83c\udf55\ud83c\udf55\ud83c\udf55\ud83c\udf55\ud83c\udf55",
-      "video_id": "RHjo3Q9bCrk",
-      "video_title": "Braking BeamNG With Mods... Again!",
-      "published": "2026-07-14T18:31:01Z",
-      "relative": "11 days ago",
-      "url": "https://www.youtube.com/watch?v=RHjo3Q9bCrk&lc=Ugw_REm7MVi0-xiGeEd4AaABAg",
-      "likes": 0
     }
   ]
 }
