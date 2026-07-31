@@ -1,45 +1,45 @@
 {
-  "generated_at": "2026-07-29T07:38:40.788456+00:00",
-  "subs": 93,
-  "views": 21570,
+  "generated_at": "2026-07-31T07:45:54.625055+00:00",
+  "subs": 95,
+  "views": 21668,
   "video_count": 80,
-  "watch_hours": 711.8,
+  "watch_hours": 715.0,
   "top_video_id": "gslPV9ohnQY",
-  "top_video_views": 770,
+  "top_video_views": 783,
   "monetization": {
     "shorts_tier": {
       "name": "Shorts Monetization",
-      "subs_pct": 18.6,
-      "subs_current": 93,
+      "subs_pct": 19.0,
+      "subs_current": 95,
       "subs_target": 500,
-      "subs_remaining": 407,
+      "subs_remaining": 405,
       "note": "Also needs 3 million Shorts views in the last 90 days.",
       "unlocked": false
     },
     "full_ypp": {
       "name": "Full Partner Program",
-      "subs_pct": 9.3,
-      "subs_current": 93,
+      "subs_pct": 9.5,
+      "subs_current": 95,
       "subs_target": 1000,
-      "subs_remaining": 907,
-      "hours_pct": 17.8,
-      "hours_current": 711.8,
+      "subs_remaining": 905,
+      "hours_pct": 17.9,
+      "hours_current": 715.0,
       "hours_target": 4000,
-      "hours_remaining": 3288.2,
+      "hours_remaining": 3285.0,
       "unlocked": false
     }
   },
   "milestones": {
     "sub_goal": 100,
-    "subs_to_go": 7,
-    "subs_pct": 93.0,
+    "subs_to_go": 5,
+    "subs_pct": 95.0,
     "sub_goal_label": "100",
     "view_goal": 25000,
-    "views_to_go": 3430,
-    "views_pct": 86.3,
+    "views_to_go": 3332,
+    "views_pct": 86.7,
     "view_goal_label": "25K"
   },
-  "pep_talk": "You're crushing it with 224 new views and 7.4 more watch hours\u2014keep this momentum going!",
+  "pep_talk": "Your channel just gained 98 views\u2014you're crushing it and getting closer to 100 subscribers!",
   "recent_comments": [
     {
       "id": "UgzElYmFlo-dAe6TcFV4AaABAg",
@@ -49,7 +49,7 @@
       "video_id": "XUJoIThNNhc",
       "video_title": "I Got Hunted by 2 Imposters in Among Us!?",
       "published": "2026-07-28T08:11:26Z",
-      "relative": "23 hrs ago",
+      "relative": "2 days ago",
       "url": "https://www.youtube.com/watch?v=XUJoIThNNhc&lc=UgzElYmFlo-dAe6TcFV4AaABAg",
       "likes": 1
     },
@@ -61,7 +61,7 @@
       "video_id": "XUJoIThNNhc",
       "video_title": "I Got Hunted by 2 Imposters in Among Us!?",
       "published": "2026-07-27T11:47:02Z",
-      "relative": "1 day ago",
+      "relative": "3 days ago",
       "url": "https://www.youtube.com/watch?v=XUJoIThNNhc&lc=UgzjGIUbmtZZXLZF2M14AaABAg",
       "likes": 2
     },
@@ -73,7 +73,7 @@
       "video_id": "K5Y_qAqAWyo",
       "video_title": "I Invented a Awesome New Tank!",
       "published": "2026-07-23T14:33:33Z",
-      "relative": "5 days ago",
+      "relative": "7 days ago",
       "url": "https://www.youtube.com/watch?v=K5Y_qAqAWyo&lc=Ugw9DTQKFBoStuPnMfx4AaABAg",
       "likes": 1
     },
@@ -85,7 +85,7 @@
       "video_id": "K5Y_qAqAWyo",
       "video_title": "I Invented a Awesome New Tank!",
       "published": "2026-07-21T02:02:34Z",
-      "relative": "8 days ago",
+      "relative": "10 days ago",
       "url": "https://www.youtube.com/watch?v=K5Y_qAqAWyo&lc=UgxoUj_Md4OeqBdcLwd4AaABAg",
       "likes": 1
     },
@@ -97,7 +97,7 @@
       "video_id": "K5Y_qAqAWyo",
       "video_title": "I Invented a Awesome New Tank!",
       "published": "2026-07-21T02:00:14Z",
-      "relative": "8 days ago",
+      "relative": "10 days ago",
       "url": "https://www.youtube.com/watch?v=K5Y_qAqAWyo&lc=Ugy9hIwSRQ_CQjaNBzx4AaABAg",
       "likes": 1
     }
