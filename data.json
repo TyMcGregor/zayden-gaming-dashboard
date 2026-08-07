@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-05T07:34:05.741167+00:00",
+  "generated_at": "2026-08-07T06:06:04.394435+00:00",
   "subs": 95,
-  "views": 21822,
+  "views": 21873,
   "video_count": 82,
-  "watch_hours": 720.1,
+  "watch_hours": 721.8,
   "top_video_id": "gslPV9ohnQY",
-  "top_video_views": 791,
+  "top_video_views": 796,
   "monetization": {
     "shorts_tier": {
       "name": "Shorts Monetization",
@@ -23,9 +23,9 @@
       "subs_target": 1000,
       "subs_remaining": 905,
       "hours_pct": 18.0,
-      "hours_current": 720.1,
+      "hours_current": 721.8,
       "hours_target": 4000,
-      "hours_remaining": 3279.9,
+      "hours_remaining": 3278.2,
       "unlocked": false
     }
   },
@@ -35,11 +35,11 @@
     "subs_pct": 95.0,
     "sub_goal_label": "100",
     "view_goal": 25000,
-    "views_to_go": 3178,
-    "views_pct": 87.3,
+    "views_to_go": 3127,
+    "views_pct": 87.5,
     "view_goal_label": "25K"
   },
-  "pep_talk": "Your channel gained 105 views this update\u2014keep uploading and you'll hit that 100 subscriber milestone soon!",
+  "pep_talk": "Your channel gained 51 views since last time\u2014keep uploading great content and you'll hit 100 subscribers soon!",
   "recent_comments": [
     {
       "id": "UgxYwo71SH_-78X84oB4AaABAg",
@@ -49,7 +49,7 @@
       "video_id": "LCgMHmIUwtE",
       "video_title": "I Was an Imposter For 2 Minutes in Among Us!?",
       "published": "2026-08-05T02:09:11Z",
-      "relative": "5 hrs ago",
+      "relative": "2 days ago",
       "url": "https://www.youtube.com/watch?v=LCgMHmIUwtE&lc=UgxYwo71SH_-78X84oB4AaABAg",
       "likes": 2
     },
@@ -61,7 +61,7 @@
       "video_id": "m62nUq115Yw",
       "video_title": "I Built a Jet In Trailmakers!",
       "published": "2026-08-03T23:51:08Z",
-      "relative": "1 day ago",
+      "relative": "3 days ago",
       "url": "https://www.youtube.com/watch?v=m62nUq115Yw&lc=Ugz8qNHMQGwiXW7xRe54AaABAg",
       "likes": 2
     },
@@ -73,7 +73,7 @@
       "video_id": "EEzmLuhWXDE",
       "video_title": "Me And Bryce Broke BeamNG With New Mods!|BeamMP Multiplayer",
       "published": "2026-08-03T02:21:13Z",
-      "relative": "2 days ago",
+      "relative": "4 days ago",
       "url": "https://www.youtube.com/watch?v=EEzmLuhWXDE&lc=UgyK6-_mXlfjCEbzsZV4AaABAg",
       "likes": 1
     },
@@ -85,7 +85,7 @@
       "video_id": "EEzmLuhWXDE",
       "video_title": "Me And Bryce Broke BeamNG With New Mods!|BeamMP Multiplayer",
       "published": "2026-08-03T02:20:25Z",
-      "relative": "2 days ago",
+      "relative": "4 days ago",
       "url": "https://www.youtube.com/watch?v=EEzmLuhWXDE&lc=Ugynuqe4uSKpoPU3YJ14AaABAg",
       "likes": 1
     },
@@ -97,7 +97,7 @@
       "video_id": "XUJoIThNNhc",
       "video_title": "I Got Hunted by 2 Imposters in Among Us!?",
       "published": "2026-07-28T08:11:26Z",
-      "relative": "7 days ago",
+      "relative": "9 days ago",
       "url": "https://www.youtube.com/watch?v=XUJoIThNNhc&lc=UgzElYmFlo-dAe6TcFV4AaABAg",
       "likes": 1
     }
