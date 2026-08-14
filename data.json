@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-12T06:07:56.804114+00:00",
+  "generated_at": "2026-08-14T06:07:58.386378+00:00",
   "subs": 100,
-  "views": 23673,
-  "video_count": 85,
-  "watch_hours": 781.2,
+  "views": 23798,
+  "video_count": 87,
+  "watch_hours": 785.3,
   "top_video_id": "XjQpRivJprc",
-  "top_video_views": 952,
+  "top_video_views": 965,
   "monetization": {
     "shorts_tier": {
       "name": "Shorts Monetization",
@@ -22,10 +22,10 @@
       "subs_current": 100,
       "subs_target": 1000,
       "subs_remaining": 900,
-      "hours_pct": 19.5,
-      "hours_current": 781.2,
+      "hours_pct": 19.6,
+      "hours_current": 785.3,
       "hours_target": 4000,
-      "hours_remaining": 3218.8,
+      "hours_remaining": 3214.7,
       "unlocked": false
     }
   },
@@ -35,12 +35,24 @@
     "subs_pct": 40.0,
     "sub_goal_label": "250",
     "view_goal": 25000,
-    "views_to_go": 1327,
-    "views_pct": 94.7,
+    "views_to_go": 1202,
+    "views_pct": 95.2,
     "view_goal_label": "25K"
   },
-  "pep_talk": "Your watch hours jumped 57.1 hours\u2014that's huge engagement, Zayden, keep that awesome content coming!",
+  "pep_talk": "You just gained 125 views since last time \u2014 keep uploading and watch your channel grow!",
   "recent_comments": [
+    {
+      "id": "UgzfA0zCbsfyOH8L-cx4AaABAg",
+      "author": "@DetourMaster",
+      "author_url": "http://www.youtube.com/@DetourMaster",
+      "text": "That awesome space ship you build zaydengaming in house flipper 2 game\ud83d\ude04",
+      "video_id": "ZwCvsbs3qpo",
+      "video_title": "I Built a Space Ship House In House Flipper 2!",
+      "published": "2026-08-14T02:55:11Z",
+      "relative": "3 hrs ago",
+      "url": "https://www.youtube.com/watch?v=ZwCvsbs3qpo&lc=UgzfA0zCbsfyOH8L-cx4AaABAg",
+      "likes": 2
+    },
     {
       "id": "UgyPHZ8QsCOVMqdUXXR4AaABAg",
       "author": "@AvocadosDe-Mexicos",
@@ -49,7 +61,7 @@
       "video_id": "MIU7YcMylzE",
       "video_title": "Two Best Friends Build a Tank and Battled in Trailmakers!",
       "published": "2026-08-12T05:27:49Z",
-      "relative": "40 min ago",
+      "relative": "2 days ago",
       "url": "https://www.youtube.com/watch?v=MIU7YcMylzE&lc=UgyPHZ8QsCOVMqdUXXR4AaABAg",
       "likes": 0
     },
@@ -61,7 +73,7 @@
       "video_id": "MIU7YcMylzE",
       "video_title": "Two Best Friends Build a Tank and Battled in Trailmakers!",
       "published": "2026-08-12T02:40:14Z",
-      "relative": "3 hrs ago",
+      "relative": "2 days ago",
       "url": "https://www.youtube.com/watch?v=MIU7YcMylzE&lc=UgzMNK62B3Exhwu504p4AaABAg",
       "likes": 0
     },
@@ -73,7 +85,7 @@
       "video_id": "MIU7YcMylzE",
       "video_title": "Two Best Friends Build a Tank and Battled in Trailmakers!",
       "published": "2026-08-11T12:44:35Z",
-      "relative": "17 hrs ago",
+      "relative": "2 days ago",
       "url": "https://www.youtube.com/watch?v=MIU7YcMylzE&lc=Ugzg9QzVyHjmLpK-VqN4AaABAg",
       "likes": 2
     },
@@ -85,20 +97,8 @@
       "video_id": "spaO7CXatns",
       "video_title": "I broke BeamMP with my jet car!\ufffc\ufffc",
       "published": "2026-08-10T05:54:42Z",
-      "relative": "2 days ago",
+      "relative": "4 days ago",
       "url": "https://www.youtube.com/watch?v=spaO7CXatns&lc=UgyTU8EPTTcV6EtZtip4AaABAg",
-      "likes": 2
-    },
-    {
-      "id": "UgwsvRG2EHch9eosR-d4AaABAg",
-      "author": "@DetourMaster",
-      "author_url": "http://www.youtube.com/@DetourMaster",
-      "text": "Awesome trailmakers video with bryce friend & keep up the nice work\ud83d\udcaf+",
-      "video_id": "MIU7YcMylzE",
-      "video_title": "Two Best Friends Build a Tank and Battled in Trailmakers!",
-      "published": "2026-08-10T05:53:02Z",
-      "relative": "2 days ago",
-      "url": "https://www.youtube.com/watch?v=MIU7YcMylzE&lc=UgwsvRG2EHch9eosR-d4AaABAg",
       "likes": 2
     }
   ]
