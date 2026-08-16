@@ -1,46 +1,58 @@
 {
-  "generated_at": "2026-08-14T06:07:58.386378+00:00",
-  "subs": 100,
-  "views": 23798,
+  "generated_at": "2026-08-16T05:21:04.460767+00:00",
+  "subs": 102,
+  "views": 24124,
   "video_count": 87,
-  "watch_hours": 785.3,
+  "watch_hours": 796.1,
   "top_video_id": "XjQpRivJprc",
-  "top_video_views": 965,
+  "top_video_views": 967,
   "monetization": {
     "shorts_tier": {
       "name": "Shorts Monetization",
-      "subs_pct": 20.0,
-      "subs_current": 100,
+      "subs_pct": 20.4,
+      "subs_current": 102,
       "subs_target": 500,
-      "subs_remaining": 400,
+      "subs_remaining": 398,
       "note": "Also needs 3 million Shorts views in the last 90 days.",
       "unlocked": false
     },
     "full_ypp": {
       "name": "Full Partner Program",
-      "subs_pct": 10.0,
-      "subs_current": 100,
+      "subs_pct": 10.2,
+      "subs_current": 102,
       "subs_target": 1000,
-      "subs_remaining": 900,
-      "hours_pct": 19.6,
-      "hours_current": 785.3,
+      "subs_remaining": 898,
+      "hours_pct": 19.9,
+      "hours_current": 796.1,
       "hours_target": 4000,
-      "hours_remaining": 3214.7,
+      "hours_remaining": 3203.9,
       "unlocked": false
     }
   },
   "milestones": {
     "sub_goal": 250,
-    "subs_to_go": 150,
-    "subs_pct": 40.0,
+    "subs_to_go": 148,
+    "subs_pct": 40.8,
     "sub_goal_label": "250",
     "view_goal": 25000,
-    "views_to_go": 1202,
-    "views_pct": 95.2,
+    "views_to_go": 876,
+    "views_pct": 96.5,
     "view_goal_label": "25K"
   },
-  "pep_talk": "You just gained 125 views since last time \u2014 keep uploading and watch your channel grow!",
+  "pep_talk": "Your watch hours jumped 10.8 hours \u2013 that's huge engagement growth, Zayden!",
   "recent_comments": [
+    {
+      "id": "Ugyk6o_LUkt13_xSrDp4AaABAg",
+      "author": "@EplayerFf",
+      "author_url": "http://www.youtube.com/@EplayerFf",
+      "text": "Dude Nice Spaceship house in houseflipper 2 & love the video zaydengaming keep up!\ud83d\udc4d",
+      "video_id": "ZwCvsbs3qpo",
+      "video_title": "I Built a Space Ship House In House Flipper 2!",
+      "published": "2026-08-14T06:48:26Z",
+      "relative": "1 day ago",
+      "url": "https://www.youtube.com/watch?v=ZwCvsbs3qpo&lc=Ugyk6o_LUkt13_xSrDp4AaABAg",
+      "likes": 3
+    },
     {
       "id": "UgzfA0zCbsfyOH8L-cx4AaABAg",
       "author": "@DetourMaster",
@@ -49,7 +61,7 @@
       "video_id": "ZwCvsbs3qpo",
       "video_title": "I Built a Space Ship House In House Flipper 2!",
       "published": "2026-08-14T02:55:11Z",
-      "relative": "3 hrs ago",
+      "relative": "2 days ago",
       "url": "https://www.youtube.com/watch?v=ZwCvsbs3qpo&lc=UgzfA0zCbsfyOH8L-cx4AaABAg",
       "likes": 2
     },
@@ -61,7 +73,7 @@
       "video_id": "MIU7YcMylzE",
       "video_title": "Two Best Friends Build a Tank and Battled in Trailmakers!",
       "published": "2026-08-12T05:27:49Z",
-      "relative": "2 days ago",
+      "relative": "3 days ago",
       "url": "https://www.youtube.com/watch?v=MIU7YcMylzE&lc=UgyPHZ8QsCOVMqdUXXR4AaABAg",
       "likes": 0
     },
@@ -73,7 +85,7 @@
       "video_id": "MIU7YcMylzE",
       "video_title": "Two Best Friends Build a Tank and Battled in Trailmakers!",
       "published": "2026-08-12T02:40:14Z",
-      "relative": "2 days ago",
+      "relative": "4 days ago",
       "url": "https://www.youtube.com/watch?v=MIU7YcMylzE&lc=UgzMNK62B3Exhwu504p4AaABAg",
       "likes": 0
     },
@@ -85,20 +97,8 @@
       "video_id": "MIU7YcMylzE",
       "video_title": "Two Best Friends Build a Tank and Battled in Trailmakers!",
       "published": "2026-08-11T12:44:35Z",
-      "relative": "2 days ago",
-      "url": "https://www.youtube.com/watch?v=MIU7YcMylzE&lc=Ugzg9QzVyHjmLpK-VqN4AaABAg",
-      "likes": 2
-    },
-    {
-      "id": "UgyTU8EPTTcV6EtZtip4AaABAg",
-      "author": "@DetourMaster",
-      "author_url": "http://www.youtube.com/@DetourMaster",
-      "text": "Answer is no",
-      "video_id": "spaO7CXatns",
-      "video_title": "I broke BeamMP with my jet car!\ufffc\ufffc",
-      "published": "2026-08-10T05:54:42Z",
       "relative": "4 days ago",
-      "url": "https://www.youtube.com/watch?v=spaO7CXatns&lc=UgyTU8EPTTcV6EtZtip4AaABAg",
+      "url": "https://www.youtube.com/watch?v=MIU7YcMylzE&lc=Ugzg9QzVyHjmLpK-VqN4AaABAg",
       "likes": 2
     }
   ]
