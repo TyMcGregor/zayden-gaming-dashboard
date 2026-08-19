@@ -1,46 +1,70 @@
 {
-  "generated_at": "2026-08-16T05:21:04.460767+00:00",
-  "subs": 102,
-  "views": 24124,
-  "video_count": 87,
-  "watch_hours": 796.1,
+  "generated_at": "2026-08-19T05:22:18.181372+00:00",
+  "subs": 105,
+  "views": 24391,
+  "video_count": 88,
+  "watch_hours": 804.9,
   "top_video_id": "XjQpRivJprc",
   "top_video_views": 967,
   "monetization": {
     "shorts_tier": {
       "name": "Shorts Monetization",
-      "subs_pct": 20.4,
-      "subs_current": 102,
+      "subs_pct": 21.0,
+      "subs_current": 105,
       "subs_target": 500,
-      "subs_remaining": 398,
+      "subs_remaining": 395,
       "note": "Also needs 3 million Shorts views in the last 90 days.",
       "unlocked": false
     },
     "full_ypp": {
       "name": "Full Partner Program",
-      "subs_pct": 10.2,
-      "subs_current": 102,
+      "subs_pct": 10.5,
+      "subs_current": 105,
       "subs_target": 1000,
-      "subs_remaining": 898,
-      "hours_pct": 19.9,
-      "hours_current": 796.1,
+      "subs_remaining": 895,
+      "hours_pct": 20.1,
+      "hours_current": 804.9,
       "hours_target": 4000,
-      "hours_remaining": 3203.9,
+      "hours_remaining": 3195.1,
       "unlocked": false
     }
   },
   "milestones": {
     "sub_goal": 250,
-    "subs_to_go": 148,
-    "subs_pct": 40.8,
+    "subs_to_go": 145,
+    "subs_pct": 42.0,
     "sub_goal_label": "250",
     "view_goal": 25000,
-    "views_to_go": 876,
-    "views_pct": 96.5,
+    "views_to_go": 609,
+    "views_pct": 97.6,
     "view_goal_label": "25K"
   },
-  "pep_talk": "Your watch hours jumped 10.8 hours \u2013 that's huge engagement growth, Zayden!",
+  "pep_talk": "Your views jumped 267 this update, Zayden \u2013 that's awesome growth and shows your content is reaching more people!",
   "recent_comments": [
+    {
+      "id": "UgxW6YARrIYiF9_sCL54AaABAg",
+      "author": "@EplayerFf",
+      "author_url": "http://www.youtube.com/@EplayerFf",
+      "text": "great do dance on my dad video zaydengaming!!",
+      "video_id": "jyA2rMZom0s",
+      "video_title": "100 Sub Vid! (You Made me do This!)",
+      "published": "2026-08-18T00:48:03Z",
+      "relative": "1 day ago",
+      "url": "https://www.youtube.com/watch?v=jyA2rMZom0s&lc=UgxW6YARrIYiF9_sCL54AaABAg",
+      "likes": 3
+    },
+    {
+      "id": "UgyMOZn5TMcxKR_6jh54AaABAg",
+      "author": "@DetourMaster",
+      "author_url": "http://www.youtube.com/@DetourMaster",
+      "text": "Nice do dance on my bad video zaydenGaming!!\ud83d\ude02\ud83d\udcaf+",
+      "video_id": "jyA2rMZom0s",
+      "video_title": "100 Sub Vid! (You Made me do This!)",
+      "published": "2026-08-17T02:08:29Z",
+      "relative": "2 days ago",
+      "url": "https://www.youtube.com/watch?v=jyA2rMZom0s&lc=UgyMOZn5TMcxKR_6jh54AaABAg",
+      "likes": 3
+    },
     {
       "id": "Ugyk6o_LUkt13_xSrDp4AaABAg",
       "author": "@EplayerFf",
@@ -49,7 +73,7 @@
       "video_id": "ZwCvsbs3qpo",
       "video_title": "I Built a Space Ship House In House Flipper 2!",
       "published": "2026-08-14T06:48:26Z",
-      "relative": "1 day ago",
+      "relative": "4 days ago",
       "url": "https://www.youtube.com/watch?v=ZwCvsbs3qpo&lc=Ugyk6o_LUkt13_xSrDp4AaABAg",
       "likes": 3
     },
@@ -61,7 +85,7 @@
       "video_id": "ZwCvsbs3qpo",
       "video_title": "I Built a Space Ship House In House Flipper 2!",
       "published": "2026-08-14T02:55:11Z",
-      "relative": "2 days ago",
+      "relative": "5 days ago",
       "url": "https://www.youtube.com/watch?v=ZwCvsbs3qpo&lc=UgzfA0zCbsfyOH8L-cx4AaABAg",
       "likes": 2
     },
@@ -73,33 +97,9 @@
       "video_id": "MIU7YcMylzE",
       "video_title": "Two Best Friends Build a Tank and Battled in Trailmakers!",
       "published": "2026-08-12T05:27:49Z",
-      "relative": "3 days ago",
+      "relative": "6 days ago",
       "url": "https://www.youtube.com/watch?v=MIU7YcMylzE&lc=UgyPHZ8QsCOVMqdUXXR4AaABAg",
       "likes": 0
-    },
-    {
-      "id": "UgzMNK62B3Exhwu504p4AaABAg",
-      "author": "@Buglordbryce",
-      "author_url": "http://www.youtube.com/@Buglordbryce",
-      "text": "Ignore my little tank :D Yes, im bryce",
-      "video_id": "MIU7YcMylzE",
-      "video_title": "Two Best Friends Build a Tank and Battled in Trailmakers!",
-      "published": "2026-08-12T02:40:14Z",
-      "relative": "4 days ago",
-      "url": "https://www.youtube.com/watch?v=MIU7YcMylzE&lc=UgzMNK62B3Exhwu504p4AaABAg",
-      "likes": 0
-    },
-    {
-      "id": "Ugzg9QzVyHjmLpK-VqN4AaABAg",
-      "author": "@EplayerFf",
-      "author_url": "http://www.youtube.com/@EplayerFf",
-      "text": "Great trailmakers with bryce video zaydengaming love the builded tanks!",
-      "video_id": "MIU7YcMylzE",
-      "video_title": "Two Best Friends Build a Tank and Battled in Trailmakers!",
-      "published": "2026-08-11T12:44:35Z",
-      "relative": "4 days ago",
-      "url": "https://www.youtube.com/watch?v=MIU7YcMylzE&lc=Ugzg9QzVyHjmLpK-VqN4AaABAg",
-      "likes": 2
     }
   ]
 }
