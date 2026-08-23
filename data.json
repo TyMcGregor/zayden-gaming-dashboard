@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-21T05:25:16.222530+00:00",
+  "generated_at": "2026-08-23T05:22:14.704127+00:00",
   "subs": 108,
-  "views": 24512,
+  "views": 24620,
   "video_count": 89,
-  "watch_hours": 808.9,
+  "watch_hours": 812.5,
   "top_video_id": "XjQpRivJprc",
-  "top_video_views": 971,
+  "top_video_views": 979,
   "monetization": {
     "shorts_tier": {
       "name": "Shorts Monetization",
@@ -22,10 +22,10 @@
       "subs_current": 108,
       "subs_target": 1000,
       "subs_remaining": 892,
-      "hours_pct": 20.2,
-      "hours_current": 808.9,
+      "hours_pct": 20.3,
+      "hours_current": 812.5,
       "hours_target": 4000,
-      "hours_remaining": 3191.1,
+      "hours_remaining": 3187.5,
       "unlocked": false
     }
   },
@@ -35,12 +35,24 @@
     "subs_pct": 43.2,
     "sub_goal_label": "250",
     "view_goal": 25000,
-    "views_to_go": 488,
-    "views_pct": 98.0,
+    "views_to_go": 380,
+    "views_pct": 98.5,
     "view_goal_label": "25K"
   },
-  "pep_talk": "Your views jumped 121 since last time\u2014that's awesome momentum, Zayden!",
+  "pep_talk": "Your channel just gained 108 views \u2013 keep creating awesome content and those numbers will keep climbing!",
   "recent_comments": [
+    {
+      "id": "UgytHu4WimcJaBL6yrx4AaABAg",
+      "author": "@EplayerFf",
+      "author_url": "http://www.youtube.com/@EplayerFf",
+      "text": "Love this scary video so much zaydengaming!!\ud83d\udc4d",
+      "video_id": "y-av7z9uNAs",
+      "video_title": "Ghost Footage Investigation|Real or Fake? Ep.1",
+      "published": "2026-08-21T11:43:46Z",
+      "relative": "1 day ago",
+      "url": "https://www.youtube.com/watch?v=y-av7z9uNAs&lc=UgytHu4WimcJaBL6yrx4AaABAg",
+      "likes": 3
+    },
     {
       "id": "UgyxVU96YS41yCniGK54AaABAg",
       "author": "@DetourMaster",
@@ -49,9 +61,9 @@
       "video_id": "y-av7z9uNAs",
       "video_title": "Ghost Footage Investigation|Real or Fake? Ep.1",
       "published": "2026-08-21T04:21:33Z",
-      "relative": "1 hr ago",
+      "relative": "2 days ago",
       "url": "https://www.youtube.com/watch?v=y-av7z9uNAs&lc=UgyxVU96YS41yCniGK54AaABAg",
-      "likes": 1
+      "likes": 3
     },
     {
       "id": "Ugw8b1fcUMTjb-I_JnF4AaABAg",
@@ -61,7 +73,7 @@
       "video_id": "y-av7z9uNAs",
       "video_title": "Ghost Footage Investigation|Real or Fake? Ep.1",
       "published": "2026-08-20T20:25:28Z",
-      "relative": "8 hrs ago",
+      "relative": "2 days ago",
       "url": "https://www.youtube.com/watch?v=y-av7z9uNAs&lc=Ugw8b1fcUMTjb-I_JnF4AaABAg",
       "likes": 1
     },
@@ -73,7 +85,7 @@
       "video_id": "jyA2rMZom0s",
       "video_title": "100 Sub Vid! (You Made me do This!)",
       "published": "2026-08-18T00:48:03Z",
-      "relative": "3 days ago",
+      "relative": "5 days ago",
       "url": "https://www.youtube.com/watch?v=jyA2rMZom0s&lc=UgxW6YARrIYiF9_sCL54AaABAg",
       "likes": 3
     },
@@ -85,20 +97,8 @@
       "video_id": "jyA2rMZom0s",
       "video_title": "100 Sub Vid! (You Made me do This!)",
       "published": "2026-08-17T02:08:29Z",
-      "relative": "4 days ago",
-      "url": "https://www.youtube.com/watch?v=jyA2rMZom0s&lc=UgyMOZn5TMcxKR_6jh54AaABAg",
-      "likes": 3
-    },
-    {
-      "id": "Ugyk6o_LUkt13_xSrDp4AaABAg",
-      "author": "@EplayerFf",
-      "author_url": "http://www.youtube.com/@EplayerFf",
-      "text": "Dude Nice Spaceship house in houseflipper 2 & love the video zaydengaming keep up!\ud83d\udc4d",
-      "video_id": "ZwCvsbs3qpo",
-      "video_title": "I Built a Space Ship House In House Flipper 2!",
-      "published": "2026-08-14T06:48:26Z",
       "relative": "6 days ago",
-      "url": "https://www.youtube.com/watch?v=ZwCvsbs3qpo&lc=Ugyk6o_LUkt13_xSrDp4AaABAg",
+      "url": "https://www.youtube.com/watch?v=jyA2rMZom0s&lc=UgyMOZn5TMcxKR_6jh54AaABAg",
       "likes": 3
     }
   ]
