@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-23T05:22:14.704127+00:00",
+  "generated_at": "2026-08-26T05:26:59.177133+00:00",
   "subs": 108,
-  "views": 24620,
-  "video_count": 89,
-  "watch_hours": 812.5,
+  "views": 24767,
+  "video_count": 90,
+  "watch_hours": 817.3,
   "top_video_id": "XjQpRivJprc",
-  "top_video_views": 979,
+  "top_video_views": 982,
   "monetization": {
     "shorts_tier": {
       "name": "Shorts Monetization",
@@ -22,10 +22,10 @@
       "subs_current": 108,
       "subs_target": 1000,
       "subs_remaining": 892,
-      "hours_pct": 20.3,
-      "hours_current": 812.5,
+      "hours_pct": 20.4,
+      "hours_current": 817.3,
       "hours_target": 4000,
-      "hours_remaining": 3187.5,
+      "hours_remaining": 3182.7,
       "unlocked": false
     }
   },
@@ -35,12 +35,48 @@
     "subs_pct": 43.2,
     "sub_goal_label": "250",
     "view_goal": 25000,
-    "views_to_go": 380,
-    "views_pct": 98.5,
+    "views_to_go": 233,
+    "views_pct": 99.1,
     "view_goal_label": "25K"
   },
-  "pep_talk": "Your channel just gained 108 views \u2013 keep creating awesome content and those numbers will keep climbing!",
+  "pep_talk": "You just gained 147 views on your latest video, Zayden\u2014that's awesome momentum!",
   "recent_comments": [
+    {
+      "id": "Ugwj_SR2C0tF0tTcs5V4AaABAg",
+      "author": "@SkyRyder44",
+      "author_url": "http://www.youtube.com/@SkyRyder44",
+      "text": "I love you Zayden \u2764\u2764\u2764\ud83c\udf89\ud83c\udf89",
+      "video_id": "WIIuurHbe8g",
+      "video_title": "Zayden + Cool + Entertainment = Brick Rigs!",
+      "published": "2026-08-26T04:40:09Z",
+      "relative": "46 min ago",
+      "url": "https://www.youtube.com/watch?v=WIIuurHbe8g&lc=Ugwj_SR2C0tF0tTcs5V4AaABAg",
+      "likes": 1
+    },
+    {
+      "id": "UgziDS_yjAja7__-2hR4AaABAg",
+      "author": "@EplayerFf",
+      "author_url": "http://www.youtube.com/@EplayerFf",
+      "text": "Awesome brick rigs video Zaydengaming!!",
+      "video_id": "WIIuurHbe8g",
+      "video_title": "Zayden + Cool + Entertainment = Brick Rigs!",
+      "published": "2026-08-26T00:32:21Z",
+      "relative": "4 hrs ago",
+      "url": "https://www.youtube.com/watch?v=WIIuurHbe8g&lc=UgziDS_yjAja7__-2hR4AaABAg",
+      "likes": 4
+    },
+    {
+      "id": "UgyatmTwVeJQy7SGVj54AaABAg",
+      "author": "@DetourMaster",
+      "author_url": "http://www.youtube.com/@DetourMaster",
+      "text": "Nice brick rigs video ZaydenGaming!!\ud83d\ude0e",
+      "video_id": "WIIuurHbe8g",
+      "video_title": "Zayden + Cool + Entertainment = Brick Rigs!",
+      "published": "2026-08-26T00:27:49Z",
+      "relative": "4 hrs ago",
+      "url": "https://www.youtube.com/watch?v=WIIuurHbe8g&lc=UgyatmTwVeJQy7SGVj54AaABAg",
+      "likes": 4
+    },
     {
       "id": "UgytHu4WimcJaBL6yrx4AaABAg",
       "author": "@EplayerFf",
@@ -49,7 +85,7 @@
       "video_id": "y-av7z9uNAs",
       "video_title": "Ghost Footage Investigation|Real or Fake? Ep.1",
       "published": "2026-08-21T11:43:46Z",
-      "relative": "1 day ago",
+      "relative": "4 days ago",
       "url": "https://www.youtube.com/watch?v=y-av7z9uNAs&lc=UgytHu4WimcJaBL6yrx4AaABAg",
       "likes": 3
     },
@@ -61,44 +97,8 @@
       "video_id": "y-av7z9uNAs",
       "video_title": "Ghost Footage Investigation|Real or Fake? Ep.1",
       "published": "2026-08-21T04:21:33Z",
-      "relative": "2 days ago",
-      "url": "https://www.youtube.com/watch?v=y-av7z9uNAs&lc=UgyxVU96YS41yCniGK54AaABAg",
-      "likes": 3
-    },
-    {
-      "id": "Ugw8b1fcUMTjb-I_JnF4AaABAg",
-      "author": "@SkyRyder44",
-      "author_url": "http://www.youtube.com/@SkyRyder44",
-      "text": "I love your video\u2764\u2764\u2764\u2764\u2764\ud83c\udf89\ud83c\udf89\ud83c\udf89\ud83c\udf89\ud83c\udf89",
-      "video_id": "y-av7z9uNAs",
-      "video_title": "Ghost Footage Investigation|Real or Fake? Ep.1",
-      "published": "2026-08-20T20:25:28Z",
-      "relative": "2 days ago",
-      "url": "https://www.youtube.com/watch?v=y-av7z9uNAs&lc=Ugw8b1fcUMTjb-I_JnF4AaABAg",
-      "likes": 1
-    },
-    {
-      "id": "UgxW6YARrIYiF9_sCL54AaABAg",
-      "author": "@EplayerFf",
-      "author_url": "http://www.youtube.com/@EplayerFf",
-      "text": "great do dance on my dad video zaydengaming!!",
-      "video_id": "jyA2rMZom0s",
-      "video_title": "100 Sub Vid! (You Made me do This!)",
-      "published": "2026-08-18T00:48:03Z",
       "relative": "5 days ago",
-      "url": "https://www.youtube.com/watch?v=jyA2rMZom0s&lc=UgxW6YARrIYiF9_sCL54AaABAg",
-      "likes": 3
-    },
-    {
-      "id": "UgyMOZn5TMcxKR_6jh54AaABAg",
-      "author": "@DetourMaster",
-      "author_url": "http://www.youtube.com/@DetourMaster",
-      "text": "Nice do dance on my bad video zaydenGaming!!\ud83d\ude02\ud83d\udcaf+",
-      "video_id": "jyA2rMZom0s",
-      "video_title": "100 Sub Vid! (You Made me do This!)",
-      "published": "2026-08-17T02:08:29Z",
-      "relative": "6 days ago",
-      "url": "https://www.youtube.com/watch?v=jyA2rMZom0s&lc=UgyMOZn5TMcxKR_6jh54AaABAg",
+      "url": "https://www.youtube.com/watch?v=y-av7z9uNAs&lc=UgyxVU96YS41yCniGK54AaABAg",
       "likes": 3
     }
   ]
