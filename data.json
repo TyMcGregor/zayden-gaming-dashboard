@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-28T17:05:56.501168+00:00",
+  "generated_at": "2026-08-30T10:12:41.380251+00:00",
   "subs": 108,
-  "views": 24923,
+  "views": 25009,
   "video_count": 90,
-  "watch_hours": 822.5,
+  "watch_hours": 825.3,
   "top_video_id": "XjQpRivJprc",
-  "top_video_views": 983,
+  "top_video_views": 984,
   "monetization": {
     "shorts_tier": {
       "name": "Shorts Monetization",
@@ -23,9 +23,9 @@
       "subs_target": 1000,
       "subs_remaining": 892,
       "hours_pct": 20.6,
-      "hours_current": 822.5,
+      "hours_current": 825.3,
       "hours_target": 4000,
-      "hours_remaining": 3177.5,
+      "hours_remaining": 3174.7,
       "unlocked": false
     }
   },
@@ -34,12 +34,12 @@
     "subs_to_go": 142,
     "subs_pct": 43.2,
     "sub_goal_label": "250",
-    "view_goal": 25000,
-    "views_to_go": 77,
-    "views_pct": 99.7,
-    "view_goal_label": "25K"
+    "view_goal": 50000,
+    "views_to_go": 24991,
+    "views_pct": 50.0,
+    "view_goal_label": "50K"
   },
-  "pep_talk": "Your videos just gained 156 views since last time \u2014 keep creating that awesome content!",
+  "pep_talk": "Your videos hit 86 more views this update\u2014keep creating and that momentum will build!",
   "recent_comments": [
     {
       "id": "Ugwj_SR2C0tF0tTcs5V4AaABAg",
@@ -49,7 +49,7 @@
       "video_id": "WIIuurHbe8g",
       "video_title": "Zayden + Cool + Entertainment = Brick Rigs!",
       "published": "2026-08-26T04:40:09Z",
-      "relative": "2 days ago",
+      "relative": "4 days ago",
       "url": "https://www.youtube.com/watch?v=WIIuurHbe8g&lc=Ugwj_SR2C0tF0tTcs5V4AaABAg",
       "likes": 2
     },
@@ -61,7 +61,7 @@
       "video_id": "WIIuurHbe8g",
       "video_title": "Zayden + Cool + Entertainment = Brick Rigs!",
       "published": "2026-08-26T00:32:21Z",
-      "relative": "2 days ago",
+      "relative": "4 days ago",
       "url": "https://www.youtube.com/watch?v=WIIuurHbe8g&lc=UgziDS_yjAja7__-2hR4AaABAg",
       "likes": 3
     },
@@ -73,7 +73,7 @@
       "video_id": "WIIuurHbe8g",
       "video_title": "Zayden + Cool + Entertainment = Brick Rigs!",
       "published": "2026-08-26T00:27:49Z",
-      "relative": "2 days ago",
+      "relative": "4 days ago",
       "url": "https://www.youtube.com/watch?v=WIIuurHbe8g&lc=UgyatmTwVeJQy7SGVj54AaABAg",
       "likes": 4
     },
@@ -85,7 +85,7 @@
       "video_id": "y-av7z9uNAs",
       "video_title": "Ghost Footage Investigation|Real or Fake? Ep.1",
       "published": "2026-08-21T11:43:46Z",
-      "relative": "7 days ago",
+      "relative": "8 days ago",
       "url": "https://www.youtube.com/watch?v=y-av7z9uNAs&lc=UgytHu4WimcJaBL6yrx4AaABAg",
       "likes": 3
     },
@@ -97,7 +97,7 @@
       "video_id": "y-av7z9uNAs",
       "video_title": "Ghost Footage Investigation|Real or Fake? Ep.1",
       "published": "2026-08-21T04:21:33Z",
-      "relative": "7 days ago",
+      "relative": "9 days ago",
       "url": "https://www.youtube.com/watch?v=y-av7z9uNAs&lc=UgyxVU96YS41yCniGK54AaABAg",
       "likes": 3
     }
