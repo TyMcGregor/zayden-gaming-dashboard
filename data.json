@@ -1,46 +1,70 @@
 {
-  "generated_at": "2026-08-30T10:12:41.380251+00:00",
-  "subs": 108,
-  "views": 25009,
-  "video_count": 90,
-  "watch_hours": 825.3,
+  "generated_at": "2026-09-02T09:13:41.537162+00:00",
+  "subs": 110,
+  "views": 25169,
+  "video_count": 91,
+  "watch_hours": 830.6,
   "top_video_id": "XjQpRivJprc",
   "top_video_views": 984,
   "monetization": {
     "shorts_tier": {
       "name": "Shorts Monetization",
-      "subs_pct": 21.6,
-      "subs_current": 108,
+      "subs_pct": 22.0,
+      "subs_current": 110,
       "subs_target": 500,
-      "subs_remaining": 392,
+      "subs_remaining": 390,
       "note": "Also needs 3 million Shorts views in the last 90 days.",
       "unlocked": false
     },
     "full_ypp": {
       "name": "Full Partner Program",
-      "subs_pct": 10.8,
-      "subs_current": 108,
+      "subs_pct": 11.0,
+      "subs_current": 110,
       "subs_target": 1000,
-      "subs_remaining": 892,
-      "hours_pct": 20.6,
-      "hours_current": 825.3,
+      "subs_remaining": 890,
+      "hours_pct": 20.8,
+      "hours_current": 830.6,
       "hours_target": 4000,
-      "hours_remaining": 3174.7,
+      "hours_remaining": 3169.4,
       "unlocked": false
     }
   },
   "milestones": {
     "sub_goal": 250,
-    "subs_to_go": 142,
-    "subs_pct": 43.2,
+    "subs_to_go": 140,
+    "subs_pct": 44.0,
     "sub_goal_label": "250",
     "view_goal": 50000,
-    "views_to_go": 24991,
-    "views_pct": 50.0,
+    "views_to_go": 24831,
+    "views_pct": 50.3,
     "view_goal_label": "50K"
   },
-  "pep_talk": "Your videos hit 86 more views this update\u2014keep creating and that momentum will build!",
+  "pep_talk": "Your views just jumped 160 \u2013 that's awesome momentum, Zayden!",
   "recent_comments": [
+    {
+      "id": "Ugw4bnAq-MpDxElSx1Z4AaABAg",
+      "author": "@EplayerFf",
+      "author_url": "http://www.youtube.com/@EplayerFf",
+      "text": "Great trailmakers tank with bryce video zaydengaming!!\ud83d\udcaf+",
+      "video_id": "cSu10tP_HR4",
+      "video_title": "Bryce and I Built Tanks and fought in Trailmakers!",
+      "published": "2026-08-31T03:04:59Z",
+      "relative": "2 days ago",
+      "url": "https://www.youtube.com/watch?v=cSu10tP_HR4&lc=Ugw4bnAq-MpDxElSx1Z4AaABAg",
+      "likes": 4
+    },
+    {
+      "id": "UgxBSH0bKQnA5Kfz-dR4AaABAg",
+      "author": "@DetourMaster",
+      "author_url": "http://www.youtube.com/@DetourMaster",
+      "text": "Nice trailmakers tanks with bryce video Zaydengaming!!\ud83d\ude0e\ud83d\udc4d",
+      "video_id": "cSu10tP_HR4",
+      "video_title": "Bryce and I Built Tanks and fought in Trailmakers!",
+      "published": "2026-08-31T00:07:53Z",
+      "relative": "2 days ago",
+      "url": "https://www.youtube.com/watch?v=cSu10tP_HR4&lc=UgxBSH0bKQnA5Kfz-dR4AaABAg",
+      "likes": 4
+    },
     {
       "id": "Ugwj_SR2C0tF0tTcs5V4AaABAg",
       "author": "@SkyRyder44",
@@ -49,7 +73,7 @@
       "video_id": "WIIuurHbe8g",
       "video_title": "Zayden + Cool + Entertainment = Brick Rigs!",
       "published": "2026-08-26T04:40:09Z",
-      "relative": "4 days ago",
+      "relative": "7 days ago",
       "url": "https://www.youtube.com/watch?v=WIIuurHbe8g&lc=Ugwj_SR2C0tF0tTcs5V4AaABAg",
       "likes": 2
     },
@@ -61,7 +85,7 @@
       "video_id": "WIIuurHbe8g",
       "video_title": "Zayden + Cool + Entertainment = Brick Rigs!",
       "published": "2026-08-26T00:32:21Z",
-      "relative": "4 days ago",
+      "relative": "7 days ago",
       "url": "https://www.youtube.com/watch?v=WIIuurHbe8g&lc=UgziDS_yjAja7__-2hR4AaABAg",
       "likes": 3
     },
@@ -73,33 +97,9 @@
       "video_id": "WIIuurHbe8g",
       "video_title": "Zayden + Cool + Entertainment = Brick Rigs!",
       "published": "2026-08-26T00:27:49Z",
-      "relative": "4 days ago",
+      "relative": "7 days ago",
       "url": "https://www.youtube.com/watch?v=WIIuurHbe8g&lc=UgyatmTwVeJQy7SGVj54AaABAg",
       "likes": 4
-    },
-    {
-      "id": "UgytHu4WimcJaBL6yrx4AaABAg",
-      "author": "@EplayerFf",
-      "author_url": "http://www.youtube.com/@EplayerFf",
-      "text": "Love this scary video so much zaydengaming!!\ud83d\udc4d",
-      "video_id": "y-av7z9uNAs",
-      "video_title": "Ghost Footage Investigation|Real or Fake? Ep.1",
-      "published": "2026-08-21T11:43:46Z",
-      "relative": "8 days ago",
-      "url": "https://www.youtube.com/watch?v=y-av7z9uNAs&lc=UgytHu4WimcJaBL6yrx4AaABAg",
-      "likes": 3
-    },
-    {
-      "id": "UgyxVU96YS41yCniGK54AaABAg",
-      "author": "@DetourMaster",
-      "author_url": "http://www.youtube.com/@DetourMaster",
-      "text": "Great Scary video ZaydenGaming!!\ud83d\ude0e\ud83d\udc4d",
-      "video_id": "y-av7z9uNAs",
-      "video_title": "Ghost Footage Investigation|Real or Fake? Ep.1",
-      "published": "2026-08-21T04:21:33Z",
-      "relative": "9 days ago",
-      "url": "https://www.youtube.com/watch?v=y-av7z9uNAs&lc=UgyxVU96YS41yCniGK54AaABAg",
-      "likes": 3
     }
   ]
 }
