@@ -1,45 +1,45 @@
 {
-  "generated_at": "2026-09-02T09:13:41.537162+00:00",
-  "subs": 110,
-  "views": 25169,
+  "generated_at": "2026-09-04T09:14:48.377357+00:00",
+  "subs": 111,
+  "views": 25228,
   "video_count": 91,
-  "watch_hours": 830.6,
+  "watch_hours": 832.5,
   "top_video_id": "XjQpRivJprc",
   "top_video_views": 984,
   "monetization": {
     "shorts_tier": {
       "name": "Shorts Monetization",
-      "subs_pct": 22.0,
-      "subs_current": 110,
+      "subs_pct": 22.2,
+      "subs_current": 111,
       "subs_target": 500,
-      "subs_remaining": 390,
+      "subs_remaining": 389,
       "note": "Also needs 3 million Shorts views in the last 90 days.",
       "unlocked": false
     },
     "full_ypp": {
       "name": "Full Partner Program",
-      "subs_pct": 11.0,
-      "subs_current": 110,
+      "subs_pct": 11.1,
+      "subs_current": 111,
       "subs_target": 1000,
-      "subs_remaining": 890,
+      "subs_remaining": 889,
       "hours_pct": 20.8,
-      "hours_current": 830.6,
+      "hours_current": 832.5,
       "hours_target": 4000,
-      "hours_remaining": 3169.4,
+      "hours_remaining": 3167.5,
       "unlocked": false
     }
   },
   "milestones": {
     "sub_goal": 250,
-    "subs_to_go": 140,
-    "subs_pct": 44.0,
+    "subs_to_go": 139,
+    "subs_pct": 44.4,
     "sub_goal_label": "250",
     "view_goal": 50000,
-    "views_to_go": 24831,
-    "views_pct": 50.3,
+    "views_to_go": 24772,
+    "views_pct": 50.5,
     "view_goal_label": "50K"
   },
-  "pep_talk": "Your views just jumped 160 \u2013 that's awesome momentum, Zayden!",
+  "pep_talk": "Your views jumped 59 this week \u2013 keep grinding and you'll hit 250 subscribers before you know it!",
   "recent_comments": [
     {
       "id": "Ugw4bnAq-MpDxElSx1Z4AaABAg",
@@ -49,7 +49,7 @@
       "video_id": "cSu10tP_HR4",
       "video_title": "Bryce and I Built Tanks and fought in Trailmakers!",
       "published": "2026-08-31T03:04:59Z",
-      "relative": "2 days ago",
+      "relative": "4 days ago",
       "url": "https://www.youtube.com/watch?v=cSu10tP_HR4&lc=Ugw4bnAq-MpDxElSx1Z4AaABAg",
       "likes": 4
     },
@@ -61,7 +61,7 @@
       "video_id": "cSu10tP_HR4",
       "video_title": "Bryce and I Built Tanks and fought in Trailmakers!",
       "published": "2026-08-31T00:07:53Z",
-      "relative": "2 days ago",
+      "relative": "4 days ago",
       "url": "https://www.youtube.com/watch?v=cSu10tP_HR4&lc=UgxBSH0bKQnA5Kfz-dR4AaABAg",
       "likes": 4
     },
@@ -73,7 +73,7 @@
       "video_id": "WIIuurHbe8g",
       "video_title": "Zayden + Cool + Entertainment = Brick Rigs!",
       "published": "2026-08-26T04:40:09Z",
-      "relative": "7 days ago",
+      "relative": "9 days ago",
       "url": "https://www.youtube.com/watch?v=WIIuurHbe8g&lc=Ugwj_SR2C0tF0tTcs5V4AaABAg",
       "likes": 2
     },
@@ -85,7 +85,7 @@
       "video_id": "WIIuurHbe8g",
       "video_title": "Zayden + Cool + Entertainment = Brick Rigs!",
       "published": "2026-08-26T00:32:21Z",
-      "relative": "7 days ago",
+      "relative": "9 days ago",
       "url": "https://www.youtube.com/watch?v=WIIuurHbe8g&lc=UgziDS_yjAja7__-2hR4AaABAg",
       "likes": 3
     },
@@ -97,7 +97,7 @@
       "video_id": "WIIuurHbe8g",
       "video_title": "Zayden + Cool + Entertainment = Brick Rigs!",
       "published": "2026-08-26T00:27:49Z",
-      "relative": "7 days ago",
+      "relative": "9 days ago",
       "url": "https://www.youtube.com/watch?v=WIIuurHbe8g&lc=UgyatmTwVeJQy7SGVj54AaABAg",
       "likes": 4
     }
