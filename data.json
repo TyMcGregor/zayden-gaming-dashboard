@@ -1,45 +1,45 @@
 {
-  "generated_at": "2026-09-16T09:37:29.411769+00:00",
-  "subs": 116,
-  "views": 26798,
+  "generated_at": "2026-09-18T09:19:22.615001+00:00",
+  "subs": 115,
+  "views": 27024,
   "video_count": 96,
-  "watch_hours": 884.3,
+  "watch_hours": 891.8,
   "top_video_id": "vWrbtr5MU0o",
   "top_video_views": 1108,
   "monetization": {
     "shorts_tier": {
       "name": "Shorts Monetization",
-      "subs_pct": 23.2,
-      "subs_current": 116,
+      "subs_pct": 23.0,
+      "subs_current": 115,
       "subs_target": 500,
-      "subs_remaining": 384,
+      "subs_remaining": 385,
       "note": "Also needs 3 million Shorts views in the last 90 days.",
       "unlocked": false
     },
     "full_ypp": {
       "name": "Full Partner Program",
-      "subs_pct": 11.6,
-      "subs_current": 116,
+      "subs_pct": 11.5,
+      "subs_current": 115,
       "subs_target": 1000,
-      "subs_remaining": 884,
-      "hours_pct": 22.1,
-      "hours_current": 884.3,
+      "subs_remaining": 885,
+      "hours_pct": 22.3,
+      "hours_current": 891.8,
       "hours_target": 4000,
-      "hours_remaining": 3115.7,
+      "hours_remaining": 3108.2,
       "unlocked": false
     }
   },
   "milestones": {
     "sub_goal": 250,
-    "subs_to_go": 134,
-    "subs_pct": 46.4,
+    "subs_to_go": 135,
+    "subs_pct": 46.0,
     "sub_goal_label": "250",
     "view_goal": 50000,
-    "views_to_go": 23202,
-    "views_pct": 53.6,
+    "views_to_go": 22976,
+    "views_pct": 54.0,
     "view_goal_label": "50K"
   },
-  "pep_talk": "Your channel just gained 398 views\u2014keep uploading awesome content and you'll hit that 250 subscriber milestone soon!",
+  "pep_talk": "Your watch hours jumped 7.5 hours this update, showing people are really digging your content!",
   "recent_comments": [
     {
       "id": "UgxyyyfmI-7anLvxx0Z4AaABAg",
@@ -49,7 +49,7 @@
       "video_id": "5vl8Z3dGy0E",
       "video_title": "Brick Rigs Jet Fight But With a Subscriber!!!",
       "published": "2026-09-13T03:51:19Z",
-      "relative": "3 days ago",
+      "relative": "5 days ago",
       "url": "https://www.youtube.com/watch?v=5vl8Z3dGy0E&lc=UgxyyyfmI-7anLvxx0Z4AaABAg",
       "likes": 3
     },
@@ -61,7 +61,7 @@
       "video_id": "eiKFtlntgcg",
       "video_title": "This is what I call\u2026 FUN!!!",
       "published": "2026-09-12T01:13:56Z",
-      "relative": "4 days ago",
+      "relative": "6 days ago",
       "url": "https://www.youtube.com/watch?v=eiKFtlntgcg&lc=Ugyr9k_86ykcACoxv854AaABAg",
       "likes": 1
     },
@@ -73,7 +73,7 @@
       "video_id": "IkOndYTAOtc",
       "video_title": "Brick Rigs but EVERYONE is After Me!",
       "published": "2026-09-12T01:13:18Z",
-      "relative": "4 days ago",
+      "relative": "6 days ago",
       "url": "https://www.youtube.com/watch?v=IkOndYTAOtc&lc=Ugy2tfQVija5N9yoQrp4AaABAg",
       "likes": 2
     },
@@ -85,7 +85,7 @@
       "video_id": "IkOndYTAOtc",
       "video_title": "Brick Rigs but EVERYONE is After Me!",
       "published": "2026-09-12T00:14:05Z",
-      "relative": "4 days ago",
+      "relative": "6 days ago",
       "url": "https://www.youtube.com/watch?v=IkOndYTAOtc&lc=UgyLovdJufJ7NqK0LF14AaABAg",
       "likes": 4
     },
@@ -97,7 +97,7 @@
       "video_id": "mM0fukgXCBQ",
       "video_title": "There's no way out... |Real or Fake? Ep.2",
       "published": "2026-09-11T12:24:34Z",
-      "relative": "4 days ago",
+      "relative": "6 days ago",
       "url": "https://www.youtube.com/watch?v=mM0fukgXCBQ&lc=UgwZ-ssRQVkx2ouMZCp4AaABAg",
       "likes": 2
     }
