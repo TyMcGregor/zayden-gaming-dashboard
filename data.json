@@ -1,46 +1,70 @@
 {
-  "generated_at": "2026-09-18T09:19:22.615001+00:00",
-  "subs": 115,
-  "views": 27024,
-  "video_count": 96,
-  "watch_hours": 891.8,
+  "generated_at": "2026-09-20T09:32:54.769488+00:00",
+  "subs": 114,
+  "views": 27234,
+  "video_count": 97,
+  "watch_hours": 898.7,
   "top_video_id": "vWrbtr5MU0o",
-  "top_video_views": 1108,
+  "top_video_views": 1110,
   "monetization": {
     "shorts_tier": {
       "name": "Shorts Monetization",
-      "subs_pct": 23.0,
-      "subs_current": 115,
+      "subs_pct": 22.8,
+      "subs_current": 114,
       "subs_target": 500,
-      "subs_remaining": 385,
+      "subs_remaining": 386,
       "note": "Also needs 3 million Shorts views in the last 90 days.",
       "unlocked": false
     },
     "full_ypp": {
       "name": "Full Partner Program",
-      "subs_pct": 11.5,
-      "subs_current": 115,
+      "subs_pct": 11.4,
+      "subs_current": 114,
       "subs_target": 1000,
-      "subs_remaining": 885,
-      "hours_pct": 22.3,
-      "hours_current": 891.8,
+      "subs_remaining": 886,
+      "hours_pct": 22.5,
+      "hours_current": 898.7,
       "hours_target": 4000,
-      "hours_remaining": 3108.2,
+      "hours_remaining": 3101.3,
       "unlocked": false
     }
   },
   "milestones": {
     "sub_goal": 250,
-    "subs_to_go": 135,
-    "subs_pct": 46.0,
+    "subs_to_go": 136,
+    "subs_pct": 45.6,
     "sub_goal_label": "250",
     "view_goal": 50000,
-    "views_to_go": 22976,
-    "views_pct": 54.0,
+    "views_to_go": 22766,
+    "views_pct": 54.5,
     "view_goal_label": "50K"
   },
-  "pep_talk": "Your watch hours jumped 7.5 hours this update, showing people are really digging your content!",
+  "pep_talk": "Your views jumped 210 this week\u2014keep creating awesome content and you'll hit that 250 subscriber milestone soon!",
   "recent_comments": [
+    {
+      "id": "UgzomHVUnWSce-i8UTh4AaABAg",
+      "author": "@DetourMaster",
+      "author_url": "http://www.youtube.com/@DetourMaster",
+      "text": "that was good meet zaydengaming!!",
+      "video_id": "jxv2NUMnq3g",
+      "video_title": "2 Friends flew Starships! (until they exploded)",
+      "published": "2026-09-20T03:00:38Z",
+      "relative": "6 hrs ago",
+      "url": "https://www.youtube.com/watch?v=jxv2NUMnq3g&lc=UgzomHVUnWSce-i8UTh4AaABAg",
+      "likes": 4
+    },
+    {
+      "id": "UgxQPFGfuEpGZQiVDBV4AaABAg",
+      "author": "@MatMax1124",
+      "author_url": "http://www.youtube.com/@MatMax1124",
+      "text": "Play with Bryce",
+      "video_id": "jxv2NUMnq3g",
+      "video_title": "2 Friends flew Starships! (until they exploded)",
+      "published": "2026-09-20T00:29:49Z",
+      "relative": "9 hrs ago",
+      "url": "https://www.youtube.com/watch?v=jxv2NUMnq3g&lc=UgxQPFGfuEpGZQiVDBV4AaABAg",
+      "likes": 1
+    },
     {
       "id": "UgxyyyfmI-7anLvxx0Z4AaABAg",
       "author": "@DetourMaster",
@@ -49,7 +73,7 @@
       "video_id": "5vl8Z3dGy0E",
       "video_title": "Brick Rigs Jet Fight But With a Subscriber!!!",
       "published": "2026-09-13T03:51:19Z",
-      "relative": "5 days ago",
+      "relative": "7 days ago",
       "url": "https://www.youtube.com/watch?v=5vl8Z3dGy0E&lc=UgxyyyfmI-7anLvxx0Z4AaABAg",
       "likes": 3
     },
@@ -61,7 +85,7 @@
       "video_id": "eiKFtlntgcg",
       "video_title": "This is what I call\u2026 FUN!!!",
       "published": "2026-09-12T01:13:56Z",
-      "relative": "6 days ago",
+      "relative": "8 days ago",
       "url": "https://www.youtube.com/watch?v=eiKFtlntgcg&lc=Ugyr9k_86ykcACoxv854AaABAg",
       "likes": 1
     },
@@ -73,32 +97,8 @@
       "video_id": "IkOndYTAOtc",
       "video_title": "Brick Rigs but EVERYONE is After Me!",
       "published": "2026-09-12T01:13:18Z",
-      "relative": "6 days ago",
+      "relative": "8 days ago",
       "url": "https://www.youtube.com/watch?v=IkOndYTAOtc&lc=Ugy2tfQVija5N9yoQrp4AaABAg",
-      "likes": 2
-    },
-    {
-      "id": "UgyLovdJufJ7NqK0LF14AaABAg",
-      "author": "@DetourMaster",
-      "author_url": "http://www.youtube.com/@DetourMaster",
-      "text": "Hi Zaydengaming nice brick rigs video!!\ud83d\udc4d",
-      "video_id": "IkOndYTAOtc",
-      "video_title": "Brick Rigs but EVERYONE is After Me!",
-      "published": "2026-09-12T00:14:05Z",
-      "relative": "6 days ago",
-      "url": "https://www.youtube.com/watch?v=IkOndYTAOtc&lc=UgyLovdJufJ7NqK0LF14AaABAg",
-      "likes": 4
-    },
-    {
-      "id": "UgwZ-ssRQVkx2ouMZCp4AaABAg",
-      "author": "@GergelusGergelus",
-      "author_url": "http://www.youtube.com/@GergelusGergelus",
-      "text": "Enjoyed the video zaydengaming i subscribed you!!\ud83c\udf89",
-      "video_id": "mM0fukgXCBQ",
-      "video_title": "There's no way out... |Real or Fake? Ep.2",
-      "published": "2026-09-11T12:24:34Z",
-      "relative": "6 days ago",
-      "url": "https://www.youtube.com/watch?v=mM0fukgXCBQ&lc=UgwZ-ssRQVkx2ouMZCp4AaABAg",
       "likes": 2
     }
   ]
