@@ -1,46 +1,82 @@
 {
-  "generated_at": "2026-09-23T09:40:25.303702+00:00",
-  "subs": 124,
-  "views": 27673,
-  "video_count": 98,
-  "watch_hours": 913.2,
+  "generated_at": "2026-09-25T09:57:11.309544+00:00",
+  "subs": 125,
+  "views": 28086,
+  "video_count": 99,
+  "watch_hours": 926.8,
   "top_video_id": "vWrbtr5MU0o",
-  "top_video_views": 1209,
+  "top_video_views": 1277,
   "monetization": {
     "shorts_tier": {
       "name": "Shorts Monetization",
-      "subs_pct": 24.8,
-      "subs_current": 124,
+      "subs_pct": 25.0,
+      "subs_current": 125,
       "subs_target": 500,
-      "subs_remaining": 376,
+      "subs_remaining": 375,
       "note": "Also needs 3 million Shorts views in the last 90 days.",
       "unlocked": false
     },
     "full_ypp": {
       "name": "Full Partner Program",
-      "subs_pct": 12.4,
-      "subs_current": 124,
+      "subs_pct": 12.5,
+      "subs_current": 125,
       "subs_target": 1000,
-      "subs_remaining": 876,
-      "hours_pct": 22.8,
-      "hours_current": 913.2,
+      "subs_remaining": 875,
+      "hours_pct": 23.2,
+      "hours_current": 926.8,
       "hours_target": 4000,
-      "hours_remaining": 3086.8,
+      "hours_remaining": 3073.2,
       "unlocked": false
     }
   },
   "milestones": {
     "sub_goal": 250,
-    "subs_to_go": 126,
-    "subs_pct": 49.6,
+    "subs_to_go": 125,
+    "subs_pct": 50.0,
     "sub_goal_label": "250",
     "view_goal": 50000,
-    "views_to_go": 22327,
-    "views_pct": 55.3,
+    "views_to_go": 21914,
+    "views_pct": 56.2,
     "view_goal_label": "50K"
   },
-  "pep_talk": "Your views just jumped 439 \u2013 that's awesome momentum on your latest upload!",
+  "pep_talk": "Your views jumped 413 since last update \u2014 that's awesome momentum on your content!",
   "recent_comments": [
+    {
+      "id": "UgyrMobmsYhEVOvuC6l4AaABAg",
+      "author": "@Buglordbryce",
+      "author_url": "http://www.youtube.com/@Buglordbryce",
+      "text": "Through 23:30, ish, I told csteel about a thing I did, I'm not going to say what, but Zayden knows what I did",
+      "video_id": "TCknrX_s4v4",
+      "video_title": "Me and The Boys Created Havoc in Trailmakers!?",
+      "published": "2026-09-25T00:24:39Z",
+      "relative": "9 hrs ago",
+      "url": "https://www.youtube.com/watch?v=TCknrX_s4v4&lc=UgyrMobmsYhEVOvuC6l4AaABAg",
+      "likes": 0
+    },
+    {
+      "id": "UgxcfRRutyARigxskIp4AaABAg",
+      "author": "@Buglordbryce",
+      "author_url": "http://www.youtube.com/@Buglordbryce",
+      "text": "Don't look at the chat to the left in 11:12",
+      "video_id": "TCknrX_s4v4",
+      "video_title": "Me and The Boys Created Havoc in Trailmakers!?",
+      "published": "2026-09-24T10:56:09Z",
+      "relative": "23 hrs ago",
+      "url": "https://www.youtube.com/watch?v=TCknrX_s4v4&lc=UgxcfRRutyARigxskIp4AaABAg",
+      "likes": 0
+    },
+    {
+      "id": "UgyslCW0VNwKQwF4_Z54AaABAg",
+      "author": "@DetourMaster",
+      "author_url": "http://www.youtube.com/@DetourMaster",
+      "text": "\ud83d\ude02\ud83d\ude02\ud83d\ude02",
+      "video_id": "T1ZBCXIZdhg",
+      "video_title": "So\u2026 this is how we break the game\u2026 any questions?\ufffc \ufffc",
+      "published": "2026-09-24T05:00:46Z",
+      "relative": "1 day ago",
+      "url": "https://www.youtube.com/watch?v=T1ZBCXIZdhg&lc=UgyslCW0VNwKQwF4_Z54AaABAg",
+      "likes": 2
+    },
     {
       "id": "Ugz5LiDchX1T7AaAKNV4AaABAg",
       "author": "@UncleWill-n4t",
@@ -49,9 +85,9 @@
       "video_id": "TCknrX_s4v4",
       "video_title": "Me and The Boys Created Havoc in Trailmakers!?",
       "published": "2026-09-22T02:44:15Z",
-      "relative": "1 day ago",
+      "relative": "3 days ago",
       "url": "https://www.youtube.com/watch?v=TCknrX_s4v4&lc=Ugz5LiDchX1T7AaAKNV4AaABAg",
-      "likes": 1
+      "likes": 2
     },
     {
       "id": "UgxDaDQsStStP35FZwl4AaABAg",
@@ -61,45 +97,9 @@
       "video_id": "TCknrX_s4v4",
       "video_title": "Me and The Boys Created Havoc in Trailmakers!?",
       "published": "2026-09-21T18:00:55Z",
-      "relative": "1 day ago",
+      "relative": "3 days ago",
       "url": "https://www.youtube.com/watch?v=TCknrX_s4v4&lc=UgxDaDQsStStP35FZwl4AaABAg",
-      "likes": 1
-    },
-    {
-      "id": "UgxGj_8khj6K0mzyXj54AaABAg",
-      "author": "@SkyRyder44",
-      "author_url": "http://www.youtube.com/@SkyRyder44",
-      "text": "Hi Zayden, I watched this video. It is so funny. Lol lol lol lol lol lol lol lol lol lol lol lol\ud83d\ude0a\ud83d\ude0a\ud83d\ude0a\ud83d\ude05\ud83d\ude05\ud83d\ude05\u2764\u2764\ud83c\udf89",
-      "video_id": "TCknrX_s4v4",
-      "video_title": "Me and The Boys Created Havoc in Trailmakers!?",
-      "published": "2026-09-21T17:50:18Z",
-      "relative": "1 day ago",
-      "url": "https://www.youtube.com/watch?v=TCknrX_s4v4&lc=UgxGj_8khj6K0mzyXj54AaABAg",
-      "likes": 1
-    },
-    {
-      "id": "Ugx9qbrNqZpLASBwmbp4AaABAg",
-      "author": "@DetourMaster",
-      "author_url": "http://www.youtube.com/@DetourMaster",
-      "text": "We can play more brick rigs & trailmakers next weekend!!\ud83d\ude0e",
-      "video_id": "TCknrX_s4v4",
-      "video_title": "Me and The Boys Created Havoc in Trailmakers!?",
-      "published": "2026-09-21T04:27:41Z",
-      "relative": "2 days ago",
-      "url": "https://www.youtube.com/watch?v=TCknrX_s4v4&lc=Ugx9qbrNqZpLASBwmbp4AaABAg",
-      "likes": 4
-    },
-    {
-      "id": "UgxyyyfmI-7anLvxx0Z4AaABAg",
-      "author": "@DetourMaster",
-      "author_url": "http://www.youtube.com/@DetourMaster",
-      "text": "Awesome brick rigs video zaydengaming hope you have nice day!!",
-      "video_id": "5vl8Z3dGy0E",
-      "video_title": "Brick Rigs Jet Fight But With a Subscriber!!!",
-      "published": "2026-09-13T03:51:19Z",
-      "relative": "10 days ago",
-      "url": "https://www.youtube.com/watch?v=5vl8Z3dGy0E&lc=UgxyyyfmI-7anLvxx0Z4AaABAg",
-      "likes": 3
+      "likes": 2
     }
   ]
 }
