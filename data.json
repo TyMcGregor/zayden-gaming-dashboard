@@ -1,46 +1,82 @@
 {
-  "generated_at": "2026-09-25T09:57:11.309544+00:00",
-  "subs": 125,
-  "views": 28086,
-  "video_count": 99,
-  "watch_hours": 926.8,
+  "generated_at": "2026-09-27T10:18:47.836576+00:00",
+  "subs": 128,
+  "views": 29949,
+  "video_count": 101,
+  "watch_hours": 988.3,
   "top_video_id": "vWrbtr5MU0o",
-  "top_video_views": 1277,
+  "top_video_views": 1320,
   "monetization": {
     "shorts_tier": {
       "name": "Shorts Monetization",
-      "subs_pct": 25.0,
-      "subs_current": 125,
+      "subs_pct": 25.6,
+      "subs_current": 128,
       "subs_target": 500,
-      "subs_remaining": 375,
+      "subs_remaining": 372,
       "note": "Also needs 3 million Shorts views in the last 90 days.",
       "unlocked": false
     },
     "full_ypp": {
       "name": "Full Partner Program",
-      "subs_pct": 12.5,
-      "subs_current": 125,
+      "subs_pct": 12.8,
+      "subs_current": 128,
       "subs_target": 1000,
-      "subs_remaining": 875,
-      "hours_pct": 23.2,
-      "hours_current": 926.8,
+      "subs_remaining": 872,
+      "hours_pct": 24.7,
+      "hours_current": 988.3,
       "hours_target": 4000,
-      "hours_remaining": 3073.2,
+      "hours_remaining": 3011.7,
       "unlocked": false
     }
   },
   "milestones": {
     "sub_goal": 250,
-    "subs_to_go": 125,
-    "subs_pct": 50.0,
+    "subs_to_go": 122,
+    "subs_pct": 51.2,
     "sub_goal_label": "250",
     "view_goal": 50000,
-    "views_to_go": 21914,
-    "views_pct": 56.2,
+    "views_to_go": 20051,
+    "views_pct": 59.9,
     "view_goal_label": "50K"
   },
-  "pep_talk": "Your views jumped 413 since last update \u2014 that's awesome momentum on your content!",
+  "pep_talk": "Your watch hours jumped 61.5 \u2014 that means people are really digging your content!",
   "recent_comments": [
+    {
+      "id": "Ugy82ZrSx3QoY8bdcQ14AaABAg",
+      "author": "@DetourMaster",
+      "author_url": "http://www.youtube.com/@DetourMaster",
+      "text": "Absolute ridicilous video zaydengaming!!\ud83d\ude02",
+      "video_id": "R3J--Gwqcus",
+      "video_title": "We ABUSED Physics in Trailmakers!?",
+      "published": "2026-09-27T00:21:46Z",
+      "relative": "9 hrs ago",
+      "url": "https://www.youtube.com/watch?v=R3J--Gwqcus&lc=Ugy82ZrSx3QoY8bdcQ14AaABAg",
+      "likes": 3
+    },
+    {
+      "id": "Ugz7e_MwpEWaWrYl9LN4AaABAg",
+      "author": "@DetourMaster",
+      "author_url": "http://www.youtube.com/@DetourMaster",
+      "text": "This so ridiclious short\ud83d\ude02\ud83d\ude02",
+      "video_id": "e6GWOoishwQ",
+      "video_title": "Physics are not on my side...",
+      "published": "2026-09-26T08:31:28Z",
+      "relative": "1 day ago",
+      "url": "https://www.youtube.com/watch?v=e6GWOoishwQ&lc=Ugz7e_MwpEWaWrYl9LN4AaABAg",
+      "likes": 1
+    },
+    {
+      "id": "Ugw_xHhuEbFZRpDi1i94AaABAg",
+      "author": "@DetourMaster",
+      "author_url": "http://www.youtube.com/@DetourMaster",
+      "text": "\ud83d\ude02\ud83d\ude02\ud83d\ude02",
+      "video_id": "e6GWOoishwQ",
+      "video_title": "Physics are not on my side...",
+      "published": "2026-09-26T08:31:06Z",
+      "relative": "1 day ago",
+      "url": "https://www.youtube.com/watch?v=e6GWOoishwQ&lc=Ugw_xHhuEbFZRpDi1i94AaABAg",
+      "likes": 1
+    },
     {
       "id": "UgyrMobmsYhEVOvuC6l4AaABAg",
       "author": "@Buglordbryce",
@@ -49,7 +85,7 @@
       "video_id": "TCknrX_s4v4",
       "video_title": "Me and The Boys Created Havoc in Trailmakers!?",
       "published": "2026-09-25T00:24:39Z",
-      "relative": "9 hrs ago",
+      "relative": "2 days ago",
       "url": "https://www.youtube.com/watch?v=TCknrX_s4v4&lc=UgyrMobmsYhEVOvuC6l4AaABAg",
       "likes": 0
     },
@@ -61,45 +97,9 @@
       "video_id": "TCknrX_s4v4",
       "video_title": "Me and The Boys Created Havoc in Trailmakers!?",
       "published": "2026-09-24T10:56:09Z",
-      "relative": "23 hrs ago",
+      "relative": "2 days ago",
       "url": "https://www.youtube.com/watch?v=TCknrX_s4v4&lc=UgxcfRRutyARigxskIp4AaABAg",
       "likes": 0
-    },
-    {
-      "id": "UgyslCW0VNwKQwF4_Z54AaABAg",
-      "author": "@DetourMaster",
-      "author_url": "http://www.youtube.com/@DetourMaster",
-      "text": "\ud83d\ude02\ud83d\ude02\ud83d\ude02",
-      "video_id": "T1ZBCXIZdhg",
-      "video_title": "So\u2026 this is how we break the game\u2026 any questions?\ufffc \ufffc",
-      "published": "2026-09-24T05:00:46Z",
-      "relative": "1 day ago",
-      "url": "https://www.youtube.com/watch?v=T1ZBCXIZdhg&lc=UgyslCW0VNwKQwF4_Z54AaABAg",
-      "likes": 2
-    },
-    {
-      "id": "Ugz5LiDchX1T7AaAKNV4AaABAg",
-      "author": "@UncleWill-n4t",
-      "author_url": "http://www.youtube.com/@UncleWill-n4t",
-      "text": "Where did you get your BeamNG mods like the Lamborghini and the ramp car? I can't find them anywhere in the repository \ud83d\ude2d\ud83d\ude2d\ud83d\ude2d",
-      "video_id": "TCknrX_s4v4",
-      "video_title": "Me and The Boys Created Havoc in Trailmakers!?",
-      "published": "2026-09-22T02:44:15Z",
-      "relative": "3 days ago",
-      "url": "https://www.youtube.com/watch?v=TCknrX_s4v4&lc=Ugz5LiDchX1T7AaAKNV4AaABAg",
-      "likes": 2
-    },
-    {
-      "id": "UgxDaDQsStStP35FZwl4AaABAg",
-      "author": "@SkyRyder44",
-      "author_url": "http://www.youtube.com/@SkyRyder44",
-      "text": "12:21 that\u2019s the most funniest thing I ever seen lol\ud83d\ude2e\ud83d\ude2e\ud83d\ude2e\ud83d\ude05\ud83d\ude05\ud83d\ude05\ud83d\ude05\ud83c\udf89\u2764",
-      "video_id": "TCknrX_s4v4",
-      "video_title": "Me and The Boys Created Havoc in Trailmakers!?",
-      "published": "2026-09-21T18:00:55Z",
-      "relative": "3 days ago",
-      "url": "https://www.youtube.com/watch?v=TCknrX_s4v4&lc=UgxDaDQsStStP35FZwl4AaABAg",
-      "likes": 2
     }
   ]
 }
