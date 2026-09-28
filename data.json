@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-27T10:18:47.836576+00:00",
+  "generated_at": "2026-09-28T03:52:28.120271+00:00",
   "subs": 128,
-  "views": 29949,
-  "video_count": 101,
-  "watch_hours": 988.3,
-  "top_video_id": "vWrbtr5MU0o",
-  "top_video_views": 1320,
+  "views": 30034,
+  "video_count": 102,
+  "watch_hours": 991.1,
+  "top_video_id": "8ECgJ8QZWMg",
+  "top_video_views": 13737,
   "monetization": {
     "shorts_tier": {
-      "name": "Shorts Monetization",
+      "name": "Fan Funding Tier",
       "subs_pct": 25.6,
       "subs_current": 128,
       "subs_target": 500,
       "subs_remaining": 372,
-      "note": "Also needs 3 million Shorts views in the last 90 days.",
+      "note": "Unlocks memberships, Super Thanks and other fan funding (not ads). Also needs 3 public uploads in 90 days, plus 3,000 watch hours in 12 months or 3M Shorts views in 90 days.",
       "unlocked": false
     },
     "full_ypp": {
@@ -22,10 +22,11 @@
       "subs_current": 128,
       "subs_target": 1000,
       "subs_remaining": 872,
-      "hours_pct": 24.7,
-      "hours_current": 988.3,
+      "hours_pct": 24.8,
+      "hours_current": 991.1,
       "hours_target": 4000,
-      "hours_remaining": 3011.7,
+      "hours_remaining": 3008.9,
+      "note": "Both bars need to hit 100% to unlock ads on regular videos (or 10M Shorts views in 90 days instead of watch hours). Watch hours here are a rough estimate \u2014 check YouTube Studio for the real number.",
       "unlocked": false
     }
   },
@@ -35,12 +36,36 @@
     "subs_pct": 51.2,
     "sub_goal_label": "250",
     "view_goal": 50000,
-    "views_to_go": 20051,
-    "views_pct": 59.9,
+    "views_to_go": 19966,
+    "views_pct": 60.1,
     "view_goal_label": "50K"
   },
-  "pep_talk": "Your watch hours jumped 61.5 \u2014 that means people are really digging your content!",
+  "pep_talk": "Your 2,800 new views this week show people are really connecting with your content, Zayden!",
   "recent_comments": [
+    {
+      "id": "Ugx_1SULDhF4MzsLVZR4AaABAg",
+      "author": "@DetourMaster",
+      "author_url": "http://www.youtube.com/@DetourMaster",
+      "text": "Hi",
+      "video_id": "3QdB71H_fyY",
+      "video_title": "Brick Rigs but we get BOMBED!?",
+      "published": "2026-09-28T00:34:31Z",
+      "relative": "3 hrs ago",
+      "url": "https://www.youtube.com/watch?v=3QdB71H_fyY&lc=Ugx_1SULDhF4MzsLVZR4AaABAg",
+      "likes": 1
+    },
+    {
+      "id": "UgxiC2GN5hiT8AMRl994AaABAg",
+      "author": "@TBestNoob",
+      "author_url": "http://www.youtube.com/@TBestNoob",
+      "text": "I just got Brick Rigs! I'm still learning but it's really fun lol",
+      "video_id": "3QdB71H_fyY",
+      "video_title": "Brick Rigs but we get BOMBED!?",
+      "published": "2026-09-27T22:46:15Z",
+      "relative": "5 hrs ago",
+      "url": "https://www.youtube.com/watch?v=3QdB71H_fyY&lc=UgxiC2GN5hiT8AMRl994AaABAg",
+      "likes": 1
+    },
     {
       "id": "Ugy82ZrSx3QoY8bdcQ14AaABAg",
       "author": "@DetourMaster",
@@ -49,7 +74,7 @@
       "video_id": "R3J--Gwqcus",
       "video_title": "We ABUSED Physics in Trailmakers!?",
       "published": "2026-09-27T00:21:46Z",
-      "relative": "9 hrs ago",
+      "relative": "1 day ago",
       "url": "https://www.youtube.com/watch?v=R3J--Gwqcus&lc=Ugy82ZrSx3QoY8bdcQ14AaABAg",
       "likes": 3
     },
@@ -63,7 +88,7 @@
       "published": "2026-09-26T08:31:28Z",
       "relative": "1 day ago",
       "url": "https://www.youtube.com/watch?v=e6GWOoishwQ&lc=Ugz7e_MwpEWaWrYl9LN4AaABAg",
-      "likes": 1
+      "likes": 2
     },
     {
       "id": "Ugw_xHhuEbFZRpDi1i94AaABAg",
@@ -75,31 +100,7 @@
       "published": "2026-09-26T08:31:06Z",
       "relative": "1 day ago",
       "url": "https://www.youtube.com/watch?v=e6GWOoishwQ&lc=Ugw_xHhuEbFZRpDi1i94AaABAg",
-      "likes": 1
-    },
-    {
-      "id": "UgyrMobmsYhEVOvuC6l4AaABAg",
-      "author": "@Buglordbryce",
-      "author_url": "http://www.youtube.com/@Buglordbryce",
-      "text": "Through 23:30, ish, I told csteel about a thing I did, I'm not going to say what, but Zayden knows what I did",
-      "video_id": "TCknrX_s4v4",
-      "video_title": "Me and The Boys Created Havoc in Trailmakers!?",
-      "published": "2026-09-25T00:24:39Z",
-      "relative": "2 days ago",
-      "url": "https://www.youtube.com/watch?v=TCknrX_s4v4&lc=UgyrMobmsYhEVOvuC6l4AaABAg",
-      "likes": 0
-    },
-    {
-      "id": "UgxcfRRutyARigxskIp4AaABAg",
-      "author": "@Buglordbryce",
-      "author_url": "http://www.youtube.com/@Buglordbryce",
-      "text": "Don't look at the chat to the left in 11:12",
-      "video_id": "TCknrX_s4v4",
-      "video_title": "Me and The Boys Created Havoc in Trailmakers!?",
-      "published": "2026-09-24T10:56:09Z",
-      "relative": "2 days ago",
-      "url": "https://www.youtube.com/watch?v=TCknrX_s4v4&lc=UgxcfRRutyARigxskIp4AaABAg",
-      "likes": 0
+      "likes": 2
     }
   ]
 }
