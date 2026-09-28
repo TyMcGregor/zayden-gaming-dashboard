@@ -466,6 +466,11 @@ def main():
 
     videos_sorted = sorted(data["videos"], key=lambda v: v["views"], reverse=True)
     top_video = videos_sorted[0] if videos_sorted else None
+    # Separate "recent" top: best performer among the 50 newest uploads, so a
+    # fresh hit still gets the spotlight even when an old video holds the record.
+    RECENT_WINDOW = 50
+    newest = sorted(data["videos"], key=lambda v: v["published"], reverse=True)[:RECENT_WINDOW]
+    top_recent_video = max(newest, key=lambda v: v["views"]) if newest else None
     recent_videos = sorted(data["videos"], key=lambda v: v["published"], reverse=True)[:10]
 
     # Comments — use the videos we already pulled to map id -> title
@@ -563,6 +568,8 @@ def main():
         "delta_watch_text": dwatch_text, "delta_watch_class": dwatch_cls,
         "quests": coach["quests"],
         "top_video": top_video,
+        "top_recent_video": top_recent_video,
+        "recent_window": min(RECENT_WINDOW, len(data["videos"])),
         "recent_videos": recent_videos[:10],
         "achievements": achievements,
         "monetization": monetization,
@@ -587,6 +594,8 @@ def main():
         "watch_hours": watch_hours,
         "top_video_id": top_video["id"] if top_video else None,
         "top_video_views": top_video["views"] if top_video else 0,
+        "top_recent_video_id": top_recent_video["id"] if top_recent_video else None,
+        "top_recent_video_views": top_recent_video["views"] if top_recent_video else 0,
         "monetization": monetization,
         "milestones": milestones,
         "pep_talk": pep_talk,

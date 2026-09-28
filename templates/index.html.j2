@@ -171,25 +171,38 @@
       </div>
     </section>
 
-    <!-- ========================= TOP MISSION ========================= -->
-    {% if top_video %}
-    <section class="panel">
-      <div class="section-title">Top Mission · Highest Views</div>
+    <!-- ========================= TOP MISSIONS ========================= -->
+    {% macro mission(v, badge, badge_class="", extra="") %}
       <div class="top-mission">
         <div class="mission-thumb">
-          <img src="{{ top_video.thumbnail }}" alt="Top video thumbnail" />
-          <a class="play-btn" href="https://www.youtube.com/watch?v={{ top_video.id }}" target="_blank" rel="noopener" title="Play on YouTube">▶</a>
+          <img src="{{ v.thumbnail }}" alt="{{ v.title }}" />
+          <a class="play-btn" href="https://www.youtube.com/watch?v={{ v.id }}" target="_blank" rel="noopener" title="Play on YouTube">▶</a>
         </div>
         <div class="mission-info">
-          <span class="badge">Legendary Drop</span>
-          <h3>{{ top_video.title }}</h3>
+          <span class="badge {{ badge_class }}">{{ badge }}</span>
+          {% if extra %}<span class="badge same">{{ extra }}</span>{% endif %}
+          <h3>{{ v.title }}</h3>
           <div class="stats">
-            <span><b>{{ top_video.views | commas }}</b> views</span>
-            <span><b>{{ top_video.likes | commas }}</b> likes</span>
-            <span><b>{{ top_video.comments | commas }}</b> comments</span>
+            <span><b>{{ v.views | commas }}</b> views</span>
+            <span><b>{{ v.likes | commas }}</b> likes</span>
+            <span><b>{{ v.comments | commas }}</b> comments</span>
           </div>
         </div>
       </div>
+    {% endmacro %}
+
+    {% if top_video %}
+    <section class="panel">
+      <div class="section-title">Top Mission · Highest Views (All Time)</div>
+      {{ mission(top_video, "Legendary Drop") }}
+    </section>
+    {% endif %}
+
+    {% if top_recent_video %}
+    <section class="panel">
+      <div class="section-title">Top Mission · Highest Views (Last {{ recent_window }} Videos)</div>
+      {{ mission(top_recent_video, "Rising Star", "recent",
+                 "Also all-time #1" if top_video and top_recent_video.id == top_video.id else "") }}
     </section>
     {% endif %}
 

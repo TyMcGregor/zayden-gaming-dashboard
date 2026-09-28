@@ -646,6 +646,17 @@ main {
   border-radius: 999px;
   margin-bottom: 12px;
 }
+.mission-info .badge.recent {
+  background: rgba(0,255,238,0.12);
+  border-color: var(--neon-cyan);
+  color: var(--neon-cyan);
+}
+.mission-info .badge.same {
+  margin-left: 8px;
+  background: transparent;
+  border-color: var(--text-muted);
+  color: var(--text-muted);
+}
 .mission-info h3 {
   font-family: var(--font-display);
   font-size: 26px;
