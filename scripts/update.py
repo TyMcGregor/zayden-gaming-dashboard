@@ -15,6 +15,7 @@ import os
 import re
 import sys
 from datetime import datetime, timedelta, timezone
+from zoneinfo import ZoneInfo
 from pathlib import Path
 
 from anthropic import Anthropic
@@ -33,6 +34,8 @@ WEEKLY_HISTORY_CAP = 14  # ~1 month at 3 runs/week
 YOUTUBE_API_KEY = os.environ["YOUTUBE_API_KEY"]
 ANTHROPIC_API_KEY = os.environ["ANTHROPIC_API_KEY"]
 CHANNEL_ID = os.environ["CHANNEL_ID"]
+
+DISPLAY_TZ = ZoneInfo("America/Los_Angeles")  # family is on Pacific time
 
 CLAUDE_MODEL = "claude-haiku-4-5-20251001"
 
@@ -553,7 +556,7 @@ def main():
     pep_talk = generate_pep_talk(Anthropic(api_key=ANTHROPIC_API_KEY), pep_deltas)
 
     context = {
-        "last_updated": datetime.now(timezone.utc).strftime("%a %b %d · %H:%M UTC"),
+        "last_updated": now_utc.astimezone(DISPLAY_TZ).strftime("%a %b %d · %-I:%M %p %Z"),
         "tagline": coach["tagline"],
         "subs": data["subs"],
         "views": data["views"],
