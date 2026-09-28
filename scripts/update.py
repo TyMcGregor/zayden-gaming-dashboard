@@ -27,7 +27,6 @@ ROOT = Path(__file__).resolve().parent.parent
 TEMPLATE_DIR = ROOT / "templates"
 OUT_HTML = ROOT / "index.html"
 OUT_JSON = ROOT / "data.json"
-PREV_JSON = OUT_JSON  # prior snapshot lives at same path before we overwrite
 WEEKLY_HISTORY = ROOT / "weekly_history.json"  # rolling snapshots for 7-day deltas
 WEEKLY_HISTORY_CAP = 14  # ~1 month at 3 runs/week
 
@@ -57,7 +56,7 @@ def fetch_channel_data():
 
     video_ids = []
     page_token = None
-    while len(video_ids) < 50:
+    while True:
         pl = yt.playlistItems().list(
             playlistId=uploads_playlist,
             part="contentDetails",
@@ -314,19 +313,25 @@ def fetch_recent_comments(yt, channel_id: str, recent_videos: list[dict], video_
 
 
 def build_monetization(subs: int, watch_hours: float) -> dict:
-    """Two YPP tiers as kid-friendly progress data."""
+    """Two YPP tiers as kid-friendly progress data.
+
+    watch_hours is an ESTIMATE (see main) — the real qualifying number only
+    lives in YouTube Studio / the Analytics API.
+    """
     shorts_pct = round(min(100.0, subs / 500 * 100), 1)
     ypp_subs_pct = round(min(100.0, subs / 1000 * 100), 1)
     ypp_hours_pct = round(min(100.0, watch_hours / 4000 * 100), 1)
     return {
         "shorts_tier": {
-            "name": "Shorts Monetization",
+            "name": "Fan Funding Tier",
             "subs_pct": shorts_pct,
             "subs_current": subs,
             "subs_target": 500,
             "subs_remaining": max(0, 500 - subs),
-            "note": "Also needs 3 million Shorts views in the last 90 days.",
-            "unlocked": subs >= 500,
+            "note": ("Unlocks memberships, Super Thanks and other fan funding (not ads). "
+                     "Also needs 3 public uploads in 90 days, plus 3,000 watch hours "
+                     "in 12 months or 3M Shorts views in 90 days."),
+            "unlocked": subs >= 500 and watch_hours >= 3000,
         },
         "full_ypp": {
             "name": "Full Partner Program",
@@ -338,16 +343,20 @@ def build_monetization(subs: int, watch_hours: float) -> dict:
             "hours_current": round(watch_hours, 1),
             "hours_target": 4000,
             "hours_remaining": max(0, round(4000 - watch_hours, 1)),
+            "note": ("Both bars need to hit 100% to unlock ads on regular videos "
+                     "(or 10M Shorts views in 90 days instead of watch hours). "
+                     "Watch hours here are a rough estimate — check YouTube Studio for the real number."),
             "unlocked": subs >= 1000 and watch_hours >= 4000,
         },
     }
 
 
-PEP_TALK_SYSTEM = """You are Boost, a hype coach for Zayden (age 12), a YouTube
+PEP_TALK_SYSTEM = """You are Boost, a hype coach for Zayden, a young YouTube
 gamer. Write ONE upbeat, age-appropriate sentence — max 20 words — that
 celebrates whichever metric moved the most since last update. No emojis at the
 start. No exclamation overload (max one !). No fake numbers — only mention
-numbers from the JSON. If everything is 0 or negative, give honest gentle
+numbers from the JSON. Deltas are over roughly the last 7 days (null means
+no baseline yet). If everything is 0 or negative, give honest gentle
 encouragement about consistency. Output the sentence text only, no quotes."""
 
 
@@ -386,18 +395,16 @@ def build_achievements(subs: int, views: int, best_views: int) -> list[dict]:
 # Claude coaching
 # ---------------------------------------------------------------------------
 
-COACH_SYSTEM = """You are Boost, a YouTube growth coach for an 11-13 year old
-creator named Zayden. His channel is "Zayden Gaming" — he plays Gmod (Star Wars
+COACH_SYSTEM = """You are Boost, a YouTube growth coach for a young creator
+named Zayden. His channel is "Zayden Gaming" — he plays Gmod (Star Wars
 and FNAF mods are his hits), Brick Rigs, BeamNG, Forza Horizon 5, MechWarrior 5,
-Wobbly Life, Stray, Portal, Retro Rewind, and The Last Caretaker. He obscures
-his face and keeps his last name, location, school, and friends off camera.
+Wobbly Life, Stray, Portal, Retro Rewind, and The Last Caretaker. Never suggest
+showing his face or sharing any personal details on camera.
 
 You output JSON ONLY. No prose outside JSON. Voice: encouraging, fun, a
 little gamer-slang but not cringey, zero adult jargon. Tips explain WHY they
 help in a one-sentence way a kid understands. Never suggest clickbait that
 misleads, fear-based thumbnails, or anything that compromises his safety.
-Parent summary is a separate short note for Zayden's dad Tyler — more
-strategic, references concrete metrics.
 
 Return exactly this JSON shape:
 {
@@ -406,13 +413,12 @@ Return exactly this JSON shape:
     {"icon": "🎯", "title": "QUEST NAME", "body": "what to do in Zayden's voice",
      "why": "short one-sentence why it helps"},
     ... 3 or 4 items total, icons vary from 🎯 ⚡ 🎮 🏆 🚀 💡 🔥 ...
-  ],
-  "parent_note": "2-3 sentence HTML-safe note to Tyler about the coming week"
+  ]
 }
 """
 
 
-def coach_with_claude(data: dict, prev: dict | None) -> dict:
+def coach_with_claude(data: dict, week_ago: dict | None) -> dict:
     client = Anthropic(api_key=ANTHROPIC_API_KEY)
 
     top5 = sorted(data["videos"], key=lambda v: v["views"], reverse=True)[:5]
@@ -422,8 +428,8 @@ def coach_with_claude(data: dict, prev: dict | None) -> dict:
         "subs": data["subs"],
         "total_views": data["views"],
         "video_count": data["video_count"],
-        "subs_delta_week": data["subs"] - prev["subs"] if prev else None,
-        "views_delta_week": data["views"] - prev["views"] if prev else None,
+        "subs_delta_week": data["subs"] - week_ago["subs"] if week_ago else None,
+        "views_delta_week": data["views"] - week_ago["views"] if week_ago else None,
         "top_5_videos": [{"title": v["title"], "views": v["views"]} for v in top5],
         "most_recent_5": [{"title": v["title"], "views": v["views"]} for v in recent5],
     }
@@ -456,13 +462,6 @@ def coach_with_claude(data: dict, prev: dict | None) -> dict:
 # ---------------------------------------------------------------------------
 
 def main():
-    prev = None
-    if PREV_JSON.exists():
-        try:
-            prev = json.loads(PREV_JSON.read_text(encoding="utf-8"))
-        except Exception as e:
-            print(f"WARN: prior data.json unreadable: {e}", file=sys.stderr)
-
     data = fetch_channel_data()
 
     videos_sorted = sorted(data["videos"], key=lambda v: v["views"], reverse=True)
@@ -486,7 +485,7 @@ def main():
 
     # Coaching
     try:
-        coach = coach_with_claude(data, prev)
+        coach = coach_with_claude(data, week_ago)
     except Exception as e:
         print(f"WARN: Claude coaching failed ({e}) — using fallback quests", file=sys.stderr)
         coach = {
@@ -502,16 +501,13 @@ def main():
                  "body": "Reply to every comment this week, even just with an emoji.",
                  "why": "YouTube sees comments as a sign people love your channel."},
             ],
-            "parent_note": "Lean into the Gmod Star Wars breakout; shorten edits; reply to comments.",
         }
 
-    # Watch hours — estimate from per-video views * avg duration (no Analytics API)
-    # Placeholder 0 until we wire deeper metrics; can be replaced with stored
-    # snapshot from analytics CSVs if/when Tyler uploads them.
-    watch_hours = round(data["views"] * 0.033, 1)  # rough proxy: ~2min per view
-    impressions = "—"
-    ctr = "—"
-    avd = "—"
+    # Watch hours — ESTIMATE ONLY (~2 min per lifetime view). The Data API has
+    # no watch-time metric; the real qualifying number (public long-form, last
+    # 12 months) needs the YouTube Analytics API / Studio. Labelled "est." in
+    # the UI and kept out of the pep talk so it's never presented as fact.
+    watch_hours = round(data["views"] * 0.033, 1)
 
     dwatch_text, dwatch_cls = delta(
         watch_hours,
@@ -538,12 +534,12 @@ def main():
         "view_goal_label": fmt_int(view_goal),
     }
 
-    # Coach pep-talk based on deltas (gracefully handles no-prior-snapshot case)
+    # Coach pep-talk — same ~7-day window as the stat tiles. Watch hours are
+    # deliberately excluded because they're only an estimate.
     pep_deltas = {
-        "subs_change": data["subs"] - prev["subs"] if prev else 0,
-        "views_change": data["views"] - prev["views"] if prev else 0,
-        "videos_change": data["video_count"] - prev["video_count"] if prev else 0,
-        "watch_hours_change": round(watch_hours - prev["watch_hours"], 1) if prev and "watch_hours" in prev else 0,
+        "subs_change_7d": data["subs"] - week_ago["subs"] if week_ago else None,
+        "views_change_7d": data["views"] - week_ago["views"] if week_ago else None,
+        "videos_change_7d": data["video_count"] - week_ago["video_count"] if week_ago else None,
         "current_subs": data["subs"],
         "current_views": data["views"],
         "subs_to_next_milestone": milestones["subs_to_go"],
@@ -569,11 +565,6 @@ def main():
         "top_video": top_video,
         "recent_videos": recent_videos[:10],
         "achievements": achievements,
-        "impressions": impressions,
-        "ctr": ctr,
-        "avd": avd,
-        "ypp_progress": round(min(100.0, data["subs"] / 1000 * 100), 1),
-        "parent_note": coach["parent_note"],
         "monetization": monetization,
         "milestones": milestones,
         "pep_talk": pep_talk,
@@ -584,6 +575,7 @@ def main():
         loader=FileSystemLoader(str(TEMPLATE_DIR)),
         autoescape=select_autoescape(["html", "j2"]),
     )
+    env.filters["commas"] = lambda n: f"{int(n):,}"
     tpl = env.get_template("index.html.j2")
     OUT_HTML.write_text(tpl.render(**context), encoding="utf-8")
 

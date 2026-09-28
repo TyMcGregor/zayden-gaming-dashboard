@@ -6,7 +6,7 @@ Built by the **Boost** sub-agent of Tyler's Nexus assistant.
 
 ## What it does
 - Shows Zayden's channel as a **game HUD**: player profile, level, XP bar, stat tiles, **next-milestone countdowns**, **monetization progress**, **coach pep-talk**, weekly quests, top mission, **5 latest comments**, achievements.
-- Pulls fresh data from the **YouTube Data API v3** three times a week — **Sunday, Wednesday, Friday at ~9 PM Pacific**.
+- Pulls fresh data from the **YouTube Data API v3** three times a week — **Sunday, Wednesday, Friday at ~8 PM Pacific** (Sat/Tue/Thu evening).
 - Uses **Claude** (Anthropic API) to generate kid-friendly weekly quests and a fresh pep-talk in Zayden's voice each refresh.
 - Hosted free on **GitHub Pages**, built by **GitHub Actions** — no servers to maintain.
 
@@ -24,9 +24,10 @@ See [`SETUP.md`](./SETUP.md) for the step-by-step guide Tyler needs to run once.
 ├── templates/
 │   └── index.html.j2                        # Jinja2 template
 ├── index.html                               # Generated output (served by Pages)
-├── data.json                                # Snapshot used for week-over-week deltas
+├── data.json                                # Latest snapshot (machine-readable)
+├── weekly_history.json                      # Rolling snapshots for 7-day deltas
 ├── style.css                                # Gaming-HUD theme
-├── script.js                                # Count-up animations, parent toggle
+├── script.js                                # Count-up animations, progress bars
 ├── SETUP.md                                 # One-time setup guide
 └── README.md
 ```

@@ -70,7 +70,7 @@
         </div>
         <div class="stat-tile watch">
           <div class="icon">⏱</div>
-          <div class="label">Watch Hours</div>
+          <div class="label">Watch Hours <span class="est">(est.)</span></div>
           <div class="value" data-count="{{ watch_hours }}" data-decimals="1">0</div>
           <div class="delta {{ delta_watch_class }}">{{ delta_watch_text }}</div>
         </div>
@@ -82,7 +82,7 @@
       <div class="panel milestone-tile">
         <div class="m-label">Next Subscriber Milestone</div>
         <div class="m-headline">
-          <span class="m-big">{{ milestones.subs_to_go }}</span>
+          <span class="m-big">{{ milestones.subs_to_go | commas }}</span>
           <span class="m-rest">to <b>{{ milestones.sub_goal_label }}</b> subs</span>
         </div>
         <div class="m-bar"><div class="m-fill" data-target="{{ milestones.subs_pct }}" style="width:0%"></div></div>
@@ -91,11 +91,11 @@
       <div class="panel milestone-tile views-tile">
         <div class="m-label">Next Views Milestone</div>
         <div class="m-headline">
-          <span class="m-big">{{ milestones.views_to_go }}</span>
+          <span class="m-big">{{ milestones.views_to_go | commas }}</span>
           <span class="m-rest">to <b>{{ milestones.view_goal_label }}</b> views</span>
         </div>
         <div class="m-bar"><div class="m-fill alt" data-target="{{ milestones.views_pct }}" style="width:0%"></div></div>
-        <div class="m-foot">{{ views }} / {{ milestones.view_goal_label }} · {{ milestones.views_pct }}%</div>
+        <div class="m-foot">{{ views | commas }} / {{ milestones.view_goal_label }} · {{ milestones.views_pct }}%</div>
       </div>
       <div class="panel pep-talk">
         <div class="m-label">Coach Pep-Talk</div>
@@ -122,6 +122,11 @@
             <div class="monet-bar"><div class="monet-fill" data-target="{{ monetization.shorts_tier.subs_pct }}" style="width:0%"></div></div>
             <div class="monet-num">{{ monetization.shorts_tier.subs_current }} / {{ monetization.shorts_tier.subs_target }}</div>
           </div>
+          <div class="monet-bar-row">
+            <div class="monet-bar-label">Watch Hours (est.)</div>
+            <div class="monet-bar"><div class="monet-fill alt" data-target="{{ [100, monetization.full_ypp.hours_current / 30] | min | round(1) }}" style="width:0%"></div></div>
+            <div class="monet-num">{{ monetization.full_ypp.hours_current | commas }} / 3,000</div>
+          </div>
           <div class="monet-note">{{ monetization.shorts_tier.note }}</div>
         </div>
 
@@ -140,11 +145,11 @@
             <div class="monet-num">{{ monetization.full_ypp.subs_current }} / {{ monetization.full_ypp.subs_target }}</div>
           </div>
           <div class="monet-bar-row">
-            <div class="monet-bar-label">Watch Hours</div>
+            <div class="monet-bar-label">Watch Hours (est.)</div>
             <div class="monet-bar"><div class="monet-fill alt" data-target="{{ monetization.full_ypp.hours_pct }}" style="width:0%"></div></div>
-            <div class="monet-num">{{ monetization.full_ypp.hours_current }} / {{ monetization.full_ypp.hours_target }}</div>
+            <div class="monet-num">{{ monetization.full_ypp.hours_current | commas }} / {{ monetization.full_ypp.hours_target | commas }}</div>
           </div>
-          <div class="monet-note">Both bars need to hit 100% to unlock ads on regular videos.</div>
+          <div class="monet-note">{{ monetization.full_ypp.note }}</div>
         </div>
       </div>
     </section>
@@ -179,9 +184,9 @@
           <span class="badge">Legendary Drop</span>
           <h3>{{ top_video.title }}</h3>
           <div class="stats">
-            <span><b>{{ top_video.views }}</b> views</span>
-            <span><b>{{ top_video.likes }}</b> likes</span>
-            <span><b>{{ top_video.comments }}</b> comments</span>
+            <span><b>{{ top_video.views | commas }}</b> views</span>
+            <span><b>{{ top_video.likes | commas }}</b> likes</span>
+            <span><b>{{ top_video.comments | commas }}</b> comments</span>
           </div>
         </div>
       </div>
@@ -198,7 +203,7 @@
           <div class="thumb"><img src="{{ v.thumbnail }}" alt="{{ v.title }}" /></div>
           <div class="meta">
             <div class="title">{{ v.title }}</div>
-            <div class="views">{{ v.views }} views</div>
+            <div class="views">{{ v.views | commas }} views</div>
           </div>
         </a>
         {% endfor %}
@@ -242,21 +247,6 @@
           </div>
         </div>
         {% endfor %}
-      </div>
-    </section>
-
-    <!-- ========================= PARENT PANEL ========================= -->
-    <section style="text-align:right;">
-      <button class="parent-toggle" id="parent-toggle">🔒 Parent View</button>
-      <div class="parent-panel" id="parent-panel">
-        <h4>Parent / Coach Notes</h4>
-        <div class="metrics">
-          <div class="m"><div class="k">Impressions (90d)</div><div class="v">{{ impressions }}</div></div>
-          <div class="m"><div class="k">CTR (90d)</div><div class="v">{{ ctr }}%</div></div>
-          <div class="m"><div class="k">Avg View Duration</div><div class="v">{{ avd }}</div></div>
-          <div class="m"><div class="k">Road to YPP</div><div class="v">{{ ypp_progress }}%</div></div>
-        </div>
-        <div style="text-align:left;">{{ parent_note | safe }}</div>
       </div>
     </section>
 

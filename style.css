@@ -309,6 +309,7 @@ main {
   text-transform: uppercase;
   color: var(--text-muted);
 }
+.stat-tile .label .est { letter-spacing: 1px; text-transform: none; opacity: 0.8; }
 .stat-tile .value {
   font-family: var(--font-display);
   font-weight: 900;

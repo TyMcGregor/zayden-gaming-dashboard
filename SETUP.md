@@ -8,7 +8,7 @@ Follow these steps once. After that the site is fully automatic — it refreshes
 
 ## What you'll end up with
 - A live URL (e.g., `https://<yourname>.github.io/zayden-gaming-dashboard/`) that Zayden can bookmark
-- Stats, milestones, monetization progress, comments, quests, and pep-talk refresh automatically Sun / Wed / Fri at ~9 PM Pacific
+- Stats, milestones, monetization progress, comments, quests, and pep-talk refresh automatically Sun / Wed / Fri at ~8 PM Pacific (Sat/Tue/Thu evening)
 - Zero servers, zero monthly cost (GitHub Pages + Actions are free for this)
 
 ---
@@ -144,7 +144,7 @@ After the Action finishes green:
 
 ## From now on — automatic
 
-- Every **Sunday, Wednesday, and Friday at ~9 PM Pacific** (GitHub cron drifts by a few min) the Action runs
+- Every **Sunday, Wednesday, and Friday at 03:17 UTC (~8 PM Pacific the evening before)** (GitHub cron can still drift) the Action runs
 - Pulls fresh YouTube stats + the 5 latest comments → asks Claude for new quests + a pep-talk → updates the page
 - You don't have to do anything. Ever.
 
