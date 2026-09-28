@@ -2,9 +2,11 @@ name: Update Zayden Gaming Dashboard
 
 on:
   schedule:
-    # Sun / Wed / Fri at 05:00 UTC (≈ 9-10 PM Pacific the previous evening).
+    # Sun / Wed / Fri at 03:17 UTC (≈ 8 PM Pacific the previous evening).
+    # Odd minute on purpose: GitHub heavily delays on-the-hour cron jobs
+    # (the old 05:00 slot was routinely firing 4-5 hours late).
     # Cron day-of-week: 0=Sun, 3=Wed, 5=Fri.
-    - cron: "0 5 * * 0,3,5"
+    - cron: "17 3 * * 0,3,5"
   workflow_dispatch: {}
   push:
     branches: [main]
@@ -22,10 +24,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: "3.12"
           cache: pip
@@ -64,18 +66,24 @@ jobs:
       id-token: write
     steps:
       - name: Checkout latest (post-commit)
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           ref: ${{ github.ref }}
 
       - name: Configure Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
+
+      # Publish only the public site files — not scripts, templates, docs or history.
+      - name: Stage site files
+        run: |
+          mkdir _site
+          cp -r index.html style.css script.js assets _site/
 
       - name: Upload site artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
-          path: "."
+          path: "_site"
 
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
