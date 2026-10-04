@@ -1,49 +1,73 @@
 {
-  "generated_at": "2026-10-02T09:43:27.729317+00:00",
-  "subs": 131,
-  "views": 31714,
-  "video_count": 104,
-  "watch_hours": 1046.6,
+  "generated_at": "2026-10-04T09:44:51.929789+00:00",
+  "subs": 133,
+  "views": 31987,
+  "video_count": 105,
+  "watch_hours": 1055.6,
   "top_video_id": "8ECgJ8QZWMg",
-  "top_video_views": 13738,
+  "top_video_views": 13739,
   "top_recent_video_id": "e6GWOoishwQ",
-  "top_recent_video_views": 1455,
+  "top_recent_video_views": 1456,
   "monetization": {
     "shorts_tier": {
       "name": "Fan Funding Tier",
-      "subs_pct": 26.2,
-      "subs_current": 131,
+      "subs_pct": 26.6,
+      "subs_current": 133,
       "subs_target": 500,
-      "subs_remaining": 369,
+      "subs_remaining": 367,
       "note": "Unlocks memberships, Super Thanks and other fan funding (not ads). Also needs 3 public uploads in 90 days, plus 3,000 watch hours in 12 months or 3M Shorts views in 90 days.",
       "unlocked": false
     },
     "full_ypp": {
       "name": "Full Partner Program",
-      "subs_pct": 13.1,
-      "subs_current": 131,
+      "subs_pct": 13.3,
+      "subs_current": 133,
       "subs_target": 1000,
-      "subs_remaining": 869,
-      "hours_pct": 26.2,
-      "hours_current": 1046.6,
+      "subs_remaining": 867,
+      "hours_pct": 26.4,
+      "hours_current": 1055.6,
       "hours_target": 4000,
-      "hours_remaining": 2953.4,
+      "hours_remaining": 2944.4,
       "note": "Both bars need to hit 100% to unlock ads on regular videos (or 10M Shorts views in 90 days instead of watch hours). Watch hours here are a rough estimate \u2014 check YouTube Studio for the real number.",
       "unlocked": false
     }
   },
   "milestones": {
     "sub_goal": 250,
-    "subs_to_go": 119,
-    "subs_pct": 52.4,
+    "subs_to_go": 117,
+    "subs_pct": 53.2,
     "sub_goal_label": "250",
     "view_goal": 50000,
-    "views_to_go": 18286,
-    "views_pct": 63.4,
+    "views_to_go": 18013,
+    "views_pct": 64.0,
     "view_goal_label": "50K"
   },
-  "pep_talk": "Your 3,628 new views this week show real momentum\u2014keep that content flowing!",
+  "pep_talk": "Your views jumped 2038 this week\u2014that's serious momentum, keep riding this wave!",
   "recent_comments": [
+    {
+      "id": "Ugyw769dvVvFreYjhu14AaABAg",
+      "author": "@DetourMaster",
+      "author_url": "http://www.youtube.com/@DetourMaster",
+      "text": "Hey zayden wanna play game together next weekend?\ud83c\udf89",
+      "video_id": "c3qpapj_20M",
+      "video_title": "Upgrading Cars to ESCAPE the Police! | BeamNG Drive",
+      "published": "2026-10-04T04:51:06Z",
+      "relative": "4 hrs ago",
+      "url": "https://www.youtube.com/watch?v=c3qpapj_20M&lc=Ugyw769dvVvFreYjhu14AaABAg",
+      "likes": 1
+    },
+    {
+      "id": "Ugy8q_d4JojRBEx3Hnt4AaABAg",
+      "author": "@DetourMaster",
+      "author_url": "http://www.youtube.com/@DetourMaster",
+      "text": "ZaydenGaming can we play game together next weekend?",
+      "video_id": "GeGmJXMP908",
+      "video_title": "5920 Satisfying spinning Zayden's",
+      "published": "2026-10-04T03:31:41Z",
+      "relative": "6 hrs ago",
+      "url": "https://www.youtube.com/watch?v=GeGmJXMP908&lc=Ugy8q_d4JojRBEx3Hnt4AaABAg",
+      "likes": 1
+    },
     {
       "id": "Ugzg51SdLZgEtur_LAx4AaABAg",
       "author": "@RMECHX",
@@ -52,7 +76,7 @@
       "video_id": "e6GWOoishwQ",
       "video_title": "Physics are not on my side...",
       "published": "2026-10-02T06:13:22Z",
-      "relative": "3 hrs ago",
+      "relative": "2 days ago",
       "url": "https://www.youtube.com/watch?v=e6GWOoishwQ&lc=Ugzg51SdLZgEtur_LAx4AaABAg",
       "likes": 0
     },
@@ -64,7 +88,7 @@
       "video_id": "3QdB71H_fyY",
       "video_title": "Brick Rigs but we get BOMBED!?",
       "published": "2026-10-01T20:54:50Z",
-      "relative": "12 hrs ago",
+      "relative": "2 days ago",
       "url": "https://www.youtube.com/watch?v=3QdB71H_fyY&lc=UgyjXFwcahLDNf7pljF4AaABAg",
       "likes": 2
     },
@@ -76,33 +100,9 @@
       "video_id": "GeGmJXMP908",
       "video_title": "5920 Satisfying spinning Zayden's",
       "published": "2026-09-29T21:17:35Z",
-      "relative": "2 days ago",
+      "relative": "4 days ago",
       "url": "https://www.youtube.com/watch?v=GeGmJXMP908&lc=UgxBbrCN3zWii5dGfLN4AaABAg",
       "likes": 2
-    },
-    {
-      "id": "UgzP95NGhpEoKvkKRdl4AaABAg",
-      "author": "@SkyRyder44",
-      "author_url": "http://www.youtube.com/@SkyRyder44",
-      "text": "Hahaha haha lol lol lol",
-      "video_id": "GeGmJXMP908",
-      "video_title": "5920 Satisfying spinning Zayden's",
-      "published": "2026-09-29T21:15:18Z",
-      "relative": "2 days ago",
-      "url": "https://www.youtube.com/watch?v=GeGmJXMP908&lc=UgzP95NGhpEoKvkKRdl4AaABAg",
-      "likes": 2
-    },
-    {
-      "id": "UgzhJjiCziKKTuCxfWB4AaABAg",
-      "author": "@DetourMaster",
-      "author_url": "http://www.youtube.com/@DetourMaster",
-      "text": "Lolllll nice video!!\ud83d\ude02\ud83d\ude02\ud83d\ude02\ud83d\ude02\ud83d\udcaf",
-      "video_id": "GeGmJXMP908",
-      "video_title": "5920 Satisfying spinning Zayden's",
-      "published": "2026-09-29T04:40:39Z",
-      "relative": "3 days ago",
-      "url": "https://www.youtube.com/watch?v=GeGmJXMP908&lc=UgzhJjiCziKKTuCxfWB4AaABAg",
-      "likes": 3
     }
   ]
 }
