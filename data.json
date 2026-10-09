@@ -1,48 +1,48 @@
 {
-  "generated_at": "2026-10-07T10:13:14.776206+00:00",
-  "subs": 138,
-  "views": 33305,
+  "generated_at": "2026-10-09T10:30:21.839739+00:00",
+  "subs": 145,
+  "views": 33668,
   "video_count": 112,
-  "watch_hours": 1099.1,
+  "watch_hours": 1111.0,
   "top_video_id": "8ECgJ8QZWMg",
-  "top_video_views": 13744,
+  "top_video_views": 13747,
   "top_recent_video_id": "e6GWOoishwQ",
-  "top_recent_video_views": 1465,
+  "top_recent_video_views": 1471,
   "monetization": {
     "shorts_tier": {
       "name": "Fan Funding Tier",
-      "subs_pct": 27.6,
-      "subs_current": 138,
+      "subs_pct": 29.0,
+      "subs_current": 145,
       "subs_target": 500,
-      "subs_remaining": 362,
+      "subs_remaining": 355,
       "note": "Unlocks memberships, Super Thanks and other fan funding (not ads). Also needs 3 public uploads in 90 days, plus 3,000 watch hours in 12 months or 3M Shorts views in 90 days.",
       "unlocked": false
     },
     "full_ypp": {
       "name": "Full Partner Program",
-      "subs_pct": 13.8,
-      "subs_current": 138,
+      "subs_pct": 14.5,
+      "subs_current": 145,
       "subs_target": 1000,
-      "subs_remaining": 862,
-      "hours_pct": 27.5,
-      "hours_current": 1099.1,
+      "subs_remaining": 855,
+      "hours_pct": 27.8,
+      "hours_current": 1111.0,
       "hours_target": 4000,
-      "hours_remaining": 2900.9,
+      "hours_remaining": 2889.0,
       "note": "Both bars need to hit 100% to unlock ads on regular videos (or 10M Shorts views in 90 days instead of watch hours). Watch hours here are a rough estimate \u2014 check YouTube Studio for the real number.",
       "unlocked": false
     }
   },
   "milestones": {
     "sub_goal": 250,
-    "subs_to_go": 112,
-    "subs_pct": 55.2,
+    "subs_to_go": 105,
+    "subs_pct": 58.0,
     "sub_goal_label": "250",
     "view_goal": 50000,
-    "views_to_go": 16695,
-    "views_pct": 66.6,
+    "views_to_go": 16332,
+    "views_pct": 67.3,
     "view_goal_label": "50K"
   },
-  "pep_talk": "Your views jumped 2632 this week\u2014that's serious momentum showing people love your content!",
+  "pep_talk": "You crushed it with 1954 new views this week, Zayden \u2013 that's serious momentum building!",
   "recent_comments": [
     {
       "id": "UgwurSN8sqje-iRbVpp4AaABAg",
@@ -52,7 +52,7 @@
       "video_id": "Xp0NVJ0pH-g",
       "video_title": "Baby Zayden in 2024 be like:",
       "published": "2026-10-06T10:02:17Z",
-      "relative": "1 day ago",
+      "relative": "3 days ago",
       "url": "https://www.youtube.com/watch?v=Xp0NVJ0pH-g&lc=UgwurSN8sqje-iRbVpp4AaABAg",
       "likes": 1
     },
@@ -64,7 +64,7 @@
       "video_id": "Xp0NVJ0pH-g",
       "video_title": "Baby Zayden in 2024 be like:",
       "published": "2026-10-06T04:04:26Z",
-      "relative": "1 day ago",
+      "relative": "3 days ago",
       "url": "https://www.youtube.com/watch?v=Xp0NVJ0pH-g&lc=UgyikdAEG_2CWoSbHcZ4AaABAg",
       "likes": 0
     },
@@ -76,7 +76,7 @@
       "video_id": "HiMRF2VH248",
       "video_title": "Coming Back to Garry's mod was a Mistake...",
       "published": "2026-10-06T01:48:00Z",
-      "relative": "1 day ago",
+      "relative": "3 days ago",
       "url": "https://www.youtube.com/watch?v=HiMRF2VH248&lc=UgzcXTrGZfAN8T4vuqR4AaABAg",
       "likes": 0
     },
@@ -88,7 +88,7 @@
       "video_id": "aaywKV-6MFY",
       "video_title": "Mech demo trailer Short",
       "published": "2026-10-06T01:31:15Z",
-      "relative": "1 day ago",
+      "relative": "3 days ago",
       "url": "https://www.youtube.com/watch?v=aaywKV-6MFY&lc=UgwA_17YitkuynYxkFl4AaABAg",
       "likes": 1
     },
@@ -100,7 +100,7 @@
       "video_id": "0iRC4kKM-6I",
       "video_title": "Mechs Demo Trailer",
       "published": "2026-10-05T18:28:02Z",
-      "relative": "1 day ago",
+      "relative": "3 days ago",
       "url": "https://www.youtube.com/watch?v=0iRC4kKM-6I&lc=UgwA7jlnZ0EPziCws-R4AaABAg",
       "likes": 1
     }
