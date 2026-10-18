@@ -1,49 +1,61 @@
 {
-  "generated_at": "2026-10-16T08:07:51.478348+00:00",
-  "subs": 156,
-  "views": 36085,
+  "generated_at": "2026-10-18T07:59:35.627453+00:00",
+  "subs": 158,
+  "views": 36616,
   "video_count": 115,
-  "watch_hours": 1190.8,
+  "watch_hours": 1208.3,
   "top_video_id": "8ECgJ8QZWMg",
-  "top_video_views": 13750,
+  "top_video_views": 13752,
   "top_recent_video_id": "e6GWOoishwQ",
   "top_recent_video_views": 1495,
   "monetization": {
     "shorts_tier": {
       "name": "Fan Funding Tier",
-      "subs_pct": 31.2,
-      "subs_current": 156,
+      "subs_pct": 31.6,
+      "subs_current": 158,
       "subs_target": 500,
-      "subs_remaining": 344,
+      "subs_remaining": 342,
       "note": "Unlocks memberships, Super Thanks and other fan funding (not ads). Also needs 3 public uploads in 90 days, plus 3,000 watch hours in 12 months or 3M Shorts views in 90 days.",
       "unlocked": false
     },
     "full_ypp": {
       "name": "Full Partner Program",
-      "subs_pct": 15.6,
-      "subs_current": 156,
+      "subs_pct": 15.8,
+      "subs_current": 158,
       "subs_target": 1000,
-      "subs_remaining": 844,
-      "hours_pct": 29.8,
-      "hours_current": 1190.8,
+      "subs_remaining": 842,
+      "hours_pct": 30.2,
+      "hours_current": 1208.3,
       "hours_target": 4000,
-      "hours_remaining": 2809.2,
+      "hours_remaining": 2791.7,
       "note": "Both bars need to hit 100% to unlock ads on regular videos (or 10M Shorts views in 90 days instead of watch hours). Watch hours here are a rough estimate \u2014 check YouTube Studio for the real number.",
       "unlocked": false
     }
   },
   "milestones": {
     "sub_goal": 250,
-    "subs_to_go": 94,
-    "subs_pct": 62.4,
+    "subs_to_go": 92,
+    "subs_pct": 63.2,
     "sub_goal_label": "250",
     "view_goal": 50000,
-    "views_to_go": 13915,
-    "views_pct": 72.2,
+    "views_to_go": 13384,
+    "views_pct": 73.2,
     "view_goal_label": "50K"
   },
-  "pep_talk": "Your views jumped 2417 this week\u2014that's serious momentum and shows people want more of your content!",
+  "pep_talk": "Your views jumped 2108 this week\u2014that's incredible momentum, keep riding this wave!",
   "recent_comments": [
+    {
+      "id": "UgykDC-3jea12eBMtYl4AaABAg",
+      "author": "@ROCKET_MAN134",
+      "author_url": "http://www.youtube.com/@ROCKET_MAN134",
+      "text": "Oh",
+      "video_id": "0qsYSnVv5CY",
+      "video_title": "BeamNG.drive space update. its broken.",
+      "published": "2026-10-17T02:14:20Z",
+      "relative": "1 day ago",
+      "url": "https://www.youtube.com/watch?v=0qsYSnVv5CY&lc=UgykDC-3jea12eBMtYl4AaABAg",
+      "likes": 0
+    },
     {
       "id": "Ugwk_s5GDEo8-C_kOuZ4AaABAg",
       "author": "@Kally-o1b",
@@ -52,7 +64,7 @@
       "video_id": "oJV1hAehxh4",
       "video_title": "I Built a TORTURE MACHINE in Trailmakers!?",
       "published": "2026-10-14T12:17:30Z",
-      "relative": "1 day ago",
+      "relative": "3 days ago",
       "url": "https://www.youtube.com/watch?v=oJV1hAehxh4&lc=Ugwk_s5GDEo8-C_kOuZ4AaABAg",
       "likes": 3
     },
@@ -64,7 +76,7 @@
       "video_id": "oJV1hAehxh4",
       "video_title": "I Built a TORTURE MACHINE in Trailmakers!?",
       "published": "2026-10-13T00:39:22Z",
-      "relative": "3 days ago",
+      "relative": "5 days ago",
       "url": "https://www.youtube.com/watch?v=oJV1hAehxh4&lc=UgyF2DuciKhfkT1aKqV4AaABAg",
       "likes": 3
     },
@@ -76,7 +88,7 @@
       "video_id": "m-EZccl2c4s",
       "video_title": "INFINITE BOOM!",
       "published": "2026-10-12T04:16:44Z",
-      "relative": "4 days ago",
+      "relative": "6 days ago",
       "url": "https://www.youtube.com/watch?v=m-EZccl2c4s&lc=UgzsWQ3P-s5dADyDKRd4AaABAg",
       "likes": 2
     },
@@ -88,21 +100,9 @@
       "video_id": "m-EZccl2c4s",
       "video_title": "INFINITE BOOM!",
       "published": "2026-10-11T23:03:07Z",
-      "relative": "4 days ago",
+      "relative": "6 days ago",
       "url": "https://www.youtube.com/watch?v=m-EZccl2c4s&lc=UgxzwVRWCN4NYlQEeLN4AaABAg",
       "likes": 2
-    },
-    {
-      "id": "Ugz2Yjhgh1SqNIZR0KN4AaABAg",
-      "author": "@ZaydenGaming44",
-      "author_url": "http://www.youtube.com/@ZaydenGaming44",
-      "text": "Don't worry, it's not broken, I don't think...",
-      "video_id": "m-EZccl2c4s",
-      "video_title": "INFINITE BOOM!",
-      "published": "2026-10-11T22:14:00Z",
-      "relative": "4 days ago",
-      "url": "https://www.youtube.com/watch?v=m-EZccl2c4s&lc=Ugz2Yjhgh1SqNIZR0KN4AaABAg",
-      "likes": 0
     }
   ]
 }
