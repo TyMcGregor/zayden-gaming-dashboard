@@ -1,48 +1,48 @@
 {
-  "generated_at": "2026-10-18T07:59:35.627453+00:00",
-  "subs": 158,
-  "views": 36616,
+  "generated_at": "2026-10-21T08:31:47.630501+00:00",
+  "subs": 160,
+  "views": 37050,
   "video_count": 115,
-  "watch_hours": 1208.3,
+  "watch_hours": 1222.7,
   "top_video_id": "8ECgJ8QZWMg",
-  "top_video_views": 13752,
-  "top_recent_video_id": "e6GWOoishwQ",
-  "top_recent_video_views": 1495,
+  "top_video_views": 13754,
+  "top_recent_video_id": "c3qpapj_20M",
+  "top_recent_video_views": 1530,
   "monetization": {
     "shorts_tier": {
       "name": "Fan Funding Tier",
-      "subs_pct": 31.6,
-      "subs_current": 158,
+      "subs_pct": 32.0,
+      "subs_current": 160,
       "subs_target": 500,
-      "subs_remaining": 342,
+      "subs_remaining": 340,
       "note": "Unlocks memberships, Super Thanks and other fan funding (not ads). Also needs 3 public uploads in 90 days, plus 3,000 watch hours in 12 months or 3M Shorts views in 90 days.",
       "unlocked": false
     },
     "full_ypp": {
       "name": "Full Partner Program",
-      "subs_pct": 15.8,
-      "subs_current": 158,
+      "subs_pct": 16.0,
+      "subs_current": 160,
       "subs_target": 1000,
-      "subs_remaining": 842,
-      "hours_pct": 30.2,
-      "hours_current": 1208.3,
+      "subs_remaining": 840,
+      "hours_pct": 30.6,
+      "hours_current": 1222.7,
       "hours_target": 4000,
-      "hours_remaining": 2791.7,
+      "hours_remaining": 2777.3,
       "note": "Both bars need to hit 100% to unlock ads on regular videos (or 10M Shorts views in 90 days instead of watch hours). Watch hours here are a rough estimate \u2014 check YouTube Studio for the real number.",
       "unlocked": false
     }
   },
   "milestones": {
     "sub_goal": 250,
-    "subs_to_go": 92,
-    "subs_pct": 63.2,
+    "subs_to_go": 90,
+    "subs_pct": 64.0,
     "sub_goal_label": "250",
     "view_goal": 50000,
-    "views_to_go": 13384,
-    "views_pct": 73.2,
+    "views_to_go": 12950,
+    "views_pct": 74.1,
     "view_goal_label": "50K"
   },
-  "pep_talk": "Your views jumped 2108 this week\u2014that's incredible momentum, keep riding this wave!",
+  "pep_talk": "Your views jumped 1343 this week, Zayden \u2013 that's serious momentum building!",
   "recent_comments": [
     {
       "id": "UgykDC-3jea12eBMtYl4AaABAg",
@@ -52,7 +52,7 @@
       "video_id": "0qsYSnVv5CY",
       "video_title": "BeamNG.drive space update. its broken.",
       "published": "2026-10-17T02:14:20Z",
-      "relative": "1 day ago",
+      "relative": "4 days ago",
       "url": "https://www.youtube.com/watch?v=0qsYSnVv5CY&lc=UgykDC-3jea12eBMtYl4AaABAg",
       "likes": 0
     },
@@ -64,7 +64,7 @@
       "video_id": "oJV1hAehxh4",
       "video_title": "I Built a TORTURE MACHINE in Trailmakers!?",
       "published": "2026-10-14T12:17:30Z",
-      "relative": "3 days ago",
+      "relative": "6 days ago",
       "url": "https://www.youtube.com/watch?v=oJV1hAehxh4&lc=Ugwk_s5GDEo8-C_kOuZ4AaABAg",
       "likes": 3
     },
@@ -76,7 +76,7 @@
       "video_id": "oJV1hAehxh4",
       "video_title": "I Built a TORTURE MACHINE in Trailmakers!?",
       "published": "2026-10-13T00:39:22Z",
-      "relative": "5 days ago",
+      "relative": "8 days ago",
       "url": "https://www.youtube.com/watch?v=oJV1hAehxh4&lc=UgyF2DuciKhfkT1aKqV4AaABAg",
       "likes": 3
     },
@@ -88,7 +88,7 @@
       "video_id": "m-EZccl2c4s",
       "video_title": "INFINITE BOOM!",
       "published": "2026-10-12T04:16:44Z",
-      "relative": "6 days ago",
+      "relative": "9 days ago",
       "url": "https://www.youtube.com/watch?v=m-EZccl2c4s&lc=UgzsWQ3P-s5dADyDKRd4AaABAg",
       "likes": 2
     },
@@ -100,7 +100,7 @@
       "video_id": "m-EZccl2c4s",
       "video_title": "INFINITE BOOM!",
       "published": "2026-10-11T23:03:07Z",
-      "relative": "6 days ago",
+      "relative": "9 days ago",
       "url": "https://www.youtube.com/watch?v=m-EZccl2c4s&lc=UgxzwVRWCN4NYlQEeLN4AaABAg",
       "likes": 2
     }
