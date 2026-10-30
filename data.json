@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-28T09:36:59.001549+00:00",
+  "generated_at": "2026-10-30T09:57:45.813002+00:00",
   "subs": 162,
-  "views": 39329,
+  "views": 39524,
   "video_count": 117,
-  "watch_hours": 1297.9,
+  "watch_hours": 1304.3,
   "top_video_id": "8ECgJ8QZWMg",
-  "top_video_views": 13760,
+  "top_video_views": 13761,
   "top_recent_video_id": "c3qpapj_20M",
-  "top_recent_video_views": 1741,
+  "top_recent_video_views": 1783,
   "monetization": {
     "shorts_tier": {
       "name": "Fan Funding Tier",
@@ -24,10 +24,10 @@
       "subs_current": 162,
       "subs_target": 1000,
       "subs_remaining": 838,
-      "hours_pct": 32.4,
-      "hours_current": 1297.9,
+      "hours_pct": 32.6,
+      "hours_current": 1304.3,
       "hours_target": 4000,
-      "hours_remaining": 2702.1,
+      "hours_remaining": 2695.7,
       "note": "Both bars need to hit 100% to unlock ads on regular videos (or 10M Shorts views in 90 days instead of watch hours). Watch hours here are a rough estimate \u2014 check YouTube Studio for the real number.",
       "unlocked": false
     }
@@ -38,11 +38,11 @@
     "subs_pct": 64.8,
     "sub_goal_label": "250",
     "view_goal": 50000,
-    "views_to_go": 10671,
-    "views_pct": 78.7,
+    "views_to_go": 10476,
+    "views_pct": 79.0,
     "view_goal_label": "50K"
   },
-  "pep_talk": "Your channel gained 2,279 views this week\u2014keep that momentum going and you're on fire!",
+  "pep_talk": "Your views jumped 2,220 this week \u2013 that's massive growth, keep that momentum going!",
   "recent_comments": [
     {
       "id": "UgyhBY4qp9XSfGGjWht4AaABAg",
@@ -52,7 +52,7 @@
       "video_id": "CoQGRuzPRtI",
       "video_title": "Shpooky Shpooky ghost!",
       "published": "2026-10-25T07:38:02Z",
-      "relative": "3 days ago",
+      "relative": "5 days ago",
       "url": "https://www.youtube.com/watch?v=CoQGRuzPRtI&lc=UgyhBY4qp9XSfGGjWht4AaABAg",
       "likes": 1
     },
@@ -64,9 +64,9 @@
       "video_id": "v-hj2iSPw1E",
       "video_title": "Several spooky ghost videos to scare YO MAMA!!",
       "published": "2026-10-25T05:04:50Z",
-      "relative": "3 days ago",
+      "relative": "5 days ago",
       "url": "https://www.youtube.com/watch?v=v-hj2iSPw1E&lc=Ugxk_TjyviEPHvxta3B4AaABAg",
-      "likes": 1
+      "likes": 2
     },
     {
       "id": "UgwIZoa1B-cO6fylT1J4AaABAg",
@@ -76,7 +76,7 @@
       "video_id": "CoQGRuzPRtI",
       "video_title": "Shpooky Shpooky ghost!",
       "published": "2026-10-24T20:48:03Z",
-      "relative": "3 days ago",
+      "relative": "5 days ago",
       "url": "https://www.youtube.com/watch?v=CoQGRuzPRtI&lc=UgwIZoa1B-cO6fylT1J4AaABAg",
       "likes": 0
     },
@@ -88,7 +88,7 @@
       "video_id": "v-hj2iSPw1E",
       "video_title": "Several spooky ghost videos to scare YO MAMA!!",
       "published": "2026-10-23T05:07:01Z",
-      "relative": "5 days ago",
+      "relative": "7 days ago",
       "url": "https://www.youtube.com/watch?v=v-hj2iSPw1E&lc=Ugynhz2VDWmb6QuPC9p4AaABAg",
       "likes": 0
     },
@@ -100,7 +100,7 @@
       "video_id": "v-hj2iSPw1E",
       "video_title": "Several spooky ghost videos to scare YO MAMA!!",
       "published": "2026-10-23T03:24:36Z",
-      "relative": "5 days ago",
+      "relative": "7 days ago",
       "url": "https://www.youtube.com/watch?v=v-hj2iSPw1E&lc=Ugz_I8uBMwdPqViL_U14AaABAg",
       "likes": 0
     }
