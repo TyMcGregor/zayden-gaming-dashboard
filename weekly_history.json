@@ -1,12 +1,5 @@
 [
   {
-    "generated_at": "2026-09-30T09:40:07.559447+00:00",
-    "subs": 129,
-    "views": 30673,
-    "video_count": 104,
-    "watch_hours": 1012.2
-  },
-  {
     "generated_at": "2026-10-02T09:43:27.729317+00:00",
     "subs": 131,
     "views": 31714,
@@ -96,5 +89,12 @@
     "views": 39524,
     "video_count": 117,
     "watch_hours": 1304.3
+  },
+  {
+    "generated_at": "2026-11-01T10:24:44.655037+00:00",
+    "subs": 164,
+    "views": 39871,
+    "video_count": 118,
+    "watch_hours": 1315.7
   }
 ]
