@@ -1,49 +1,73 @@
 {
-  "generated_at": "2026-11-06T10:49:08.310006+00:00",
-  "subs": 165,
-  "views": 40548,
-  "video_count": 122,
-  "watch_hours": 1338.1,
+  "generated_at": "2026-11-08T10:16:08.962802+00:00",
+  "subs": 166,
+  "views": 40667,
+  "video_count": 123,
+  "watch_hours": 1342.0,
   "top_video_id": "8ECgJ8QZWMg",
   "top_video_views": 13764,
   "top_recent_video_id": "c3qpapj_20M",
-  "top_recent_video_views": 1913,
+  "top_recent_video_views": 1915,
   "monetization": {
     "shorts_tier": {
       "name": "Fan Funding Tier",
-      "subs_pct": 33.0,
-      "subs_current": 165,
+      "subs_pct": 33.2,
+      "subs_current": 166,
       "subs_target": 500,
-      "subs_remaining": 335,
+      "subs_remaining": 334,
       "note": "Unlocks memberships, Super Thanks and other fan funding (not ads). Also needs 3 public uploads in 90 days, plus 3,000 watch hours in 12 months or 3M Shorts views in 90 days.",
       "unlocked": false
     },
     "full_ypp": {
       "name": "Full Partner Program",
-      "subs_pct": 16.5,
-      "subs_current": 165,
+      "subs_pct": 16.6,
+      "subs_current": 166,
       "subs_target": 1000,
-      "subs_remaining": 835,
-      "hours_pct": 33.5,
-      "hours_current": 1338.1,
+      "subs_remaining": 834,
+      "hours_pct": 33.6,
+      "hours_current": 1342.0,
       "hours_target": 4000,
-      "hours_remaining": 2661.9,
+      "hours_remaining": 2658.0,
       "note": "Both bars need to hit 100% to unlock ads on regular videos (or 10M Shorts views in 90 days instead of watch hours). Watch hours here are a rough estimate \u2014 check YouTube Studio for the real number.",
       "unlocked": false
     }
   },
   "milestones": {
     "sub_goal": 250,
-    "subs_to_go": 85,
-    "subs_pct": 66.0,
+    "subs_to_go": 84,
+    "subs_pct": 66.4,
     "sub_goal_label": "250",
     "view_goal": 50000,
-    "views_to_go": 9452,
-    "views_pct": 81.1,
+    "views_to_go": 9333,
+    "views_pct": 81.3,
     "view_goal_label": "50K"
   },
-  "pep_talk": "Your views jumped 1,024 this week\u2014that's awesome growth and shows your content is really connecting with people!",
+  "pep_talk": "Your videos are crushing it with 796 new views this week\u2014keep that momentum going!",
   "recent_comments": [
+    {
+      "id": "Ugx_N8JysDwDEyO5l8F4AaABAg",
+      "author": "@ZaydenGaming44",
+      "author_url": "http://www.youtube.com/@ZaydenGaming44",
+      "text": "Like and Subscribe if you Wana see more Brick Rigs and DetourMaster!",
+      "video_id": "s0tWaVGKwDc",
+      "video_title": "This was NOT PLANNED to Happen in Brick Rigs Police Car Crash!",
+      "published": "2026-11-07T19:37:54Z",
+      "relative": "14 hrs ago",
+      "url": "https://www.youtube.com/watch?v=s0tWaVGKwDc&lc=Ugx_N8JysDwDEyO5l8F4AaABAg",
+      "likes": 1
+    },
+    {
+      "id": "UgzhrgkMG4rGkFsPsTt4AaABAg",
+      "author": "@SkyRyder44",
+      "author_url": "http://www.youtube.com/@SkyRyder44",
+      "text": "Cool bro \ud83d\ude0eZayden\u2019s water park is a goby\u2019s and a big poo poo \ud83d\udca9 lol \ud83d\ude06",
+      "video_id": "oqbOYLxRoIg",
+      "video_title": "I tried to brake Waterpark simulator! (And I did it!)",
+      "published": "2026-11-07T04:45:44Z",
+      "relative": "1 day ago",
+      "url": "https://www.youtube.com/watch?v=oqbOYLxRoIg&lc=UgzhrgkMG4rGkFsPsTt4AaABAg",
+      "likes": 0
+    },
     {
       "id": "UgyhDbtqJSz5eVgroqx4AaABAg",
       "author": "@larryMonster112",
@@ -52,7 +76,7 @@
       "video_id": "vvqxaRzj5P0",
       "video_title": "Zayden & Bryce animated face",
       "published": "2026-11-06T10:43:41Z",
-      "relative": "5 min ago",
+      "relative": "1 day ago",
       "url": "https://www.youtube.com/watch?v=vvqxaRzj5P0&lc=UgyhDbtqJSz5eVgroqx4AaABAg",
       "likes": 0
     },
@@ -64,7 +88,7 @@
       "video_id": "vvqxaRzj5P0",
       "video_title": "Zayden & Bryce animated face",
       "published": "2026-11-06T10:42:56Z",
-      "relative": "6 min ago",
+      "relative": "1 day ago",
       "url": "https://www.youtube.com/watch?v=vvqxaRzj5P0&lc=UgzMIp0PgMm-fiRp9E54AaABAg",
       "likes": 0
     },
@@ -76,33 +100,9 @@
       "video_id": "rFhDkoZzc9E",
       "video_title": "Zayden when he eats too many spicy Doritos.",
       "published": "2026-11-06T02:47:41Z",
-      "relative": "8 hrs ago",
+      "relative": "2 days ago",
       "url": "https://www.youtube.com/watch?v=rFhDkoZzc9E&lc=Ugwa0LI4jtpJnVYqtpJ4AaABAg",
       "likes": 0
-    },
-    {
-      "id": "UgzD9yidbqw5-Xr7rqN4AaABAg",
-      "author": "@Kally-o1b",
-      "author_url": "http://www.youtube.com/@Kally-o1b",
-      "text": "\ud83d\ude02\ud83d\ude02\ud83d\ude02",
-      "video_id": "vvqxaRzj5P0",
-      "video_title": "Zayden & Bryce animated face",
-      "published": "2026-11-05T18:31:52Z",
-      "relative": "16 hrs ago",
-      "url": "https://www.youtube.com/watch?v=vvqxaRzj5P0&lc=UgzD9yidbqw5-Xr7rqN4AaABAg",
-      "likes": 1
-    },
-    {
-      "id": "UgwGuhsvxda183cDbMF4AaABAg",
-      "author": "@EplayerFf",
-      "author_url": "http://www.youtube.com/@EplayerFf",
-      "text": "Good video love it",
-      "video_id": "vvqxaRzj5P0",
-      "video_title": "Zayden & Bryce animated face",
-      "published": "2026-11-05T18:30:36Z",
-      "relative": "16 hrs ago",
-      "url": "https://www.youtube.com/watch?v=vvqxaRzj5P0&lc=UgwGuhsvxda183cDbMF4AaABAg",
-      "likes": 1
     }
   ]
 }
