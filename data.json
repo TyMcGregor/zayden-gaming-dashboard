@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-11T10:53:26.066167+00:00",
+  "generated_at": "2026-11-13T10:55:05.722368+00:00",
   "subs": 168,
-  "views": 40871,
+  "views": 40973,
   "video_count": 124,
-  "watch_hours": 1348.7,
+  "watch_hours": 1352.1,
   "top_video_id": "8ECgJ8QZWMg",
   "top_video_views": 13765,
   "top_recent_video_id": "c3qpapj_20M",
-  "top_recent_video_views": 1953,
+  "top_recent_video_views": 1963,
   "monetization": {
     "shorts_tier": {
       "name": "Fan Funding Tier",
@@ -24,10 +24,10 @@
       "subs_current": 168,
       "subs_target": 1000,
       "subs_remaining": 832,
-      "hours_pct": 33.7,
-      "hours_current": 1348.7,
+      "hours_pct": 33.8,
+      "hours_current": 1352.1,
       "hours_target": 4000,
-      "hours_remaining": 2651.3,
+      "hours_remaining": 2647.9,
       "note": "Both bars need to hit 100% to unlock ads on regular videos (or 10M Shorts views in 90 days instead of watch hours). Watch hours here are a rough estimate \u2014 check YouTube Studio for the real number.",
       "unlocked": false
     }
@@ -38,11 +38,11 @@
     "subs_pct": 67.2,
     "sub_goal_label": "250",
     "view_goal": 50000,
-    "views_to_go": 9129,
-    "views_pct": 81.7,
+    "views_to_go": 9027,
+    "views_pct": 81.9,
     "view_goal_label": "50K"
   },
-  "pep_talk": "Your 729 views this week show real momentum\u2014keep that content energy flowing!",
+  "pep_talk": "Your 425 views this week show people are loving your content\u2014keep that momentum rolling!",
   "recent_comments": [
     {
       "id": "Ugy83eSUBBElFuf7cK54AaABAg",
@@ -52,9 +52,9 @@
       "video_id": "DJDhc2M225M",
       "video_title": "2 Bozos Built a Luxury Brick Cabin in House Flipper 2!",
       "published": "2026-11-10T02:32:18Z",
-      "relative": "1 day ago",
+      "relative": "3 days ago",
       "url": "https://www.youtube.com/watch?v=DJDhc2M225M&lc=Ugy83eSUBBElFuf7cK54AaABAg",
-      "likes": 2
+      "likes": 3
     },
     {
       "id": "UgxX7SdeCQhbKy9bSXh4AaABAg",
@@ -64,7 +64,7 @@
       "video_id": "s0tWaVGKwDc",
       "video_title": "This was NOT PLANNED to Happen in Brick Rigs Police Car Crash!",
       "published": "2026-11-08T19:25:01Z",
-      "relative": "2 days ago",
+      "relative": "4 days ago",
       "url": "https://www.youtube.com/watch?v=s0tWaVGKwDc&lc=UgxX7SdeCQhbKy9bSXh4AaABAg",
       "likes": 1
     },
@@ -76,7 +76,7 @@
       "video_id": "s0tWaVGKwDc",
       "video_title": "This was NOT PLANNED to Happen in Brick Rigs Police Car Crash!",
       "published": "2026-11-07T19:37:54Z",
-      "relative": "3 days ago",
+      "relative": "5 days ago",
       "url": "https://www.youtube.com/watch?v=s0tWaVGKwDc&lc=Ugx_N8JysDwDEyO5l8F4AaABAg",
       "likes": 2
     },
@@ -88,7 +88,7 @@
       "video_id": "oqbOYLxRoIg",
       "video_title": "I tried to brake Waterpark simulator! (And I did it!)",
       "published": "2026-11-07T04:45:44Z",
-      "relative": "4 days ago",
+      "relative": "6 days ago",
       "url": "https://www.youtube.com/watch?v=oqbOYLxRoIg&lc=UgzhrgkMG4rGkFsPsTt4AaABAg",
       "likes": 0
     },
@@ -100,7 +100,7 @@
       "video_id": "vvqxaRzj5P0",
       "video_title": "Zayden & Bryce animated face",
       "published": "2026-11-06T10:43:41Z",
-      "relative": "5 days ago",
+      "relative": "7 days ago",
       "url": "https://www.youtube.com/watch?v=vvqxaRzj5P0&lc=UgyhDbtqJSz5eVgroqx4AaABAg",
       "likes": 0
     }
